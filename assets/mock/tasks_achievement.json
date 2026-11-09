@@ -1,0 +1,118 @@
+{
+  "status": "success",
+  "message": "ok",
+  "data": {
+    "period": "achievement",
+    "resets_at": null,
+    "tasks": [
+      {
+        "id": "ach_games_10",
+        "icon": "play",
+        "target": 10,
+        "progress": 10,
+        "reward": 50,
+        "status": "claimable",
+        "unlocks_item": null
+      },
+      {
+        "id": "ach_score_500",
+        "icon": "crown",
+        "target": 500,
+        "progress": 312,
+        "reward": 100,
+        "status": "in_progress",
+        "unlocks_item": "ball_disko"
+      },
+      {
+        "id": "ach_games_50",
+        "icon": "play",
+        "target": 50,
+        "progress": 41,
+        "reward": 200,
+        "status": "in_progress",
+        "unlocks_item": null
+      },
+      {
+        "id": "ach_coins_1000",
+        "icon": "coin",
+        "target": 1000,
+        "progress": 640,
+        "reward": 200,
+        "status": "in_progress",
+        "unlocks_item": null
+      },
+      {
+        "id": "ach_run_coins_100",
+        "icon": "trophy",
+        "target": 100,
+        "progress": 38,
+        "reward": 150,
+        "status": "in_progress",
+        "unlocks_item": null
+      },
+      {
+        "id": "ach_share_5",
+        "icon": "share",
+        "target": 5,
+        "progress": 1,
+        "reward": 100,
+        "status": "in_progress",
+        "unlocks_item": null
+      },
+      {
+        "id": "ach_daily_7",
+        "icon": "calendar",
+        "target": 7,
+        "progress": 2,
+        "reward": 200,
+        "status": "in_progress",
+        "unlocks_item": null
+      },
+      {
+        "id": "ach_score_1000",
+        "icon": "crown",
+        "target": 1000,
+        "progress": 0,
+        "reward": 300,
+        "status": "in_progress",
+        "unlocks_item": null
+      },
+      {
+        "id": "ach_games_200",
+        "icon": "play",
+        "target": 200,
+        "progress": 0,
+        "reward": 400,
+        "status": "in_progress",
+        "unlocks_item": null
+      },
+      {
+        "id": "ach_coins_5000",
+        "icon": "coin",
+        "target": 5000,
+        "progress": 0,
+        "reward": 500,
+        "status": "in_progress",
+        "unlocks_item": null
+      },
+      {
+        "id": "ach_share_20",
+        "icon": "share",
+        "target": 20,
+        "progress": 0,
+        "reward": 300,
+        "status": "in_progress",
+        "unlocks_item": null
+      },
+      {
+        "id": "ach_daily_30",
+        "icon": "calendar",
+        "target": 30,
+        "progress": 0,
+        "reward": 600,
+        "status": "in_progress",
+        "unlocks_item": null
+      }
+    ]
+  }
+}

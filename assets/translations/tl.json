@@ -1,0 +1,359 @@
+{
+  "common": {
+    "unexpected_error": "May nangyaring mali. Subukan ulit.",
+    "offline": "Walang koneksyon sa internet.",
+    "retry": "SUBUKAN ULIT",
+    "coming_soon": "Malapit na",
+    "cancel": "Kanselahin",
+    "close": "Isara",
+    "you": "Ikaw"
+  },
+  "tabs": {
+    "play": "Maglaro",
+    "shop": "Tindahan",
+    "tasks": "Mga gawain",
+    "settings": "Mga setting"
+  },
+  "home": {
+    "best": "PINAKAMATAAS {}",
+    "tap_to_play": "I-TAP PARA MAGLARO",
+    "daily": "ARAW-ARAW",
+    "leaderboard": "RANGGO",
+    "reward_daily": "Nasa #{rank} ka sa araw-araw na hamon: +{coins} barya!"
+  },
+  "tutorial": {
+    "skip": "Laktawan",
+    "got_it": "GETS NA",
+    "next": "SUSUNOD",
+    "step1_title": "IGUHIT SA HARAP NG BOLA",
+    "step1_body": "Kumukupas ang tinta sa loob ng 1 segundo",
+    "step2_title": "KUNIN ANG MGA BARYA",
+    "step2_body": "I-unlock ang mga bagong bola sa tindahan",
+    "step3_title": "IWASAN ANG MGA TINIK",
+    "step3_body": "Ubos na ang tinta? Bitawan, mapupuno ulit",
+    "step_label": "Hakbang {current} / {total}"
+  },
+  "game": {
+    "pause": "I-pause",
+    "paused": "NAKAPAUSE",
+    "resume": "ITULOY",
+    "home": "HOME",
+    "restart": "ULITIN",
+    "ink_label": "Tinta",
+    "daily_badge": "ARAW-ARAW NA LANDAS",
+    "draw_hint": "Gumuhit sa harapan ng bola!"
+  },
+  "game_over": {
+    "score": "ISKOR",
+    "best": "PINAKAMATAAS {}",
+    "new_record": "BAGONG REKORD!",
+    "play_again": "MAGLARO ULIT",
+    "share": "Ibahagi",
+    "home": "Home",
+    "coins_earned": "+{} barya",
+    "daily_rank": "Ikaw ang #{} ngayon",
+    "offline_note": "Offline: ipapadala ang iskor mo kapag online ka na ulit"
+  },
+  "record": {
+    "title": "BAGONG REKORD!",
+    "previous": "Dating pinakamataas {previous} · +{diff} puntos",
+    "continue": "ITULOY",
+    "share": "IBAHAGI"
+  },
+  "choice": {
+    "question": "ANO ANG SUSUNOD?",
+    "play_again": "MAGLARO ULIT",
+    "play_again_sub": "Simulan muli",
+    "share": "IBAHAGI",
+    "share_sub": "Ipadala ang clip",
+    "home": "HOME",
+    "home_sub": "Bumalik sa menu"
+  },
+  "clip": {
+    "title": "IBAHAGI ANG CLIP",
+    "subtitle": "Huling {seconds} segundo · {score} puntos",
+    "share": "IBAHAGI",
+    "save": "I-SAVE SA GALLERY",
+    "preparing": "Inihahanda ang clip…",
+    "saved": "Na-save sa gallery",
+    "save_failed": "Hindi na-save",
+    "permission_denied": "Tinanggihan ang access sa gallery. Puwede mo itong payagan sa Mga Setting.",
+    "permission_title": "ACCESS SA GALLERY",
+    "open_settings": "BUKSAN ANG SETTINGS",
+    "share_text": "Nakakuha ako ng {score} sa Dashink! Kaya mo bang lampasan?",
+    "share_text_with_link": "Nakakuha ako ng {score} sa Dashink! Kaya mo bang lampasan?\n{url}",
+    "no_clip": "Walang clip, nagbabahagi ng score card",
+    "play": "I-play"
+  },
+  "leaderboard": {
+    "title": "RANGGO",
+    "daily": "Araw-araw",
+    "weekly": "Lingguhan",
+    "all": "Lahat",
+    "empty": "Wala pang naglalaro. Mauna ka!",
+    "not_ranked": "Wala pang laro sa panahong ito"
+  },
+  "daily": {
+    "title": "ARAW-ARAW",
+    "date_label": "{} · HAMON",
+    "description": "Parehong landas ang tatakbuhin ng lahat ngayon. Isang landas, walang limitasyong subok — ang pinakamataas mong iskor ang bibilangin.",
+    "participants": "manlalaro",
+    "your_best": "pinakamataas mo",
+    "time_left": "natitirang oras",
+    "reward_title": "GANTIMPALA",
+    "reward_body": "Abutin ang top {} para manalo ng barya",
+    "start": "SIMULA",
+    "your_rank": "Ranggo mo: {}"
+  },
+  "shop": {
+    "title": "TINDAHAN",
+    "balls": "Mga bola",
+    "inks": "Tinta",
+    "themes": "Mga tema",
+    "equipped": "SUOT",
+    "equip": "Isuot",
+    "task": "Gawain",
+    "premium": "Premium",
+    "buy_and_equip": "BILHIN AT ISUOT",
+    "balance_after": "Mayroon kang {balance} barya · {after} ang matitira pagkatapos",
+    "not_enough_title": "KULANG ANG BARYA",
+    "not_enough_body": "{item} ay {price} barya. Tapusin ang mga gawain para kumita pa ng {missing}.",
+    "do_tasks": "GAWIN ANG MGA GAWAIN",
+    "get_coins": "+{coins} COIN · {price}",
+    "locked_title": "MABUBUKAS SA GAWAIN",
+    "locked_body": "Sa iyo ang {item} kapag natapos mo ang “{task}”.",
+    "go_tasks": "PUMUNTA SA MGA GAWAIN",
+    "premium_title": "PREMIUM",
+    "premium_body": "Star ball, gintong tinta, at night theme + {} barya. Walang ads, sa iyo habambuhay.",
+    "premium_buy": "BILHIN · {}",
+    "premium_unavailable": "Hindi available ang tindahan ngayon",
+    "premium_owned": "May Premium ka na",
+    "purchase_success": "Nabuksan ang Premium! Mag-enjoy.",
+    "purchase_pending": "Nakabinbin ang bayad; magbubukas kapag naaprubahan.",
+    "purchase_failed": "Hindi natapos ang pagbili.",
+    "equipped_toast": "Nasuot ang {}",
+    "coins_pack_success": "+{} coins added!",
+    "coins_pack_processing": "Natanggap ang bayad! Darating ang iyong mga coin sa ilang sandali."
+  },
+  "items": {
+    "ball_klasik": {
+      "name": "KLASIKO",
+      "desc": "Ang pulang-kamatis na bola kung saan nagsimula ang lahat."
+    },
+    "ball_karpuz": {
+      "name": "PAKWAN",
+      "desc": "Makatas at mabilis. Nag-iiwan ng berdeng guhit sa tinta."
+    },
+    "ball_basket": {
+      "name": "BASKETBOL",
+      "desc": "Tumatalbog sa tinta, hindi sa ring."
+    },
+    "ball_tenis": {
+      "name": "TENNIS",
+      "desc": "Malambot at maliksi sa bawat talbog."
+    },
+    "ball_plaj": {
+      "name": "BEACH BALL",
+      "desc": "Kulay ng tag-init sa kurso."
+    },
+    "ball_gezegen": {
+      "name": "PLANETA",
+      "desc": "Munting mundo na dumadausdos kasama ang mga singsing nito."
+    },
+    "ball_ay": {
+      "name": "BUWAN",
+      "desc": "Tahimik na gumugulong, kasama ang mga crater."
+    },
+    "ball_bilardo": {
+      "name": "8-BALL",
+      "desc": "Siya laging tumitira sa huli."
+    },
+    "ball_goz": {
+      "name": "MATA",
+      "desc": "Hindi nakakaligtaan ang puwang."
+    },
+    "ball_buz": {
+      "name": "YELO",
+      "desc": "Makinis, malamig at madulas."
+    },
+    "ball_lav": {
+      "name": "LAVA",
+      "desc": "Mainit hanggang kaibuturan."
+    },
+    "ball_gokkusagi": {
+      "name": "BAHAGHARI",
+      "desc": "Pitong kulay sa iisang bola."
+    },
+    "ball_disko": {
+      "name": "DISCO",
+      "desc": "Mirror ball na kumikislap sa bawat ikot."
+    },
+    "ball_yildiz": {
+      "name": "BITUIN",
+      "desc": "Gintong bituin ng mga manlalaro ng Premium."
+    },
+    "ink_lacivert": {
+      "name": "NAVY",
+      "desc": "Klasikong tinta ng fountain pen."
+    },
+    "ink_kirmizi": {
+      "name": "PULA",
+      "desc": "Matapang na parang panulat ng guro."
+    },
+    "ink_nane": {
+      "name": "MINT",
+      "desc": "Sariwang berde na kapansin-pansin."
+    },
+    "ink_turuncu": {
+      "name": "KAHEL",
+      "desc": "Masiglang kahel."
+    },
+    "ink_pembe": {
+      "name": "ROSAS",
+      "desc": "Matamis gaya ng kendi."
+    },
+    "ink_mavi": {
+      "name": "ASUL",
+      "desc": "Klasikong asul ng ballpen."
+    },
+    "ink_turkuaz": {
+      "name": "TURKESA",
+      "desc": "Malinaw gaya ng dagat."
+    },
+    "ink_yesil": {
+      "name": "BERDE",
+      "desc": "Sariwang berde ng dahon."
+    },
+    "ink_mor": {
+      "name": "LILA",
+      "desc": "Misteryosong malalim na lila."
+    },
+    "ink_kahve": {
+      "name": "KAYUMANGGI",
+      "desc": "Mainit gaya ng mantsa ng kape."
+    },
+    "ink_bordo": {
+      "name": "MAROON",
+      "desc": "Malalim at eleganteng pula."
+    },
+    "ink_gumus": {
+      "name": "PILAK",
+      "desc": "Pilak na kumikislap sa liwanag."
+    },
+    "ink_altin": {
+      "name": "GINTO",
+      "desc": "Kumikinang na tinta, Premium lang."
+    },
+    "theme_kagit": {
+      "name": "PAPEL",
+      "desc": "Pahina ng grid notebook."
+    },
+    "theme_nane": {
+      "name": "MINT",
+      "desc": "Malamig at maberde na pahina."
+    },
+    "theme_gunbatimi": {
+      "name": "TAKIPSILIM",
+      "desc": "Mainit na pahina sa kulay peach."
+    },
+    "theme_lavanta": {
+      "name": "LAVENDER",
+      "desc": "Kalmadong pahinang kulay lila."
+    },
+    "theme_gokyuzu": {
+      "name": "LANGIT",
+      "desc": "Mapusyaw na asul na pahina ng langit."
+    },
+    "theme_limon": {
+      "name": "LEMON",
+      "desc": "Maaraw na pahinang kulay lemon."
+    },
+    "theme_seker": {
+      "name": "COTTON CANDY",
+      "desc": "Pahinang rosas na parang cotton candy."
+    },
+    "theme_orman": {
+      "name": "GUBAT",
+      "desc": "Madilim-berdeng gubat sa gabi."
+    },
+    "theme_uzay": {
+      "name": "KALAWAKAN",
+      "desc": "Malalim at madilim na kalawakan."
+    },
+    "theme_gece": {
+      "name": "GABI",
+      "desc": "Mga linyang kumikinang sa gabing navy."
+    }
+  },
+  "tasks": {
+    "title": "MGA GAWAIN",
+    "daily": "Araw-araw",
+    "weekly": "Lingguhan",
+    "achievements": "Mga layunin",
+    "resets_in": "Nare-reset sa {}",
+    "achievements_note": "Minsan lang puwedeng kunin ang mga layunin",
+    "claim": "KUNIN",
+    "claimed": "NAKUHA NA",
+    "unlocks": "Magbubukas: {}",
+    "claimed_toast": "+{} barya",
+    "unlocked_toast": "Nabuksan ang {}!",
+    "empty": "Walang gawain ngayon",
+    "names": {
+      "daily_play_3": "Maglaro ng 3 beses",
+      "daily_coins_50": "Mangolekta ng 50 barya sa isang laro",
+      "daily_share_1": "Magbahagi ng clip",
+      "daily_challenge_1": "Laruin ang araw-araw na landas",
+      "daily_score_100": "Lumampas sa 100 puntos",
+      "weekly_play_20": "Maglaro ng 20 beses",
+      "weekly_challenge_3": "Laruin ang araw-araw na landas sa loob ng 3 araw",
+      "weekly_coins_300": "Mangolekta ng 300 barya sa kabuuan",
+      "weekly_score_300": "Lumampas sa 300 puntos",
+      "ach_games_10": "Maglaro ng 10 beses",
+      "ach_score_500": "Kumuha ng 500 sa isang laro",
+      "ach_games_50": "Maglaro ng 50 beses",
+      "ach_coins_1000": "Mangolekta ng 1000 barya sa kabuuan",
+      "ach_run_coins_100": "Mangolekta ng 100 barya sa isang laro",
+      "ach_share_5": "Magbahagi ng 5 clip",
+      "ach_daily_7": "Laruin ang araw-araw na landas sa loob ng 7 araw",
+      "ach_score_1000": "Kumuha ng 1000 sa isang laro",
+      "ach_games_200": "Maglaro ng 200 beses",
+      "ach_coins_5000": "Mangolekta ng 5000 barya sa kabuuan",
+      "ach_share_20": "Magbahagi ng 20 clip",
+      "ach_daily_30": "Laruin ang araw-araw na landas sa loob ng 30 araw"
+    }
+  },
+  "settings": {
+    "title": "MGA SETTING",
+    "sound": "TUNOG",
+    "sfx": "Mga sound effect",
+    "music": "Musika",
+    "vibration": "Vibration",
+    "game": "LARO",
+    "language": "Wika",
+    "language_name": "Tagalog",
+    "notifications": "Mga abiso",
+    "replay_tutorial": "Ulitin ang tutorial",
+    "account": "ACCOUNT",
+    "name": "Pangalang ipinapakita",
+    "name_title": "PANGALAN MO",
+    "name_hint": "Maglagay ng pangalan",
+    "name_save": "I-SAVE",
+    "name_saved": "Na-update ang pangalan.",
+    "name_invalid": "Gumamit ng 2–32 letra, numero, o espasyo.",
+    "restore": "Ibalik ang mga binili",
+    "privacy": "Patakaran sa privacy",
+    "terms": "Mga Tuntunin ng Paggamit",
+    "cookies": "Patakaran sa Cookie",
+    "child_safety": "Mga Pamantayan sa Kaligtasan ng Bata",
+    "about": "Tungkol",
+    "version": "Dashink · bersyon {}",
+    "restore_success": "Naibalik ang mga binili mo.",
+    "restore_none": "Walang binili na maibabalik.",
+    "notifications_denied": "Tinanggihan ang permiso sa abiso.",
+    "language_title": "WIKA"
+  },
+  "notifications": {
+    "daily_title": "Handa na ang landas ngayon!",
+    "daily_body": "Abutin ang top 100 ngayon at manalo ng 100 barya."
+  }
+}

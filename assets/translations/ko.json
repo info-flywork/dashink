@@ -1,0 +1,359 @@
+{
+  "common": {
+    "unexpected_error": "문제가 생겼어요. 다시 시도해 보세요.",
+    "offline": "인터넷에 연결되어 있지 않아요.",
+    "retry": "다시 시도",
+    "coming_soon": "곧 만나요",
+    "cancel": "취소",
+    "close": "닫기",
+    "you": "나"
+  },
+  "tabs": {
+    "play": "플레이",
+    "shop": "상점",
+    "tasks": "과제",
+    "settings": "설정"
+  },
+  "home": {
+    "best": "최고 {}",
+    "tap_to_play": "탭하여 플레이",
+    "daily": "데일리",
+    "leaderboard": "랭킹",
+    "reward_daily": "데일리 챌린지 #{rank}위: +{coins} 코인!"
+  },
+  "tutorial": {
+    "skip": "건너뛰기",
+    "got_it": "알겠어요",
+    "next": "다음",
+    "step1_title": "공보다 앞에 그리세요",
+    "step1_body": "잉크는 1초 뒤 사라져요",
+    "step2_title": "코인을 모으세요",
+    "step2_body": "상점에서 새 공을 잠금 해제",
+    "step3_title": "가시를 피하세요",
+    "step3_body": "잉크가 떨어지면 손을 떼세요. 다시 차올라요",
+    "step_label": "단계 {current} / {total}"
+  },
+  "game": {
+    "pause": "일시정지",
+    "paused": "일시정지됨",
+    "resume": "계속",
+    "home": "홈",
+    "restart": "다시 시작",
+    "ink_label": "잉크",
+    "daily_badge": "데일리 코스",
+    "draw_hint": "공보다 앞에 그리세요!"
+  },
+  "game_over": {
+    "score": "점수",
+    "best": "최고 {}",
+    "new_record": "신기록!",
+    "play_again": "다시 플레이",
+    "share": "공유",
+    "home": "홈",
+    "coins_earned": "+{} 코인",
+    "daily_rank": "오늘 순위 #{}",
+    "offline_note": "오프라인: 다시 연결되면 점수를 보냅니다"
+  },
+  "record": {
+    "title": "신기록!",
+    "previous": "이전 최고 {previous} · +{diff}점",
+    "continue": "계속",
+    "share": "공유"
+  },
+  "choice": {
+    "question": "다음은?",
+    "play_again": "다시 플레이",
+    "play_again_sub": "처음부터",
+    "share": "공유",
+    "share_sub": "클립 보내기",
+    "home": "홈",
+    "home_sub": "메뉴로"
+  },
+  "clip": {
+    "title": "클립 공유",
+    "subtitle": "최근 {seconds}초 · {score}점",
+    "share": "공유",
+    "save": "갤러리에 저장",
+    "preparing": "클립 준비 중…",
+    "saved": "갤러리에 저장됨",
+    "save_failed": "저장하지 못했어요",
+    "permission_denied": "갤러리 접근이 거부되었어요. 설정에서 허용할 수 있어요.",
+    "permission_title": "갤러리 접근 권한",
+    "open_settings": "설정 열기",
+    "share_text": "Dashink에서 {score}점! 이길 수 있나요?",
+    "share_text_with_link": "Dashink에서 {score}점! 이길 수 있나요?\n{url}",
+    "no_clip": "클립이 없어 점수 카드를 공유해요",
+    "play": "재생"
+  },
+  "leaderboard": {
+    "title": "랭킹",
+    "daily": "일간",
+    "weekly": "주간",
+    "all": "전체",
+    "empty": "아직 플레이한 사람이 없어요. 첫 번째가 되어 보세요!",
+    "not_ranked": "이 기간에는 아직 기록이 없어요"
+  },
+  "daily": {
+    "title": "데일리",
+    "date_label": "{} · 챌린지",
+    "description": "오늘은 모두 같은 코스예요. 하나의 코스, 무제한 도전. 최고 점수가 기록돼요.",
+    "participants": "플레이어",
+    "your_best": "내 최고",
+    "time_left": "남은 시간",
+    "reward_title": "보상",
+    "reward_body": "상위 {}에 들면 코인을 받아요",
+    "start": "시작",
+    "your_rank": "내 순위: {}"
+  },
+  "shop": {
+    "title": "상점",
+    "balls": "공",
+    "inks": "잉크",
+    "themes": "테마",
+    "equipped": "장착됨",
+    "equip": "장착",
+    "task": "과제",
+    "premium": "프리미엄",
+    "buy_and_equip": "구매 후 장착",
+    "balance_after": "보유 {balance} 코인 · 구매 후 {after}",
+    "not_enough_title": "코인이 부족해요",
+    "not_enough_body": "{item} 가격은 {price} 코인. 과제를 하고 {missing}개를 더 모으세요.",
+    "do_tasks": "과제 하기",
+    "get_coins": "+{coins} 코인 · {price}",
+    "locked_title": "과제로 잠금 해제",
+    "locked_body": "“{task}”를 완료하면 {item}을 받아요.",
+    "go_tasks": "과제로 이동",
+    "premium_title": "프리미엄",
+    "premium_body": "스타 공, 골드 잉크, 나이트 테마 + {} 코인. 광고 없이 영원히 내 것.",
+    "premium_buy": "구매 · {}",
+    "premium_unavailable": "스토어를 지금 이용할 수 없어요",
+    "premium_owned": "프리미엄 보유 중",
+    "purchase_success": "프리미엄이 열렸어요! 즐기세요.",
+    "purchase_pending": "결제가 대기 중이에요. 승인되면 열립니다.",
+    "purchase_failed": "구매를 완료하지 못했어요.",
+    "equipped_toast": "{} 장착됨",
+    "coins_pack_success": "+{} coins added!",
+    "coins_pack_processing": "결제가 완료되었어요! 코인이 곧 지급됩니다."
+  },
+  "items": {
+    "ball_klasik": {
+      "name": "클래식",
+      "desc": "모든 것이 시작된 토마토색 공."
+    },
+    "ball_karpuz": {
+      "name": "수박",
+      "desc": "즙이 많고 빨라요. 잉크에 초록 궤적을 남겨요."
+    },
+    "ball_basket": {
+      "name": "농구공",
+      "desc": "골대가 아니라 잉크 위에서 튀어요."
+    },
+    "ball_tenis": {
+      "name": "테니스",
+      "desc": "복슬복슬, 튈 때마다 날렵해요."
+    },
+    "ball_plaj": {
+      "name": "비치볼",
+      "desc": "여름의 색을 코스로."
+    },
+    "ball_gezegen": {
+      "name": "행성",
+      "desc": "고리와 함께 미끄러지는 작은 세계."
+    },
+    "ball_ay": {
+      "name": "달",
+      "desc": "크레이터째 조용히 굴러요."
+    },
+    "ball_bilardo": {
+      "name": "8번 공",
+      "desc": "마지막 샷은 늘 이 공."
+    },
+    "ball_goz": {
+      "name": "눈알",
+      "desc": "틈을 놓치지 않아요."
+    },
+    "ball_buz": {
+      "name": "얼음",
+      "desc": "매끄럽고 시원하고 미끄러워요."
+    },
+    "ball_lav": {
+      "name": "용암",
+      "desc": "속까지 뜨거워요."
+    },
+    "ball_gokkusagi": {
+      "name": "무지개",
+      "desc": "공 하나에 일곱 색깔."
+    },
+    "ball_disko": {
+      "name": "디스코",
+      "desc": "돌 때마다 반짝이는 미러볼."
+    },
+    "ball_yildiz": {
+      "name": "스타",
+      "desc": "프리미엄 플레이어의 황금 별."
+    },
+    "ink_lacivert": {
+      "name": "네이비",
+      "desc": "클래식한 만년필 잉크."
+    },
+    "ink_kirmizi": {
+      "name": "빨강",
+      "desc": "선생님 펜처럼 선명해요."
+    },
+    "ink_nane": {
+      "name": "민트",
+      "desc": "산뜻하고 눈에 띄는 초록."
+    },
+    "ink_turuncu": {
+      "name": "주황",
+      "desc": "에너지 넘치는 주황."
+    },
+    "ink_pembe": {
+      "name": "분홍",
+      "desc": "사탕처럼 달콤한 분홍."
+    },
+    "ink_mavi": {
+      "name": "파랑",
+      "desc": "클래식 볼펜 파랑."
+    },
+    "ink_turkuaz": {
+      "name": "청록",
+      "desc": "바다처럼 맑은 색."
+    },
+    "ink_yesil": {
+      "name": "초록",
+      "desc": "싱그러운 잎사귀 초록."
+    },
+    "ink_mor": {
+      "name": "보라",
+      "desc": "신비로운 짙은 보라."
+    },
+    "ink_kahve": {
+      "name": "갈색",
+      "desc": "커피 얼룩처럼 따뜻해요."
+    },
+    "ink_bordo": {
+      "name": "버건디",
+      "desc": "깊고 우아한 빨강."
+    },
+    "ink_gumus": {
+      "name": "은색",
+      "desc": "빛에 반짝이는 은색."
+    },
+    "ink_altin": {
+      "name": "골드",
+      "desc": "반짝이는 잉크. 프리미엄 전용."
+    },
+    "theme_kagit": {
+      "name": "종이",
+      "desc": "모눈 공책 페이지."
+    },
+    "theme_nane": {
+      "name": "민트",
+      "desc": "시원하고 초록빛이 도는 페이지."
+    },
+    "theme_gunbatimi": {
+      "name": "선셋",
+      "desc": "복숭아빛으로 따뜻한 페이지."
+    },
+    "theme_lavanta": {
+      "name": "라벤더",
+      "desc": "연보라빛 차분한 페이지."
+    },
+    "theme_gokyuzu": {
+      "name": "하늘",
+      "desc": "연한 하늘색 페이지."
+    },
+    "theme_limon": {
+      "name": "레몬",
+      "desc": "햇살 같은 레몬색 페이지."
+    },
+    "theme_seker": {
+      "name": "솜사탕",
+      "desc": "솜사탕 분홍 페이지."
+    },
+    "theme_orman": {
+      "name": "숲",
+      "desc": "밤의 짙은 초록 숲."
+    },
+    "theme_uzay": {
+      "name": "우주",
+      "desc": "깊고 어두운 우주."
+    },
+    "theme_gece": {
+      "name": "나이트",
+      "desc": "남색 밤 속에서 빛나는 선."
+    }
+  },
+  "tasks": {
+    "title": "과제",
+    "daily": "일간",
+    "weekly": "주간",
+    "achievements": "목표",
+    "resets_in": "{} 후 초기화",
+    "achievements_note": "목표는 한 번만 받을 수 있어요",
+    "claim": "받기",
+    "claimed": "받음",
+    "unlocks": "잠금 해제: {}",
+    "claimed_toast": "+{} 코인",
+    "unlocked_toast": "{} 잠금 해제!",
+    "empty": "지금 과제가 없어요",
+    "names": {
+      "daily_play_3": "게임 3회 플레이",
+      "daily_coins_50": "한 판에 코인 50개 모으기",
+      "daily_share_1": "클립 공유하기",
+      "daily_challenge_1": "데일리 코스 플레이",
+      "daily_score_100": "점수 100 넘기",
+      "weekly_play_20": "게임 20회 플레이",
+      "weekly_challenge_3": "3일 동안 데일리 코스 플레이",
+      "weekly_coins_300": "코인 총 300개 모으기",
+      "weekly_score_300": "점수 300 넘기",
+      "ach_games_10": "게임 10회 플레이",
+      "ach_score_500": "한 판에 점수 500",
+      "ach_games_50": "게임 50회 플레이",
+      "ach_coins_1000": "코인 총 1000개 모으기",
+      "ach_run_coins_100": "한 판에 코인 100개 모으기",
+      "ach_share_5": "클립 5회 공유",
+      "ach_daily_7": "7일 동안 데일리 코스 플레이",
+      "ach_score_1000": "한 판에 점수 1000",
+      "ach_games_200": "게임 200회 플레이",
+      "ach_coins_5000": "코인 총 5000개 모으기",
+      "ach_share_20": "클립 20회 공유",
+      "ach_daily_30": "30일 동안 데일리 코스 플레이"
+    }
+  },
+  "settings": {
+    "title": "설정",
+    "sound": "사운드",
+    "sfx": "효과음",
+    "music": "음악",
+    "vibration": "진동",
+    "game": "게임",
+    "language": "언어",
+    "language_name": "한국어",
+    "notifications": "알림",
+    "replay_tutorial": "튜토리얼 다시 보기",
+    "account": "계정",
+    "name": "표시 이름",
+    "name_title": "내 이름",
+    "name_hint": "이름을 입력하세요",
+    "name_save": "저장",
+    "name_saved": "이름이 변경되었어요.",
+    "name_invalid": "2–32자의 글자, 숫자 또는 공백을 사용하세요.",
+    "restore": "구매 복원",
+    "privacy": "개인정보 처리방침",
+    "terms": "이용약관",
+    "cookies": "쿠키 정책",
+    "child_safety": "아동 안전 기준",
+    "about": "정보",
+    "version": "Dashink · 버전 {}",
+    "restore_success": "구매를 복원했어요.",
+    "restore_none": "복원할 구매가 없어요.",
+    "notifications_denied": "알림 권한이 거부되었어요.",
+    "language_title": "언어"
+  },
+  "notifications": {
+    "daily_title": "오늘의 코스가 준비됐어요!",
+    "daily_body": "오늘 상위 100에 들고 코인 100개를 받으세요."
+  }
+}

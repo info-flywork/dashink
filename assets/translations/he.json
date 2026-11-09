@@ -1,0 +1,359 @@
+{
+  "common": {
+    "unexpected_error": "משהו השתבש. נסה שוב.",
+    "offline": "אין חיבור לאינטרנט.",
+    "retry": "נסה שוב",
+    "coming_soon": "בקרוב",
+    "cancel": "ביטול",
+    "close": "סגירה",
+    "you": "אתה"
+  },
+  "tabs": {
+    "play": "שחק",
+    "shop": "חנות",
+    "tasks": "משימות",
+    "settings": "הגדרות"
+  },
+  "home": {
+    "best": "השיא {}",
+    "tap_to_play": "הקש כדי לשחק",
+    "daily": "יומי",
+    "leaderboard": "דירוג",
+    "reward_daily": "הגעת למקום #{rank} באתגר היומי: +{coins} מטבעות!"
+  },
+  "tutorial": {
+    "skip": "דלג",
+    "got_it": "הבנתי",
+    "next": "הבא",
+    "step1_title": "צייר לפני הכדור",
+    "step1_body": "הדיו נעלם תוך שנייה",
+    "step2_title": "אסוף את המטבעות",
+    "step2_body": "פתח כדורים חדשים בחנות",
+    "step3_title": "התחמק מהקוצים",
+    "step3_body": "נגמר הדיו? שחרר והוא מתמלא",
+    "step_label": "שלב {current} / {total}"
+  },
+  "game": {
+    "pause": "השהיה",
+    "paused": "מושהה",
+    "resume": "המשך",
+    "home": "בית",
+    "restart": "התחל מחדש",
+    "ink_label": "דיו",
+    "daily_badge": "מסלול יומי",
+    "draw_hint": "צייר לפני הכדור!"
+  },
+  "game_over": {
+    "score": "ניקוד",
+    "best": "השיא {}",
+    "new_record": "שיא חדש!",
+    "play_again": "שחק שוב",
+    "share": "שיתוף",
+    "home": "בית",
+    "coins_earned": "+{} מטבעות",
+    "daily_rank": "היום אתה #{}",
+    "offline_note": "לא מקוון: הניקוד יישלח כשתחזור לאינטרנט"
+  },
+  "record": {
+    "title": "שיא חדש!",
+    "previous": "השיא הקודם {previous} · +{diff} נקודות",
+    "continue": "המשך",
+    "share": "שתף"
+  },
+  "choice": {
+    "question": "מה עכשיו?",
+    "play_again": "שחק שוב",
+    "play_again_sub": "התחל מחדש",
+    "share": "שתף",
+    "share_sub": "שלח את הקליפ",
+    "home": "בית",
+    "home_sub": "חזרה לתפריט"
+  },
+  "clip": {
+    "title": "שיתוף קליפ",
+    "subtitle": "{seconds} השניות האחרונות · {score} נקודות",
+    "share": "שתף",
+    "save": "שמור לגלריה",
+    "preparing": "מכין את הקליפ…",
+    "saved": "נשמר בגלריה",
+    "save_failed": "השמירה נכשלה",
+    "permission_denied": "הגישה לגלריה נדחתה. אפשר לאשר זאת בהגדרות.",
+    "permission_title": "גישה לגלריה",
+    "open_settings": "פתח הגדרות",
+    "share_text": "עשיתי {score} ב-Dashink! תצליח לעבור אותי?",
+    "share_text_with_link": "עשיתי {score} ב-Dashink! תצליח לעבור אותי?\n{url}",
+    "no_clip": "אין קליפ, משתפים כרטיס ניקוד",
+    "play": "נגן"
+  },
+  "leaderboard": {
+    "title": "דירוג",
+    "daily": "יומי",
+    "weekly": "שבועי",
+    "all": "הכל",
+    "empty": "עוד אף אחד לא שיחק. היה הראשון!",
+    "not_ranked": "אין משחקים בתקופה הזו עדיין"
+  },
+  "daily": {
+    "title": "יומי",
+    "date_label": "{} · אתגר",
+    "description": "היום כולם רצים באותו מסלול. מסלול אחד, ניסיונות בלי הגבלה — השיא שלך נספר.",
+    "participants": "שחקנים",
+    "your_best": "השיא שלך",
+    "time_left": "זמן שנותר",
+    "reward_title": "פרס",
+    "reward_body": "הגע לטופ {} כדי לזכות במטבעות",
+    "start": "התחל",
+    "your_rank": "הדירוג שלך: {}"
+  },
+  "shop": {
+    "title": "חנות",
+    "balls": "כדורים",
+    "inks": "דיו",
+    "themes": "ערכות",
+    "equipped": "מצויד",
+    "equip": "הצטייד",
+    "task": "משימה",
+    "premium": "פרימיום",
+    "buy_and_equip": "קנה והצטייד",
+    "balance_after": "יש לך {balance} מטבעות · אחרי הקנייה יישארו {after}",
+    "not_enough_title": "אין מספיק מטבעות",
+    "not_enough_body": "{item} עולה {price} מטבעות. השלם משימות כדי להרוויח עוד {missing}.",
+    "do_tasks": "למשימות",
+    "get_coins": "+{coins} מטבעות · {price}",
+    "locked_title": "נפתח במשימה",
+    "locked_body": "{item} יהיה שלך כשתשלים את «{task}».",
+    "go_tasks": "עבור למשימות",
+    "premium_title": "פרימיום",
+    "premium_body": "כדור כוכב, דיו זהב וערכת לילה + {} מטבעות. בלי פרסומות, שלך לתמיד.",
+    "premium_buy": "קנה · {}",
+    "premium_unavailable": "החנות לא זמינה כרגע",
+    "premium_owned": "יש לך פרימיום",
+    "purchase_success": "פרימיום נפתח! תהנה.",
+    "purchase_pending": "התשלום ממתין; ייפתח אחרי האישור.",
+    "purchase_failed": "לא ניתן להשלים את הרכישה.",
+    "equipped_toast": "{} צויד",
+    "coins_pack_success": "+{} coins added!",
+    "coins_pack_processing": "התשלום התקבל! המטבעות שלך יגיעו בעוד רגע."
+  },
+  "items": {
+    "ball_klasik": {
+      "name": "קלאסי",
+      "desc": "הכדור האדום כעגבנייה שממנו הכול התחיל."
+    },
+    "ball_karpuz": {
+      "name": "אבטיח",
+      "desc": "עסיסי ומהיר. משאיר שובל ירוק על הדיו."
+    },
+    "ball_basket": {
+      "name": "כדורסל",
+      "desc": "קופץ על דיו, לא לסל."
+    },
+    "ball_tenis": {
+      "name": "טניס",
+      "desc": "פרוותי וזריז בכל קפיצה."
+    },
+    "ball_plaj": {
+      "name": "כדור חוף",
+      "desc": "צבעי הקיץ על המסלול."
+    },
+    "ball_gezegen": {
+      "name": "כוכב לכת",
+      "desc": "עולם קטן שמחליק עם הטבעות שלו."
+    },
+    "ball_ay": {
+      "name": "ירח",
+      "desc": "מתגלגל בשקט, עם המכתשים."
+    },
+    "ball_bilardo": {
+      "name": "כדור 8",
+      "desc": "תמיד מבצע את המכה האחרונה."
+    },
+    "ball_goz": {
+      "name": "גלגל עין",
+      "desc": "לא מפספס אף רווח."
+    },
+    "ball_buz": {
+      "name": "קרח",
+      "desc": "חלק, קריר וחלקלק."
+    },
+    "ball_lav": {
+      "name": "לבה",
+      "desc": "לוהט עד הליבה."
+    },
+    "ball_gokkusagi": {
+      "name": "קשת בענן",
+      "desc": "שבעה צבעים בכדור אחד."
+    },
+    "ball_disko": {
+      "name": "דיסקו",
+      "desc": "כדור מראות שמנצנץ בכל סיבוב."
+    },
+    "ball_yildiz": {
+      "name": "כוכב",
+      "desc": "הכוכב הזהוב של שחקני פרימיום."
+    },
+    "ink_lacivert": {
+      "name": "כחול כהה",
+      "desc": "דיו קלאסי לעט נובע."
+    },
+    "ink_kirmizi": {
+      "name": "אדום",
+      "desc": "נועז כמו העט של המורה."
+    },
+    "ink_nane": {
+      "name": "מנטה",
+      "desc": "ירוק רענן שתופס את העין."
+    },
+    "ink_turuncu": {
+      "name": "כתום",
+      "desc": "כתום מלא אנרגיה."
+    },
+    "ink_pembe": {
+      "name": "ורוד",
+      "desc": "מתוק כמו סוכרייה."
+    },
+    "ink_mavi": {
+      "name": "כחול",
+      "desc": "כחול קלאסי של עט כדורי."
+    },
+    "ink_turkuaz": {
+      "name": "טורקיז",
+      "desc": "צלול כמו הים."
+    },
+    "ink_yesil": {
+      "name": "ירוק",
+      "desc": "ירוק של עלה רענן."
+    },
+    "ink_mor": {
+      "name": "סגול",
+      "desc": "סגול עמוק ומסתורי."
+    },
+    "ink_kahve": {
+      "name": "חום",
+      "desc": "חמים כמו כתם קפה."
+    },
+    "ink_bordo": {
+      "name": "בורדו",
+      "desc": "אדום עמוק ואלגנטי."
+    },
+    "ink_gumus": {
+      "name": "כסף",
+      "desc": "כסף שתופס את האור."
+    },
+    "ink_altin": {
+      "name": "זהב",
+      "desc": "דיו נוצץ, רק בפרימיום."
+    },
+    "theme_kagit": {
+      "name": "נייר",
+      "desc": "דף מחברת משובץ."
+    },
+    "theme_nane": {
+      "name": "מנטה",
+      "desc": "דף קריר בגוון ירקרק."
+    },
+    "theme_gunbatimi": {
+      "name": "שקיעה",
+      "desc": "דף חמים בגווני אפרסק."
+    },
+    "theme_lavanta": {
+      "name": "לבנדר",
+      "desc": "דף רגוע בגווני לילך."
+    },
+    "theme_gokyuzu": {
+      "name": "שמיים",
+      "desc": "דף שמיים בכחול בהיר."
+    },
+    "theme_limon": {
+      "name": "לימון",
+      "desc": "דף שמשי בצהוב לימון."
+    },
+    "theme_seker": {
+      "name": "צמר גפן מתוק",
+      "desc": "דף ורוד כמו צמר גפן מתוק."
+    },
+    "theme_orman": {
+      "name": "יער",
+      "desc": "יער ירוק כהה בלילה."
+    },
+    "theme_uzay": {
+      "name": "חלל",
+      "desc": "חלל עמוק וחשוך."
+    },
+    "theme_gece": {
+      "name": "לילה",
+      "desc": "קווים שזוהרים בלילה כחול כהה."
+    }
+  },
+  "tasks": {
+    "title": "משימות",
+    "daily": "יומי",
+    "weekly": "שבועי",
+    "achievements": "יעדים",
+    "resets_in": "מתאפס בעוד {}",
+    "achievements_note": "יעדים אפשר לאסוף פעם אחת",
+    "claim": "קבל",
+    "claimed": "התקבל",
+    "unlocks": "פותח: {}",
+    "claimed_toast": "+{} מטבעות",
+    "unlocked_toast": "{} נפתח!",
+    "empty": "אין משימות כרגע",
+    "names": {
+      "daily_play_3": "שחק 3 משחקים",
+      "daily_coins_50": "אסוף 50 מטבעות במשחק אחד",
+      "daily_share_1": "שתף קליפ",
+      "daily_challenge_1": "שחק במסלול היומי",
+      "daily_score_100": "עבור את 100 הנקודות",
+      "weekly_play_20": "שחק 20 משחקים",
+      "weekly_challenge_3": "שחק במסלול היומי ב-3 ימים",
+      "weekly_coins_300": "אסוף 300 מטבעות בסך הכול",
+      "weekly_score_300": "עבור את 300 הנקודות",
+      "ach_games_10": "שחק 10 משחקים",
+      "ach_score_500": "הגע ל-500 במשחק אחד",
+      "ach_games_50": "שחק 50 משחקים",
+      "ach_coins_1000": "אסוף 1000 מטבעות בסך הכול",
+      "ach_run_coins_100": "אסוף 100 מטבעות במשחק אחד",
+      "ach_share_5": "שתף 5 קליפים",
+      "ach_daily_7": "שחק במסלול היומי ב-7 ימים",
+      "ach_score_1000": "הגע ל-1000 במשחק אחד",
+      "ach_games_200": "שחק 200 משחקים",
+      "ach_coins_5000": "אסוף 5000 מטבעות בסך הכול",
+      "ach_share_20": "שתף 20 קליפים",
+      "ach_daily_30": "שחק במסלול היומי ב-30 ימים"
+    }
+  },
+  "settings": {
+    "title": "הגדרות",
+    "sound": "שמע",
+    "sfx": "אפקטים",
+    "music": "מוזיקה",
+    "vibration": "רטט",
+    "game": "משחק",
+    "language": "שפה",
+    "language_name": "עברית",
+    "notifications": "התראות",
+    "replay_tutorial": "הצג שוב את ההדרכה",
+    "account": "חשבון",
+    "name": "שם תצוגה",
+    "name_title": "השם שלך",
+    "name_hint": "הזן שם",
+    "name_save": "שמור",
+    "name_saved": "השם עודכן.",
+    "name_invalid": "השתמש ב-2–32 אותיות, מספרים או רווחים.",
+    "restore": "שחזר רכישות",
+    "privacy": "מדיניות פרטיות",
+    "terms": "תנאי שימוש",
+    "cookies": "מדיניות עוגיות",
+    "child_safety": "תקני בטיחות ילדים",
+    "about": "אודות",
+    "version": "Dashink · גרסה {}",
+    "restore_success": "הרכישות שלך שוחזרו.",
+    "restore_none": "אין רכישות לשחזור.",
+    "notifications_denied": "הרשאת ההתראות נדחתה.",
+    "language_title": "שפה"
+  },
+  "notifications": {
+    "daily_title": "המסלול של היום מוכן!",
+    "daily_body": "הגע היום לטופ 100 וזכה ב-100 מטבעות."
+  }
+}

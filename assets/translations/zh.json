@@ -1,0 +1,359 @@
+{
+  "common": {
+    "unexpected_error": "出了点问题。请再试一次。",
+    "offline": "没有网络连接。",
+    "retry": "重试",
+    "coming_soon": "即将推出",
+    "cancel": "取消",
+    "close": "关闭",
+    "you": "你"
+  },
+  "tabs": {
+    "play": "开始",
+    "shop": "商店",
+    "tasks": "任务",
+    "settings": "设置"
+  },
+  "home": {
+    "best": "最佳 {}",
+    "tap_to_play": "点击开始",
+    "daily": "每日",
+    "leaderboard": "排行",
+    "reward_daily": "每日挑战排名 #{rank}：+{coins} 金币！"
+  },
+  "tutorial": {
+    "skip": "跳过",
+    "got_it": "知道了",
+    "next": "下一步",
+    "step1_title": "在球前方画线",
+    "step1_body": "墨水会在1秒后消失",
+    "step2_title": "收集金币",
+    "step2_body": "在商店解锁新球",
+    "step3_title": "躲开尖刺",
+    "step3_body": "墨水用完了？松开手指就会恢复",
+    "step_label": "第 {current} / {total} 步"
+  },
+  "game": {
+    "pause": "暂停",
+    "paused": "已暂停",
+    "resume": "继续",
+    "home": "主页",
+    "restart": "重新开始",
+    "ink_label": "墨水",
+    "daily_badge": "每日赛道",
+    "draw_hint": "在球的前方画线！"
+  },
+  "game_over": {
+    "score": "分数",
+    "best": "最佳 {}",
+    "new_record": "新纪录！",
+    "play_again": "再玩一次",
+    "share": "分享",
+    "home": "主页",
+    "coins_earned": "+{} 金币",
+    "daily_rank": "今天你是 #{}",
+    "offline_note": "离线：重新联网后会发送你的分数"
+  },
+  "record": {
+    "title": "新纪录！",
+    "previous": "上次最佳 {previous} · +{diff} 分",
+    "continue": "继续",
+    "share": "分享"
+  },
+  "choice": {
+    "question": "接下来？",
+    "play_again": "再玩一次",
+    "play_again_sub": "从头开始",
+    "share": "分享",
+    "share_sub": "发送片段",
+    "home": "主页",
+    "home_sub": "返回菜单"
+  },
+  "clip": {
+    "title": "分享片段",
+    "subtitle": "最近 {seconds} 秒 · {score} 分",
+    "share": "分享",
+    "save": "保存到相册",
+    "preparing": "正在准备片段…",
+    "saved": "已保存到相册",
+    "save_failed": "保存失败",
+    "permission_denied": "相册访问被拒绝。你可以在设置中允许。",
+    "permission_title": "相册权限",
+    "open_settings": "打开设置",
+    "share_text": "我在 Dashink 得了 {score} 分！你能超过吗？",
+    "share_text_with_link": "我在 Dashink 得了 {score} 分！你能超过吗？\n{url}",
+    "no_clip": "没有片段，将分享分数卡",
+    "play": "播放"
+  },
+  "leaderboard": {
+    "title": "排行",
+    "daily": "每日",
+    "weekly": "每周",
+    "all": "全部",
+    "empty": "还没有人玩过。来当第一名吧！",
+    "not_ranked": "这个时段还没有对局"
+  },
+  "daily": {
+    "title": "每日",
+    "date_label": "{} · 挑战",
+    "description": "今天大家跑同一条赛道。一条赛道，不限次数，取你的最高分。",
+    "participants": "玩家",
+    "your_best": "你的最佳",
+    "time_left": "剩余时间",
+    "reward_title": "奖励",
+    "reward_body": "进入前 {} 名即可赢得金币",
+    "start": "开始",
+    "your_rank": "你的排名：{}"
+  },
+  "shop": {
+    "title": "商店",
+    "balls": "球",
+    "inks": "墨水",
+    "themes": "主题",
+    "equipped": "已装备",
+    "equip": "装备",
+    "task": "任务",
+    "premium": "高级版",
+    "buy_and_equip": "购买并装备",
+    "balance_after": "你有 {balance} 金币 · 购买后剩余 {after}",
+    "not_enough_title": "金币不足",
+    "not_enough_body": "{item} 需要 {price} 金币。完成任务再赚 {missing}。",
+    "do_tasks": "去做任务",
+    "get_coins": "+{coins} 金币 · {price}",
+    "locked_title": "完成任务解锁",
+    "locked_body": "完成“{task}”后，{item} 就属于你。",
+    "go_tasks": "前往任务",
+    "premium_title": "高级版",
+    "premium_body": "星星球、金色墨水和夜间主题 + {} 金币。无广告，永久拥有。",
+    "premium_buy": "购买 · {}",
+    "premium_unavailable": "商店暂时无法使用",
+    "premium_owned": "你已拥有高级版",
+    "purchase_success": "高级版已解锁！尽情享受。",
+    "purchase_pending": "付款处理中，批准后即可解锁。",
+    "purchase_failed": "购买未能完成。",
+    "equipped_toast": "已装备 {}",
+    "coins_pack_success": "+{} coins added!",
+    "coins_pack_processing": "付款成功！金币稍后到账。"
+  },
+  "items": {
+    "ball_klasik": {
+      "name": "经典",
+      "desc": "一切开始的那颗番茄红球。"
+    },
+    "ball_karpuz": {
+      "name": "西瓜",
+      "desc": "多汁又迅捷。在墨水上留下绿色轨迹。"
+    },
+    "ball_basket": {
+      "name": "篮球",
+      "desc": "在墨水上弹跳，不进篮筐。"
+    },
+    "ball_tenis": {
+      "name": "网球",
+      "desc": "毛茸茸又灵活，越弹越带劲。"
+    },
+    "ball_plaj": {
+      "name": "沙滩球",
+      "desc": "把夏日色彩带上赛道。"
+    },
+    "ball_gezegen": {
+      "name": "行星",
+      "desc": "带着光环滑行的小小世界。"
+    },
+    "ball_ay": {
+      "name": "月亮",
+      "desc": "带着陨石坑静静滚动。"
+    },
+    "ball_bilardo": {
+      "name": "8号球",
+      "desc": "总是打出最后一杆。"
+    },
+    "ball_goz": {
+      "name": "眼球",
+      "desc": "不会错过任何缝隙。"
+    },
+    "ball_buz": {
+      "name": "冰",
+      "desc": "光滑、清凉又溜滑。"
+    },
+    "ball_lav": {
+      "name": "熔岩",
+      "desc": "热到核心。"
+    },
+    "ball_gokkusagi": {
+      "name": "彩虹",
+      "desc": "七种颜色，一颗球。"
+    },
+    "ball_disko": {
+      "name": "迪斯科",
+      "desc": "每次转动都闪闪发光的镜面球。"
+    },
+    "ball_yildiz": {
+      "name": "星星",
+      "desc": "高级版玩家的金色星星。"
+    },
+    "ink_lacivert": {
+      "name": "海军蓝",
+      "desc": "经典钢笔墨水。"
+    },
+    "ink_kirmizi": {
+      "name": "红色",
+      "desc": "像老师的笔一样醒目。"
+    },
+    "ink_nane": {
+      "name": "薄荷",
+      "desc": "清新抢眼的绿。"
+    },
+    "ink_turuncu": {
+      "name": "橙色",
+      "desc": "活力满满的橙色。"
+    },
+    "ink_pembe": {
+      "name": "粉色",
+      "desc": "像糖果一样甜。"
+    },
+    "ink_mavi": {
+      "name": "蓝色",
+      "desc": "经典圆珠笔蓝。"
+    },
+    "ink_turkuaz": {
+      "name": "青绿",
+      "desc": "像大海一样清澈。"
+    },
+    "ink_yesil": {
+      "name": "绿色",
+      "desc": "新鲜的叶子绿。"
+    },
+    "ink_mor": {
+      "name": "紫色",
+      "desc": "神秘的深紫色。"
+    },
+    "ink_kahve": {
+      "name": "棕色",
+      "desc": "像咖啡渍一样温暖。"
+    },
+    "ink_bordo": {
+      "name": "酒红",
+      "desc": "深沉高雅的红色。"
+    },
+    "ink_gumus": {
+      "name": "银色",
+      "desc": "在光下闪耀的银色。"
+    },
+    "ink_altin": {
+      "name": "金色",
+      "desc": "闪亮墨水，高级版专属。"
+    },
+    "theme_kagit": {
+      "name": "纸张",
+      "desc": "一页方格笔记本。"
+    },
+    "theme_nane": {
+      "name": "薄荷",
+      "desc": "清凉偏绿的页面。"
+    },
+    "theme_gunbatimi": {
+      "name": "日落",
+      "desc": "桃色调的温暖页面。"
+    },
+    "theme_lavanta": {
+      "name": "薰衣草",
+      "desc": "淡紫色的宁静页面。"
+    },
+    "theme_gokyuzu": {
+      "name": "天空",
+      "desc": "浅蓝色的天空页面。"
+    },
+    "theme_limon": {
+      "name": "柠檬",
+      "desc": "阳光般的柠檬黄页面。"
+    },
+    "theme_seker": {
+      "name": "棉花糖",
+      "desc": "棉花糖粉色的页面。"
+    },
+    "theme_orman": {
+      "name": "森林",
+      "desc": "夜晚的深绿森林。"
+    },
+    "theme_uzay": {
+      "name": "太空",
+      "desc": "深邃黑暗的太空。"
+    },
+    "theme_gece": {
+      "name": "夜晚",
+      "desc": "在海军蓝夜色中发光的线条。"
+    }
+  },
+  "tasks": {
+    "title": "任务",
+    "daily": "每日",
+    "weekly": "每周",
+    "achievements": "目标",
+    "resets_in": "{} 后重置",
+    "achievements_note": "目标只能领取一次",
+    "claim": "领取",
+    "claimed": "已领取",
+    "unlocks": "解锁：{}",
+    "claimed_toast": "+{} 金币",
+    "unlocked_toast": "{} 已解锁！",
+    "empty": "目前没有任务",
+    "names": {
+      "daily_play_3": "玩 3 局",
+      "daily_coins_50": "单局收集 50 枚金币",
+      "daily_share_1": "分享一段片段",
+      "daily_challenge_1": "玩每日赛道",
+      "daily_score_100": "得分超过 100",
+      "weekly_play_20": "玩 20 局",
+      "weekly_challenge_3": "在 3 天里玩每日赛道",
+      "weekly_coins_300": "累计收集 300 枚金币",
+      "weekly_score_300": "得分超过 300",
+      "ach_games_10": "玩 10 局",
+      "ach_score_500": "单局得到 500 分",
+      "ach_games_50": "玩 50 局",
+      "ach_coins_1000": "累计收集 1000 枚金币",
+      "ach_run_coins_100": "单局收集 100 枚金币",
+      "ach_share_5": "分享 5 段片段",
+      "ach_daily_7": "在 7 天里玩每日赛道",
+      "ach_score_1000": "单局得到 1000 分",
+      "ach_games_200": "玩 200 局",
+      "ach_coins_5000": "累计收集 5000 枚金币",
+      "ach_share_20": "分享 20 段片段",
+      "ach_daily_30": "在 30 天里玩每日赛道"
+    }
+  },
+  "settings": {
+    "title": "设置",
+    "sound": "声音",
+    "sfx": "音效",
+    "music": "音乐",
+    "vibration": "振动",
+    "game": "游戏",
+    "language": "语言",
+    "language_name": "中文",
+    "notifications": "通知",
+    "replay_tutorial": "重看教程",
+    "account": "账户",
+    "name": "显示名称",
+    "name_title": "你的名字",
+    "name_hint": "输入名字",
+    "name_save": "保存",
+    "name_saved": "名字已更新。",
+    "name_invalid": "请使用 2–32 个字母、数字或空格。",
+    "restore": "恢复购买",
+    "privacy": "隐私政策",
+    "terms": "使用条款",
+    "cookies": "Cookie 政策",
+    "child_safety": "儿童安全标准",
+    "about": "关于",
+    "version": "Dashink · 版本 {}",
+    "restore_success": "已恢复你的购买。",
+    "restore_none": "没有可恢复的购买。",
+    "notifications_denied": "通知权限被拒绝。",
+    "language_title": "语言"
+  },
+  "notifications": {
+    "daily_title": "今天的赛道准备好了！",
+    "daily_body": "今天进入前 100 名，赢取 100 金币。"
+  }
+}

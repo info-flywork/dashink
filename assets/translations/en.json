@@ -1,0 +1,359 @@
+{
+  "common": {
+    "unexpected_error": "Something went wrong. Try again.",
+    "offline": "No internet connection.",
+    "retry": "TRY AGAIN",
+    "coming_soon": "Coming soon",
+    "cancel": "Cancel",
+    "close": "Close",
+    "you": "You"
+  },
+  "tabs": {
+    "play": "Play",
+    "shop": "Shop",
+    "tasks": "Tasks",
+    "settings": "Settings"
+  },
+  "home": {
+    "best": "BEST {}",
+    "tap_to_play": "TAP TO PLAY",
+    "daily": "DAILY",
+    "leaderboard": "RANKING",
+    "reward_daily": "You placed #{rank} in the daily challenge: +{coins} coins!"
+  },
+  "tutorial": {
+    "skip": "Skip",
+    "got_it": "GOT IT",
+    "next": "NEXT",
+    "step1_title": "DRAW AHEAD OF THE BALL",
+    "step1_body": "Ink fades in 1 second",
+    "step2_title": "GRAB THE COINS",
+    "step2_body": "Unlock new balls in the shop",
+    "step3_title": "AVOID THE SPIKES",
+    "step3_body": "Out of ink? Let go and it refills",
+    "step_label": "Step {current} / {total}"
+  },
+  "game": {
+    "pause": "Pause",
+    "paused": "PAUSED",
+    "resume": "RESUME",
+    "home": "HOME",
+    "restart": "RESTART",
+    "ink_label": "Ink",
+    "daily_badge": "DAILY COURSE",
+    "draw_hint": "Draw ahead of the ball!"
+  },
+  "game_over": {
+    "score": "SCORE",
+    "best": "BEST {}",
+    "new_record": "NEW RECORD!",
+    "play_again": "PLAY AGAIN",
+    "share": "Share",
+    "home": "Home",
+    "coins_earned": "+{} coins",
+    "daily_rank": "You're #{} today",
+    "offline_note": "Offline: your score will be sent when you're back online"
+  },
+  "record": {
+    "title": "NEW RECORD!",
+    "previous": "Previous best {previous} · +{diff} points",
+    "continue": "CONTINUE",
+    "share": "SHARE"
+  },
+  "choice": {
+    "question": "WHAT'S NEXT?",
+    "play_again": "PLAY AGAIN",
+    "play_again_sub": "Start over",
+    "share": "SHARE",
+    "share_sub": "Send the clip",
+    "home": "HOME",
+    "home_sub": "Back to menu"
+  },
+  "clip": {
+    "title": "SHARE CLIP",
+    "subtitle": "Last {seconds} seconds · {score} points",
+    "share": "SHARE",
+    "save": "SAVE TO GALLERY",
+    "preparing": "Preparing clip…",
+    "saved": "Saved to gallery",
+    "save_failed": "Couldn't save",
+    "permission_denied": "Gallery access denied. You can allow it in Settings.",
+    "permission_title": "GALLERY ACCESS",
+    "open_settings": "OPEN SETTINGS",
+    "share_text": "I scored {score} in Dashink! Can you beat it?",
+    "share_text_with_link": "I scored {score} in Dashink! Can you beat it?\n{url}",
+    "no_clip": "No clip, sharing a score card",
+    "play": "Play"
+  },
+  "leaderboard": {
+    "title": "RANKING",
+    "daily": "Daily",
+    "weekly": "Weekly",
+    "all": "All",
+    "empty": "Nobody has played yet. Be the first!",
+    "not_ranked": "No games in this period yet"
+  },
+  "daily": {
+    "title": "DAILY",
+    "date_label": "{} · CHALLENGE",
+    "description": "Everyone runs the same course today. One course, unlimited tries — your best score counts.",
+    "participants": "players",
+    "your_best": "your best",
+    "time_left": "time left",
+    "reward_title": "REWARD",
+    "reward_body": "Reach the top {} to win coins",
+    "start": "START",
+    "your_rank": "Your rank: {}"
+  },
+  "shop": {
+    "title": "SHOP",
+    "balls": "Balls",
+    "inks": "Ink",
+    "themes": "Themes",
+    "equipped": "EQUIPPED",
+    "equip": "Equip",
+    "task": "Task",
+    "premium": "Premium",
+    "buy_and_equip": "BUY & EQUIP",
+    "balance_after": "You have {balance} coins · {after} left after",
+    "not_enough_title": "NOT ENOUGH COINS",
+    "not_enough_body": "{item} costs {price} coins. Complete tasks to earn {missing} more.",
+    "do_tasks": "DO TASKS",
+    "get_coins": "+{coins} COINS · {price}",
+    "locked_title": "UNLOCKED BY A TASK",
+    "locked_body": "{item} is yours when you complete “{task}”.",
+    "go_tasks": "GO TO TASKS",
+    "premium_title": "PREMIUM",
+    "premium_body": "Star ball, gold ink and night theme + {} coins. No ads, yours forever.",
+    "premium_buy": "BUY · {}",
+    "premium_unavailable": "The store is unavailable right now",
+    "premium_owned": "You own Premium",
+    "purchase_success": "Premium unlocked! Enjoy.",
+    "purchase_pending": "Payment pending; it unlocks once approved.",
+    "purchase_failed": "The purchase couldn't be completed.",
+    "equipped_toast": "{} equipped",
+    "coins_pack_success": "+{} coins added!",
+    "coins_pack_processing": "Payment received! Your coins will arrive in a moment."
+  },
+  "items": {
+    "ball_klasik": {
+      "name": "CLASSIC",
+      "desc": "The tomato-red ball where it all began."
+    },
+    "ball_karpuz": {
+      "name": "WATERMELON",
+      "desc": "Juicy and fast. Leaves a green trail on the ink."
+    },
+    "ball_basket": {
+      "name": "BASKETBALL",
+      "desc": "Bounces on ink, not hoops."
+    },
+    "ball_tenis": {
+      "name": "TENNIS",
+      "desc": "Fuzzy and nimble on every bounce."
+    },
+    "ball_plaj": {
+      "name": "BEACH BALL",
+      "desc": "Summer colors on the course."
+    },
+    "ball_gezegen": {
+      "name": "PLANET",
+      "desc": "A tiny world gliding with its rings."
+    },
+    "ball_ay": {
+      "name": "MOON",
+      "desc": "Rolls quietly, craters and all."
+    },
+    "ball_bilardo": {
+      "name": "8-BALL",
+      "desc": "Always takes the final shot."
+    },
+    "ball_goz": {
+      "name": "EYEBALL",
+      "desc": "Never misses a gap."
+    },
+    "ball_buz": {
+      "name": "ICE",
+      "desc": "Smooth, cool and slippery."
+    },
+    "ball_lav": {
+      "name": "LAVA",
+      "desc": "Hot to the core."
+    },
+    "ball_gokkusagi": {
+      "name": "RAINBOW",
+      "desc": "Seven colors in one ball."
+    },
+    "ball_disko": {
+      "name": "DISCO",
+      "desc": "A mirror ball that sparkles every turn."
+    },
+    "ball_yildiz": {
+      "name": "STAR",
+      "desc": "The golden star of Premium players."
+    },
+    "ink_lacivert": {
+      "name": "NAVY",
+      "desc": "Classic fountain pen ink."
+    },
+    "ink_kirmizi": {
+      "name": "RED",
+      "desc": "Bold as a teacher's pen."
+    },
+    "ink_nane": {
+      "name": "MINT",
+      "desc": "A fresh, eye-catching green."
+    },
+    "ink_turuncu": {
+      "name": "ORANGE",
+      "desc": "An energetic orange."
+    },
+    "ink_pembe": {
+      "name": "PINK",
+      "desc": "Sweet as candy."
+    },
+    "ink_mavi": {
+      "name": "BLUE",
+      "desc": "Classic ballpoint blue."
+    },
+    "ink_turkuaz": {
+      "name": "TURQUOISE",
+      "desc": "Clear as the sea."
+    },
+    "ink_yesil": {
+      "name": "GREEN",
+      "desc": "Fresh leaf green."
+    },
+    "ink_mor": {
+      "name": "PURPLE",
+      "desc": "A mysterious deep purple."
+    },
+    "ink_kahve": {
+      "name": "BROWN",
+      "desc": "Warm as a coffee stain."
+    },
+    "ink_bordo": {
+      "name": "BURGUNDY",
+      "desc": "A deep, classy red."
+    },
+    "ink_gumus": {
+      "name": "SILVER",
+      "desc": "Silver that catches the light."
+    },
+    "ink_altin": {
+      "name": "GOLD",
+      "desc": "Sparkly ink, Premium only."
+    },
+    "theme_kagit": {
+      "name": "PAPER",
+      "desc": "A grid notebook page."
+    },
+    "theme_nane": {
+      "name": "MINT",
+      "desc": "A cool, greenish page."
+    },
+    "theme_gunbatimi": {
+      "name": "SUNSET",
+      "desc": "A warm page in peach tones."
+    },
+    "theme_lavanta": {
+      "name": "LAVENDER",
+      "desc": "A calm lilac page."
+    },
+    "theme_gokyuzu": {
+      "name": "SKY",
+      "desc": "A light blue sky page."
+    },
+    "theme_limon": {
+      "name": "LEMON",
+      "desc": "A sunny lemon page."
+    },
+    "theme_seker": {
+      "name": "COTTON CANDY",
+      "desc": "A cotton candy pink page."
+    },
+    "theme_orman": {
+      "name": "FOREST",
+      "desc": "A dark green forest at night."
+    },
+    "theme_uzay": {
+      "name": "SPACE",
+      "desc": "Deep, dark space."
+    },
+    "theme_gece": {
+      "name": "NIGHT",
+      "desc": "Lines glowing in a navy night."
+    }
+  },
+  "tasks": {
+    "title": "TASKS",
+    "daily": "Daily",
+    "weekly": "Weekly",
+    "achievements": "Goals",
+    "resets_in": "Resets in {}",
+    "achievements_note": "Goals can be claimed once",
+    "claim": "GET",
+    "claimed": "CLAIMED",
+    "unlocks": "Unlocks: {}",
+    "claimed_toast": "+{} coins",
+    "unlocked_toast": "{} unlocked!",
+    "empty": "No tasks right now",
+    "names": {
+      "daily_play_3": "Play 3 games",
+      "daily_coins_50": "Collect 50 coins in one game",
+      "daily_share_1": "Share a clip",
+      "daily_challenge_1": "Play the daily course",
+      "daily_score_100": "Score over 100",
+      "weekly_play_20": "Play 20 games",
+      "weekly_challenge_3": "Play the daily course on 3 days",
+      "weekly_coins_300": "Collect 300 coins in total",
+      "weekly_score_300": "Score over 300",
+      "ach_games_10": "Play 10 games",
+      "ach_score_500": "Score 500 in one game",
+      "ach_games_50": "Play 50 games",
+      "ach_coins_1000": "Collect 1000 coins in total",
+      "ach_run_coins_100": "Collect 100 coins in one game",
+      "ach_share_5": "Share 5 clips",
+      "ach_daily_7": "Play the daily course on 7 days",
+      "ach_score_1000": "Score 1000 in one game",
+      "ach_games_200": "Play 200 games",
+      "ach_coins_5000": "Collect 5000 coins in total",
+      "ach_share_20": "Share 20 clips",
+      "ach_daily_30": "Play the daily course on 30 days"
+    }
+  },
+  "settings": {
+    "title": "SETTINGS",
+    "sound": "SOUND",
+    "sfx": "Sound effects",
+    "music": "Music",
+    "vibration": "Vibration",
+    "game": "GAME",
+    "language": "Language",
+    "language_name": "English",
+    "notifications": "Notifications",
+    "replay_tutorial": "Replay tutorial",
+    "account": "ACCOUNT",
+    "name": "Display name",
+    "name_title": "YOUR NAME",
+    "name_hint": "Enter a name",
+    "name_save": "SAVE",
+    "name_saved": "Name updated.",
+    "name_invalid": "Use 2–32 letters, numbers or spaces.",
+    "restore": "Restore purchases",
+    "privacy": "Privacy policy",
+    "terms": "Terms of Use",
+    "cookies": "Cookie Policy",
+    "child_safety": "Child Safety Standards",
+    "about": "About",
+    "version": "Dashink · version {}",
+    "restore_success": "Your purchases were restored.",
+    "restore_none": "No purchases to restore.",
+    "notifications_denied": "Notification permission denied.",
+    "language_title": "LANGUAGE"
+  },
+  "notifications": {
+    "daily_title": "Today's course is ready!",
+    "daily_body": "Reach the top 100 today and win 100 coins."
+  }
+}

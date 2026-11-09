@@ -1,0 +1,359 @@
+{
+  "common": {
+    "unexpected_error": "Ada yang salah. Coba lagi.",
+    "offline": "Tidak ada koneksi internet.",
+    "retry": "COBA LAGI",
+    "coming_soon": "Segera hadir",
+    "cancel": "Batal",
+    "close": "Tutup",
+    "you": "Kamu"
+  },
+  "tabs": {
+    "play": "Main",
+    "shop": "Toko",
+    "tasks": "Tugas",
+    "settings": "Pengaturan"
+  },
+  "home": {
+    "best": "TERBAIK {}",
+    "tap_to_play": "KETUK UNTUK MAIN",
+    "daily": "HARIAN",
+    "leaderboard": "PERINGKAT",
+    "reward_daily": "Kamu peringkat #{rank} di tantangan harian: +{coins} koin!"
+  },
+  "tutorial": {
+    "skip": "Lewati",
+    "got_it": "MENGERTI",
+    "next": "LANJUT",
+    "step1_title": "GAMBAR DI DEPAN BOLA",
+    "step1_body": "Tinta memudar dalam 1 detik",
+    "step2_title": "AMBIL KOINNYA",
+    "step2_body": "Buka bola baru di toko",
+    "step3_title": "HINDARI DURI",
+    "step3_body": "Tinta habis? Lepaskan, lalu terisi lagi",
+    "step_label": "Langkah {current} / {total}"
+  },
+  "game": {
+    "pause": "Jeda",
+    "paused": "DIJEDA",
+    "resume": "LANJUTKAN",
+    "home": "BERANDA",
+    "restart": "ULANG",
+    "ink_label": "Tinta",
+    "daily_badge": "LINTASAN HARIAN",
+    "draw_hint": "Gambar di depan bola!"
+  },
+  "game_over": {
+    "score": "SKOR",
+    "best": "TERBAIK {}",
+    "new_record": "REKOR BARU!",
+    "play_again": "MAIN LAGI",
+    "share": "Bagikan",
+    "home": "Beranda",
+    "coins_earned": "+{} koin",
+    "daily_rank": "Hari ini kamu #{}",
+    "offline_note": "Offline: skormu akan terkirim saat kamu kembali online"
+  },
+  "record": {
+    "title": "REKOR BARU!",
+    "previous": "Rekor sebelumnya {previous} · +{diff} poin",
+    "continue": "LANJUT",
+    "share": "BAGIKAN"
+  },
+  "choice": {
+    "question": "SELANJUTNYA?",
+    "play_again": "MAIN LAGI",
+    "play_again_sub": "Mulai dari awal",
+    "share": "BAGIKAN",
+    "share_sub": "Kirim klip",
+    "home": "BERANDA",
+    "home_sub": "Kembali ke menu"
+  },
+  "clip": {
+    "title": "BAGIKAN KLIP",
+    "subtitle": "{seconds} detik terakhir · {score} poin",
+    "share": "BAGIKAN",
+    "save": "SIMPAN KE GALERI",
+    "preparing": "Menyiapkan klip…",
+    "saved": "Tersimpan di galeri",
+    "save_failed": "Gagal menyimpan",
+    "permission_denied": "Akses galeri ditolak. Kamu bisa mengizinkannya di Pengaturan.",
+    "permission_title": "AKSES GALERI",
+    "open_settings": "BUKA PENGATURAN",
+    "share_text": "Aku mencetak {score} di Dashink! Bisa kalahkan?",
+    "share_text_with_link": "Aku mencetak {score} di Dashink! Bisa kalahkan?\n{url}",
+    "no_clip": "Tidak ada klip, membagikan kartu skor",
+    "play": "Putar"
+  },
+  "leaderboard": {
+    "title": "PERINGKAT",
+    "daily": "Harian",
+    "weekly": "Mingguan",
+    "all": "Semua",
+    "empty": "Belum ada yang bermain. Jadilah yang pertama!",
+    "not_ranked": "Belum ada permainan di periode ini"
+  },
+  "daily": {
+    "title": "HARIAN",
+    "date_label": "{} · TANTANGAN",
+    "description": "Hari ini semua orang menjalani lintasan yang sama. Satu lintasan, percobaan tanpa batas — skor terbaikmu yang dihitung.",
+    "participants": "pemain",
+    "your_best": "terbaikmu",
+    "time_left": "sisa waktu",
+    "reward_title": "HADIAH",
+    "reward_body": "Masuk {} teratas untuk menang koin",
+    "start": "MULAI",
+    "your_rank": "Peringkatmu: {}"
+  },
+  "shop": {
+    "title": "TOKO",
+    "balls": "Bola",
+    "inks": "Tinta",
+    "themes": "Tema",
+    "equipped": "DIPAKAI",
+    "equip": "Pakai",
+    "task": "Tugas",
+    "premium": "Premium",
+    "buy_and_equip": "BELI & PAKAI",
+    "balance_after": "Kamu punya {balance} koin · tersisa {after} setelahnya",
+    "not_enough_title": "KOIN TIDAK CUKUP",
+    "not_enough_body": "{item} seharga {price} koin. Selesaikan tugas untuk mendapat {missing} lagi.",
+    "do_tasks": "KERJAKAN TUGAS",
+    "get_coins": "+{coins} KOIN · {price}",
+    "locked_title": "TERBUKA LEWAT TUGAS",
+    "locked_body": "{item} jadi milikmu setelah menyelesaikan “{task}”.",
+    "go_tasks": "KE TUGAS",
+    "premium_title": "PREMIUM",
+    "premium_body": "Bola bintang, tinta emas, dan tema malam + {} koin. Tanpa iklan, milikmu selamanya.",
+    "premium_buy": "BELI · {}",
+    "premium_unavailable": "Toko sedang tidak tersedia",
+    "premium_owned": "Kamu punya Premium",
+    "purchase_success": "Premium terbuka! Selamat bermain.",
+    "purchase_pending": "Pembayaran tertunda; terbuka setelah disetujui.",
+    "purchase_failed": "Pembelian tidak dapat diselesaikan.",
+    "equipped_toast": "{} dipakai",
+    "coins_pack_success": "+{} coins added!",
+    "coins_pack_processing": "Pembayaran diterima! Koinmu akan masuk sebentar lagi."
+  },
+  "items": {
+    "ball_klasik": {
+      "name": "KLASIK",
+      "desc": "Bola merah tomat, tempat semuanya bermula."
+    },
+    "ball_karpuz": {
+      "name": "SEMANGKA",
+      "desc": "Segar dan cepat. Meninggalkan jejak hijau di tinta."
+    },
+    "ball_basket": {
+      "name": "BASKET",
+      "desc": "Memantul di tinta, bukan di ring."
+    },
+    "ball_tenis": {
+      "name": "TENIS",
+      "desc": "Berbulu dan lincah di tiap pantulan."
+    },
+    "ball_plaj": {
+      "name": "BOLA PANTAI",
+      "desc": "Warna musim panas di lintasan."
+    },
+    "ball_gezegen": {
+      "name": "PLANET",
+      "desc": "Dunia mungil yang meluncur bersama cincinnya."
+    },
+    "ball_ay": {
+      "name": "BULAN",
+      "desc": "Menggelinding tenang, lengkap dengan kawah."
+    },
+    "ball_bilardo": {
+      "name": "BOLA 8",
+      "desc": "Selalu jadi pukulan terakhir."
+    },
+    "ball_goz": {
+      "name": "BOLA MATA",
+      "desc": "Tak melewatkan celah."
+    },
+    "ball_buz": {
+      "name": "ES",
+      "desc": "Mulus, sejuk, dan licin."
+    },
+    "ball_lav": {
+      "name": "LAVA",
+      "desc": "Panas sampai ke inti."
+    },
+    "ball_gokkusagi": {
+      "name": "PELANGI",
+      "desc": "Tujuh warna dalam satu bola."
+    },
+    "ball_disko": {
+      "name": "DISKO",
+      "desc": "Bola cermin yang berkilau di setiap putaran."
+    },
+    "ball_yildiz": {
+      "name": "BINTANG",
+      "desc": "Bintang emas pemain Premium."
+    },
+    "ink_lacivert": {
+      "name": "BIRU DONGKER",
+      "desc": "Tinta pena klasik."
+    },
+    "ink_kirmizi": {
+      "name": "MERAH",
+      "desc": "Tegas seperti pena guru."
+    },
+    "ink_nane": {
+      "name": "MINT",
+      "desc": "Hijau segar yang mencolok."
+    },
+    "ink_turuncu": {
+      "name": "JINGGA",
+      "desc": "Jingga yang penuh energi."
+    },
+    "ink_pembe": {
+      "name": "MERAH MUDA",
+      "desc": "Manis seperti permen."
+    },
+    "ink_mavi": {
+      "name": "BIRU",
+      "desc": "Biru pulpen klasik."
+    },
+    "ink_turkuaz": {
+      "name": "TOSKA",
+      "desc": "Jernih seperti laut."
+    },
+    "ink_yesil": {
+      "name": "HIJAU",
+      "desc": "Hijau daun segar."
+    },
+    "ink_mor": {
+      "name": "UNGU",
+      "desc": "Ungu tua yang misterius."
+    },
+    "ink_kahve": {
+      "name": "COKELAT",
+      "desc": "Hangat seperti noda kopi."
+    },
+    "ink_bordo": {
+      "name": "MARUN",
+      "desc": "Merah tua yang elegan."
+    },
+    "ink_gumus": {
+      "name": "PERAK",
+      "desc": "Perak yang berkilau di cahaya."
+    },
+    "ink_altin": {
+      "name": "EMAS",
+      "desc": "Tinta berkilau, khusus Premium."
+    },
+    "theme_kagit": {
+      "name": "KERTAS",
+      "desc": "Halaman buku catatan bergaris kotak."
+    },
+    "theme_nane": {
+      "name": "MINT",
+      "desc": "Halaman sejuk kehijauan."
+    },
+    "theme_gunbatimi": {
+      "name": "SENJA",
+      "desc": "Halaman hangat bernuansa persik."
+    },
+    "theme_lavanta": {
+      "name": "LAVENDER",
+      "desc": "Halaman ungu muda yang tenang."
+    },
+    "theme_gokyuzu": {
+      "name": "LANGIT",
+      "desc": "Halaman biru langit yang cerah."
+    },
+    "theme_limon": {
+      "name": "LEMON",
+      "desc": "Halaman kuning lemon yang cerah."
+    },
+    "theme_seker": {
+      "name": "GULALI",
+      "desc": "Halaman merah muda gulali."
+    },
+    "theme_orman": {
+      "name": "HUTAN",
+      "desc": "Hutan hijau tua di malam hari."
+    },
+    "theme_uzay": {
+      "name": "ANGKASA",
+      "desc": "Angkasa yang dalam dan gelap."
+    },
+    "theme_gece": {
+      "name": "MALAM",
+      "desc": "Garis yang bersinar di malam biru dongker."
+    }
+  },
+  "tasks": {
+    "title": "TUGAS",
+    "daily": "Harian",
+    "weekly": "Mingguan",
+    "achievements": "Target",
+    "resets_in": "Direset dalam {}",
+    "achievements_note": "Target hanya bisa diklaim sekali",
+    "claim": "AMBIL",
+    "claimed": "DIAMBIL",
+    "unlocks": "Membuka: {}",
+    "claimed_toast": "+{} koin",
+    "unlocked_toast": "{} terbuka!",
+    "empty": "Tidak ada tugas saat ini",
+    "names": {
+      "daily_play_3": "Main 3 kali",
+      "daily_coins_50": "Kumpulkan 50 koin dalam satu permainan",
+      "daily_share_1": "Bagikan satu klip",
+      "daily_challenge_1": "Mainkan lintasan harian",
+      "daily_score_100": "Cetak skor di atas 100",
+      "weekly_play_20": "Main 20 kali",
+      "weekly_challenge_3": "Mainkan lintasan harian pada 3 hari",
+      "weekly_coins_300": "Kumpulkan total 300 koin",
+      "weekly_score_300": "Cetak skor di atas 300",
+      "ach_games_10": "Main 10 kali",
+      "ach_score_500": "Cetak 500 dalam satu permainan",
+      "ach_games_50": "Main 50 kali",
+      "ach_coins_1000": "Kumpulkan total 1000 koin",
+      "ach_run_coins_100": "Kumpulkan 100 koin dalam satu permainan",
+      "ach_share_5": "Bagikan 5 klip",
+      "ach_daily_7": "Mainkan lintasan harian pada 7 hari",
+      "ach_score_1000": "Cetak 1000 dalam satu permainan",
+      "ach_games_200": "Main 200 kali",
+      "ach_coins_5000": "Kumpulkan total 5000 koin",
+      "ach_share_20": "Bagikan 20 klip",
+      "ach_daily_30": "Mainkan lintasan harian pada 30 hari"
+    }
+  },
+  "settings": {
+    "title": "PENGATURAN",
+    "sound": "SUARA",
+    "sfx": "Efek suara",
+    "music": "Musik",
+    "vibration": "Getar",
+    "game": "PERMAINAN",
+    "language": "Bahasa",
+    "language_name": "Bahasa Indonesia",
+    "notifications": "Notifikasi",
+    "replay_tutorial": "Ulangi tutorial",
+    "account": "AKUN",
+    "name": "Nama tampilan",
+    "name_title": "NAMAMU",
+    "name_hint": "Masukkan nama",
+    "name_save": "SIMPAN",
+    "name_saved": "Nama diperbarui.",
+    "name_invalid": "Gunakan 2–32 huruf, angka, atau spasi.",
+    "restore": "Pulihkan pembelian",
+    "privacy": "Kebijakan privasi",
+    "terms": "Ketentuan Penggunaan",
+    "cookies": "Kebijakan Cookie",
+    "child_safety": "Standar Keselamatan Anak",
+    "about": "Tentang",
+    "version": "Dashink · versi {}",
+    "restore_success": "Pembelianmu telah dipulihkan.",
+    "restore_none": "Tidak ada pembelian untuk dipulihkan.",
+    "notifications_denied": "Izin notifikasi ditolak.",
+    "language_title": "BAHASA"
+  },
+  "notifications": {
+    "daily_title": "Lintasan hari ini sudah siap!",
+    "daily_body": "Masuk 100 besar hari ini dan menangkan 100 koin."
+  }
+}

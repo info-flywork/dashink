@@ -1,0 +1,359 @@
+{
+  "common": {
+    "unexpected_error": "Er ging iets mis. Probeer het opnieuw.",
+    "offline": "Geen internetverbinding.",
+    "retry": "OPNIEUW",
+    "coming_soon": "Binnenkort",
+    "cancel": "Annuleren",
+    "close": "Sluiten",
+    "you": "Jij"
+  },
+  "tabs": {
+    "play": "Spelen",
+    "shop": "Winkel",
+    "tasks": "Taken",
+    "settings": "Instellingen"
+  },
+  "home": {
+    "best": "BESTE {}",
+    "tap_to_play": "TIK OM TE SPELEN",
+    "daily": "DAGELIJKS",
+    "leaderboard": "RANGLIJST",
+    "reward_daily": "Je werd #{rank} in de dagelijkse uitdaging: +{coins} munten!"
+  },
+  "tutorial": {
+    "skip": "Overslaan",
+    "got_it": "BEGREPEN",
+    "next": "VOLGENDE",
+    "step1_title": "TEKEN VÓÓR DE BAL",
+    "step1_body": "Inkt vervaagt in 1 seconde",
+    "step2_title": "PAK DE MUNTEN",
+    "step2_body": "Ontgrendel nieuwe ballen in de winkel",
+    "step3_title": "VERMIJD DE PIEKEN",
+    "step3_body": "Inkt op? Laat los, dan vult het bij",
+    "step_label": "Stap {current} / {total}"
+  },
+  "game": {
+    "pause": "Pauze",
+    "paused": "GEPAUZEERD",
+    "resume": "VERDER",
+    "home": "MENU",
+    "restart": "OPNIEUW",
+    "ink_label": "Inkt",
+    "daily_badge": "DAGELIJKSE BAAN",
+    "draw_hint": "Teken vóór de bal!"
+  },
+  "game_over": {
+    "score": "SCORE",
+    "best": "BESTE {}",
+    "new_record": "NIEUW RECORD!",
+    "play_again": "OPNIEUW SPELEN",
+    "share": "Delen",
+    "home": "Menu",
+    "coins_earned": "+{} munten",
+    "daily_rank": "Vandaag ben je #{}",
+    "offline_note": "Offline: je score wordt verstuurd zodra je weer online bent"
+  },
+  "record": {
+    "title": "NIEUW RECORD!",
+    "previous": "Vorige record {previous} · +{diff} punten",
+    "continue": "VERDER",
+    "share": "DELEN"
+  },
+  "choice": {
+    "question": "WAT NU?",
+    "play_again": "OPNIEUW SPELEN",
+    "play_again_sub": "Opnieuw beginnen",
+    "share": "DELEN",
+    "share_sub": "Clip versturen",
+    "home": "MENU",
+    "home_sub": "Terug naar het menu"
+  },
+  "clip": {
+    "title": "CLIP DELEN",
+    "subtitle": "Laatste {seconds} seconden · {score} punten",
+    "share": "DELEN",
+    "save": "OPSLAAN IN GALERIJ",
+    "preparing": "Clip voorbereiden…",
+    "saved": "Opgeslagen in galerij",
+    "save_failed": "Opslaan mislukt",
+    "permission_denied": "Toegang tot de galerij geweigerd. Je kunt dit toestaan in Instellingen.",
+    "permission_title": "TOEGANG TOT GALERIJ",
+    "open_settings": "INSTELLINGEN OPENEN",
+    "share_text": "Ik scoorde {score} in Dashink! Kun jij het verslaan?",
+    "share_text_with_link": "Ik scoorde {score} in Dashink! Kun jij het verslaan?\n{url}",
+    "no_clip": "Geen clip, een scorekaart wordt gedeeld",
+    "play": "Afspelen"
+  },
+  "leaderboard": {
+    "title": "RANGLIJST",
+    "daily": "Dagelijks",
+    "weekly": "Wekelijks",
+    "all": "Alles",
+    "empty": "Nog niemand heeft gespeeld. Wees de eerste!",
+    "not_ranked": "Nog geen potjes in deze periode"
+  },
+  "daily": {
+    "title": "DAGELIJKS",
+    "date_label": "{} · UITDAGING",
+    "description": "Vandaag speelt iedereen dezelfde baan. Eén baan, onbeperkt proberen — je beste score telt.",
+    "participants": "spelers",
+    "your_best": "jouw beste",
+    "time_left": "tijd over",
+    "reward_title": "BELONING",
+    "reward_body": "Haal de top {} om munten te winnen",
+    "start": "START",
+    "your_rank": "Jouw rang: {}"
+  },
+  "shop": {
+    "title": "WINKEL",
+    "balls": "Ballen",
+    "inks": "Inkt",
+    "themes": "Thema's",
+    "equipped": "UITGERUST",
+    "equip": "Uitrusten",
+    "task": "Taak",
+    "premium": "Premium",
+    "buy_and_equip": "KOPEN EN UITRUSTEN",
+    "balance_after": "Je hebt {balance} munten · daarna nog {after}",
+    "not_enough_title": "NIET GENOEG MUNTEN",
+    "not_enough_body": "{item} kost {price} munten. Voltooi taken om nog {missing} te verdienen.",
+    "do_tasks": "TAKEN DOEN",
+    "get_coins": "+{coins} MUNTEN · {price}",
+    "locked_title": "VRIJGESPEELD VIA EEN TAAK",
+    "locked_body": "{item} is van jou als je “{task}” voltooit.",
+    "go_tasks": "NAAR TAKEN",
+    "premium_title": "PREMIUM",
+    "premium_body": "Sterbal, gouden inkt en nachtthema + {} munten. Geen advertenties, voor altijd van jou.",
+    "premium_buy": "KOPEN · {}",
+    "premium_unavailable": "De winkel is nu niet beschikbaar",
+    "premium_owned": "Je hebt Premium",
+    "purchase_success": "Premium vrijgespeeld! Veel plezier.",
+    "purchase_pending": "Betaling in behandeling; het wordt vrijgespeeld na goedkeuring.",
+    "purchase_failed": "De aankoop kon niet worden voltooid.",
+    "equipped_toast": "{} uitgerust",
+    "coins_pack_success": "+{} coins added!",
+    "coins_pack_processing": "Betaling ontvangen! Je munten komen er zo aan."
+  },
+  "items": {
+    "ball_klasik": {
+      "name": "KLASSIEK",
+      "desc": "De tomaatrode bal waarmee het begon."
+    },
+    "ball_karpuz": {
+      "name": "WATERMELOEN",
+      "desc": "Sappig en snel. Laat een groen spoor achter in de inkt."
+    },
+    "ball_basket": {
+      "name": "BASKETBAL",
+      "desc": "Stuitert op inkt, niet in de basket."
+    },
+    "ball_tenis": {
+      "name": "TENNIS",
+      "desc": "Pluizig en wendbaar bij elke stuit."
+    },
+    "ball_plaj": {
+      "name": "STRANDBAL",
+      "desc": "Zomerkleuren op het parcours."
+    },
+    "ball_gezegen": {
+      "name": "PLANEET",
+      "desc": "Een kleine wereld die glijdt met zijn ringen."
+    },
+    "ball_ay": {
+      "name": "MAAN",
+      "desc": "Rolt stil, kraters en al."
+    },
+    "ball_bilardo": {
+      "name": "8-BAL",
+      "desc": "Neemt altijd de laatste stoot."
+    },
+    "ball_goz": {
+      "name": "OOG",
+      "desc": "Mist geen enkele opening."
+    },
+    "ball_buz": {
+      "name": "IJS",
+      "desc": "Glad, koel en glibberig."
+    },
+    "ball_lav": {
+      "name": "LAVA",
+      "desc": "Gloeiend tot in de kern."
+    },
+    "ball_gokkusagi": {
+      "name": "REGENBOOG",
+      "desc": "Zeven kleuren in één bal."
+    },
+    "ball_disko": {
+      "name": "DISCO",
+      "desc": "Een spiegelbol die bij elke draai schittert."
+    },
+    "ball_yildiz": {
+      "name": "STER",
+      "desc": "De gouden ster van Premium-spelers."
+    },
+    "ink_lacivert": {
+      "name": "MARINE",
+      "desc": "Klassieke vulpeninkt."
+    },
+    "ink_kirmizi": {
+      "name": "ROOD",
+      "desc": "Stoer als de pen van een leraar."
+    },
+    "ink_nane": {
+      "name": "MINT",
+      "desc": "Een fris, opvallend groen."
+    },
+    "ink_turuncu": {
+      "name": "ORANJE",
+      "desc": "Een energiek oranje."
+    },
+    "ink_pembe": {
+      "name": "ROZE",
+      "desc": "Zoet als snoep."
+    },
+    "ink_mavi": {
+      "name": "BLAUW",
+      "desc": "Klassiek balpenblauw."
+    },
+    "ink_turkuaz": {
+      "name": "TURKOOIS",
+      "desc": "Helder als de zee."
+    },
+    "ink_yesil": {
+      "name": "GROEN",
+      "desc": "Fris bladgroen."
+    },
+    "ink_mor": {
+      "name": "PAARS",
+      "desc": "Een mysterieus diep paars."
+    },
+    "ink_kahve": {
+      "name": "BRUIN",
+      "desc": "Warm als een koffievlek."
+    },
+    "ink_bordo": {
+      "name": "BORDEAUX",
+      "desc": "Een diep, chic rood."
+    },
+    "ink_gumus": {
+      "name": "ZILVER",
+      "desc": "Zilver dat het licht vangt."
+    },
+    "ink_altin": {
+      "name": "GOUD",
+      "desc": "Sprankelende inkt, alleen met Premium."
+    },
+    "theme_kagit": {
+      "name": "PAPIER",
+      "desc": "Een ruitjesblad uit een schrift."
+    },
+    "theme_nane": {
+      "name": "MINT",
+      "desc": "Een koele, groenige pagina."
+    },
+    "theme_gunbatimi": {
+      "name": "ZONSONDERGANG",
+      "desc": "Een warme pagina in perziktinten."
+    },
+    "theme_lavanta": {
+      "name": "LAVENDEL",
+      "desc": "Een rustige lila pagina."
+    },
+    "theme_gokyuzu": {
+      "name": "HEMEL",
+      "desc": "Een lichtblauwe hemelpagina."
+    },
+    "theme_limon": {
+      "name": "CITROEN",
+      "desc": "Een zonnige citroengele pagina."
+    },
+    "theme_seker": {
+      "name": "SUIKERSPIN",
+      "desc": "Een suikerspinroze pagina."
+    },
+    "theme_orman": {
+      "name": "BOS",
+      "desc": "Een donkergroen bos bij nacht."
+    },
+    "theme_uzay": {
+      "name": "RUIMTE",
+      "desc": "Diepe, donkere ruimte."
+    },
+    "theme_gece": {
+      "name": "NACHT",
+      "desc": "Lijnen die gloeien in een marineblauwe nacht."
+    }
+  },
+  "tasks": {
+    "title": "TAKEN",
+    "daily": "Dagelijks",
+    "weekly": "Wekelijks",
+    "achievements": "Doelen",
+    "resets_in": "Reset over {}",
+    "achievements_note": "Doelen kun je één keer claimen",
+    "claim": "PAKKEN",
+    "claimed": "GECLAIMD",
+    "unlocks": "Ontgrendelt: {}",
+    "claimed_toast": "+{} munten",
+    "unlocked_toast": "{} vrijgespeeld!",
+    "empty": "Nu geen taken",
+    "names": {
+      "daily_play_3": "Speel 3 potjes",
+      "daily_coins_50": "Verzamel 50 munten in één potje",
+      "daily_share_1": "Deel een clip",
+      "daily_challenge_1": "Speel de dagelijkse baan",
+      "daily_score_100": "Scoor meer dan 100",
+      "weekly_play_20": "Speel 20 potjes",
+      "weekly_challenge_3": "Speel de dagelijkse baan op 3 dagen",
+      "weekly_coins_300": "Verzamel in totaal 300 munten",
+      "weekly_score_300": "Scoor meer dan 300",
+      "ach_games_10": "Speel 10 potjes",
+      "ach_score_500": "Scoor 500 in één potje",
+      "ach_games_50": "Speel 50 potjes",
+      "ach_coins_1000": "Verzamel in totaal 1000 munten",
+      "ach_run_coins_100": "Verzamel 100 munten in één potje",
+      "ach_share_5": "Deel 5 clips",
+      "ach_daily_7": "Speel de dagelijkse baan op 7 dagen",
+      "ach_score_1000": "Scoor 1000 in één potje",
+      "ach_games_200": "Speel 200 potjes",
+      "ach_coins_5000": "Verzamel in totaal 5000 munten",
+      "ach_share_20": "Deel 20 clips",
+      "ach_daily_30": "Speel de dagelijkse baan op 30 dagen"
+    }
+  },
+  "settings": {
+    "title": "INSTELLINGEN",
+    "sound": "GELUID",
+    "sfx": "Geluidseffecten",
+    "music": "Muziek",
+    "vibration": "Trillen",
+    "game": "SPEL",
+    "language": "Taal",
+    "language_name": "Nederlands",
+    "notifications": "Meldingen",
+    "replay_tutorial": "Tutorial opnieuw",
+    "account": "ACCOUNT",
+    "name": "Weergavenaam",
+    "name_title": "JE NAAM",
+    "name_hint": "Voer een naam in",
+    "name_save": "OPSLAAN",
+    "name_saved": "Naam bijgewerkt.",
+    "name_invalid": "Gebruik 2–32 letters, cijfers of spaties.",
+    "restore": "Aankopen herstellen",
+    "privacy": "Privacybeleid",
+    "terms": "Gebruiksvoorwaarden",
+    "cookies": "Cookiebeleid",
+    "child_safety": "Normen voor kinderveiligheid",
+    "about": "Over",
+    "version": "Dashink · versie {}",
+    "restore_success": "Je aankopen zijn hersteld.",
+    "restore_none": "Geen aankopen om te herstellen.",
+    "notifications_denied": "Toestemming voor meldingen geweigerd.",
+    "language_title": "TAAL"
+  },
+  "notifications": {
+    "daily_title": "De baan van vandaag is klaar!",
+    "daily_body": "Haal vandaag de top 100 en win 100 munten."
+  }
+}

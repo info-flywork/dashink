@@ -1,0 +1,359 @@
+{
+  "common": {
+    "unexpected_error": "Đã có lỗi. Thử lại nhé.",
+    "offline": "Không có kết nối internet.",
+    "retry": "THỬ LẠI",
+    "coming_soon": "Sắp ra mắt",
+    "cancel": "Hủy",
+    "close": "Đóng",
+    "you": "Bạn"
+  },
+  "tabs": {
+    "play": "Chơi",
+    "shop": "Cửa hàng",
+    "tasks": "Nhiệm vụ",
+    "settings": "Cài đặt"
+  },
+  "home": {
+    "best": "KỶ LỤC {}",
+    "tap_to_play": "CHẠM ĐỂ CHƠI",
+    "daily": "HẰNG NGÀY",
+    "leaderboard": "XẾP HẠNG",
+    "reward_daily": "Bạn đứng #{rank} ở thử thách hằng ngày: +{coins} xu!"
+  },
+  "tutorial": {
+    "skip": "Bỏ qua",
+    "got_it": "HIỂU RỒI",
+    "next": "TIẾP",
+    "step1_title": "VẼ PHÍA TRƯỚC BÓNG",
+    "step1_body": "Mực mờ đi sau 1 giây",
+    "step2_title": "NHẶT XU",
+    "step2_body": "Mở khóa bóng mới trong cửa hàng",
+    "step3_title": "TRÁNH GAI",
+    "step3_body": "Hết mực? Thả tay ra để mực đầy lại",
+    "step_label": "Bước {current} / {total}"
+  },
+  "game": {
+    "pause": "Tạm dừng",
+    "paused": "ĐÃ TẠM DỪNG",
+    "resume": "TIẾP TỤC",
+    "home": "TRANG CHỦ",
+    "restart": "CHƠI LẠI",
+    "ink_label": "Mực",
+    "daily_badge": "ĐƯỜNG ĐUA HẰNG NGÀY",
+    "draw_hint": "Hãy vẽ phía trước bóng!"
+  },
+  "game_over": {
+    "score": "ĐIỂM",
+    "best": "KỶ LỤC {}",
+    "new_record": "KỶ LỤC MỚI!",
+    "play_again": "CHƠI LẠI",
+    "share": "Chia sẻ",
+    "home": "Trang chủ",
+    "coins_earned": "+{} xu",
+    "daily_rank": "Hôm nay bạn là #{}",
+    "offline_note": "Ngoại tuyến: điểm sẽ được gửi khi bạn có mạng trở lại"
+  },
+  "record": {
+    "title": "KỶ LỤC MỚI!",
+    "previous": "Kỷ lục trước {previous} · +{diff} điểm",
+    "continue": "TIẾP TỤC",
+    "share": "CHIA SẺ"
+  },
+  "choice": {
+    "question": "TIẾP THEO?",
+    "play_again": "CHƠI LẠI",
+    "play_again_sub": "Bắt đầu lại",
+    "share": "CHIA SẺ",
+    "share_sub": "Gửi clip",
+    "home": "TRANG CHỦ",
+    "home_sub": "Về menu"
+  },
+  "clip": {
+    "title": "CHIA SẺ CLIP",
+    "subtitle": "{seconds} giây gần nhất · {score} điểm",
+    "share": "CHIA SẺ",
+    "save": "LƯU VÀO THƯ VIỆN",
+    "preparing": "Đang chuẩn bị clip…",
+    "saved": "Đã lưu vào thư viện",
+    "save_failed": "Không lưu được",
+    "permission_denied": "Quyền truy cập thư viện bị từ chối. Bạn có thể cho phép trong Cài đặt.",
+    "permission_title": "QUYỀN TRUY CẬP THƯ VIỆN",
+    "open_settings": "MỞ CÀI ĐẶT",
+    "share_text": "Mình được {score} trong Dashink! Bạn phá được không?",
+    "share_text_with_link": "Mình được {score} trong Dashink! Bạn phá được không?\n{url}",
+    "no_clip": "Không có clip, đang chia sẻ thẻ điểm",
+    "play": "Phát"
+  },
+  "leaderboard": {
+    "title": "XẾP HẠNG",
+    "daily": "Hằng ngày",
+    "weekly": "Hằng tuần",
+    "all": "Tất cả",
+    "empty": "Chưa ai chơi. Hãy là người đầu tiên!",
+    "not_ranked": "Chưa có ván nào trong giai đoạn này"
+  },
+  "daily": {
+    "title": "HẰNG NGÀY",
+    "date_label": "{} · THỬ THÁCH",
+    "description": "Hôm nay mọi người chạy cùng một đường đua. Một đường, thử không giới hạn — tính điểm cao nhất của bạn.",
+    "participants": "người chơi",
+    "your_best": "kỷ lục của bạn",
+    "time_left": "thời gian còn",
+    "reward_title": "PHẦN THƯỞNG",
+    "reward_body": "Vào top {} để nhận xu",
+    "start": "BẮT ĐẦU",
+    "your_rank": "Hạng của bạn: {}"
+  },
+  "shop": {
+    "title": "CỬA HÀNG",
+    "balls": "Bóng",
+    "inks": "Mực",
+    "themes": "Chủ đề",
+    "equipped": "ĐANG DÙNG",
+    "equip": "Dùng",
+    "task": "Nhiệm vụ",
+    "premium": "Premium",
+    "buy_and_equip": "MUA VÀ DÙNG",
+    "balance_after": "Bạn có {balance} xu · sau khi mua còn {after}",
+    "not_enough_title": "KHÔNG ĐỦ XU",
+    "not_enough_body": "{item} giá {price} xu. Hoàn thành nhiệm vụ để kiếm thêm {missing}.",
+    "do_tasks": "LÀM NHIỆM VỤ",
+    "get_coins": "+{coins} XU · {price}",
+    "locked_title": "MỞ BẰNG NHIỆM VỤ",
+    "locked_body": "{item} là của bạn khi hoàn thành “{task}”.",
+    "go_tasks": "ĐẾN NHIỆM VỤ",
+    "premium_title": "PREMIUM",
+    "premium_body": "Bóng sao, mực vàng và chủ đề đêm + {} xu. Không quảng cáo, của bạn mãi mãi.",
+    "premium_buy": "MUA · {}",
+    "premium_unavailable": "Cửa hàng hiện không dùng được",
+    "premium_owned": "Bạn đã có Premium",
+    "purchase_success": "Đã mở Premium! Chơi vui nhé.",
+    "purchase_pending": "Thanh toán đang chờ; sẽ mở khi được duyệt.",
+    "purchase_failed": "Không thể hoàn tất giao dịch.",
+    "equipped_toast": "Đã dùng {}",
+    "coins_pack_success": "+{} coins added!",
+    "coins_pack_processing": "Đã nhận thanh toán! Xu của bạn sẽ được cộng trong giây lát."
+  },
+  "items": {
+    "ball_klasik": {
+      "name": "CỔ ĐIỂN",
+      "desc": "Quả bóng đỏ cà chua, nơi mọi thứ bắt đầu."
+    },
+    "ball_karpuz": {
+      "name": "DƯA HẤU",
+      "desc": "Mọng nước và nhanh. Để lại vệt xanh trên mực."
+    },
+    "ball_basket": {
+      "name": "BÓNG RỔ",
+      "desc": "Nảy trên mực, không phải vào rổ."
+    },
+    "ball_tenis": {
+      "name": "TENNIS",
+      "desc": "Lông xù và lanh lẹ mỗi cú nảy."
+    },
+    "ball_plaj": {
+      "name": "BÓNG BÃI BIỂN",
+      "desc": "Sắc màu mùa hè trên đường chạy."
+    },
+    "ball_gezegen": {
+      "name": "HÀNH TINH",
+      "desc": "Một thế giới nhỏ lướt đi cùng những vành đai."
+    },
+    "ball_ay": {
+      "name": "MẶT TRĂNG",
+      "desc": "Lăn lặng lẽ cùng những miệng hố."
+    },
+    "ball_bilardo": {
+      "name": "BI SỐ 8",
+      "desc": "Luôn là cú đánh cuối cùng."
+    },
+    "ball_goz": {
+      "name": "NHÃN CẦU",
+      "desc": "Không bỏ lỡ khe hở nào."
+    },
+    "ball_buz": {
+      "name": "BĂNG",
+      "desc": "Láng mịn, mát lạnh và trơn trượt."
+    },
+    "ball_lav": {
+      "name": "DUNG NHAM",
+      "desc": "Nóng tận lõi."
+    },
+    "ball_gokkusagi": {
+      "name": "CẦU VỒNG",
+      "desc": "Bảy sắc màu trong một quả bóng."
+    },
+    "ball_disko": {
+      "name": "DISCO",
+      "desc": "Quả cầu gương lấp lánh mỗi vòng quay."
+    },
+    "ball_yildiz": {
+      "name": "SAO",
+      "desc": "Ngôi sao vàng của người chơi Premium."
+    },
+    "ink_lacivert": {
+      "name": "XANH NAVY",
+      "desc": "Mực bút máy cổ điển."
+    },
+    "ink_kirmizi": {
+      "name": "ĐỎ",
+      "desc": "Đậm như bút của thầy cô."
+    },
+    "ink_nane": {
+      "name": "BẠC HÀ",
+      "desc": "Xanh tươi, bắt mắt."
+    },
+    "ink_turuncu": {
+      "name": "CAM",
+      "desc": "Một màu cam tràn năng lượng."
+    },
+    "ink_pembe": {
+      "name": "HỒNG",
+      "desc": "Ngọt như kẹo."
+    },
+    "ink_mavi": {
+      "name": "XANH DƯƠNG",
+      "desc": "Màu xanh bút bi cổ điển."
+    },
+    "ink_turkuaz": {
+      "name": "NGỌC LAM",
+      "desc": "Trong như biển."
+    },
+    "ink_yesil": {
+      "name": "XANH LÁ",
+      "desc": "Xanh lá non tươi mát."
+    },
+    "ink_mor": {
+      "name": "TÍM",
+      "desc": "Tím đậm huyền bí."
+    },
+    "ink_kahve": {
+      "name": "NÂU",
+      "desc": "Ấm như vết cà phê."
+    },
+    "ink_bordo": {
+      "name": "ĐỎ ĐÔ",
+      "desc": "Một màu đỏ sẫm sang trọng."
+    },
+    "ink_gumus": {
+      "name": "BẠC",
+      "desc": "Bạc lấp lánh dưới ánh sáng."
+    },
+    "ink_altin": {
+      "name": "VÀNG",
+      "desc": "Mực lấp lánh, chỉ có ở Premium."
+    },
+    "theme_kagit": {
+      "name": "GIẤY",
+      "desc": "Một trang vở kẻ ô."
+    },
+    "theme_nane": {
+      "name": "BẠC HÀ",
+      "desc": "Trang mát, hơi xanh."
+    },
+    "theme_gunbatimi": {
+      "name": "HOÀNG HÔN",
+      "desc": "Trang ấm tông đào."
+    },
+    "theme_lavanta": {
+      "name": "OẢI HƯƠNG",
+      "desc": "Trang màu tím nhạt êm dịu."
+    },
+    "theme_gokyuzu": {
+      "name": "BẦU TRỜI",
+      "desc": "Trang xanh da trời nhạt."
+    },
+    "theme_limon": {
+      "name": "CHANH",
+      "desc": "Trang vàng chanh đầy nắng."
+    },
+    "theme_seker": {
+      "name": "KẸO BÔNG",
+      "desc": "Trang hồng như kẹo bông."
+    },
+    "theme_orman": {
+      "name": "RỪNG",
+      "desc": "Rừng xanh thẫm về đêm."
+    },
+    "theme_uzay": {
+      "name": "VŨ TRỤ",
+      "desc": "Vũ trụ sâu thẳm, tối tăm."
+    },
+    "theme_gece": {
+      "name": "ĐÊM",
+      "desc": "Những đường sáng trong đêm xanh navy."
+    }
+  },
+  "tasks": {
+    "title": "NHIỆM VỤ",
+    "daily": "Hằng ngày",
+    "weekly": "Hằng tuần",
+    "achievements": "Mục tiêu",
+    "resets_in": "Đặt lại sau {}",
+    "achievements_note": "Mục tiêu chỉ nhận một lần",
+    "claim": "NHẬN",
+    "claimed": "ĐÃ NHẬN",
+    "unlocks": "Mở khóa: {}",
+    "claimed_toast": "+{} xu",
+    "unlocked_toast": "Đã mở {}!",
+    "empty": "Hiện không có nhiệm vụ",
+    "names": {
+      "daily_play_3": "Chơi 3 ván",
+      "daily_coins_50": "Gom 50 xu trong một ván",
+      "daily_share_1": "Chia sẻ một clip",
+      "daily_challenge_1": "Chơi đường đua hằng ngày",
+      "daily_score_100": "Ghi trên 100 điểm",
+      "weekly_play_20": "Chơi 20 ván",
+      "weekly_challenge_3": "Chơi đường đua hằng ngày trong 3 ngày",
+      "weekly_coins_300": "Gom tổng cộng 300 xu",
+      "weekly_score_300": "Ghi trên 300 điểm",
+      "ach_games_10": "Chơi 10 ván",
+      "ach_score_500": "Ghi 500 điểm trong một ván",
+      "ach_games_50": "Chơi 50 ván",
+      "ach_coins_1000": "Gom tổng cộng 1000 xu",
+      "ach_run_coins_100": "Gom 100 xu trong một ván",
+      "ach_share_5": "Chia sẻ 5 clip",
+      "ach_daily_7": "Chơi đường đua hằng ngày trong 7 ngày",
+      "ach_score_1000": "Ghi 1000 điểm trong một ván",
+      "ach_games_200": "Chơi 200 ván",
+      "ach_coins_5000": "Gom tổng cộng 5000 xu",
+      "ach_share_20": "Chia sẻ 20 clip",
+      "ach_daily_30": "Chơi đường đua hằng ngày trong 30 ngày"
+    }
+  },
+  "settings": {
+    "title": "CÀI ĐẶT",
+    "sound": "ÂM THANH",
+    "sfx": "Hiệu ứng âm thanh",
+    "music": "Nhạc",
+    "vibration": "Rung",
+    "game": "TRÒ CHƠI",
+    "language": "Ngôn ngữ",
+    "language_name": "Tiếng Việt",
+    "notifications": "Thông báo",
+    "replay_tutorial": "Xem lại hướng dẫn",
+    "account": "TÀI KHOẢN",
+    "name": "Tên hiển thị",
+    "name_title": "TÊN CỦA BẠN",
+    "name_hint": "Nhập tên",
+    "name_save": "LƯU",
+    "name_saved": "Đã cập nhật tên.",
+    "name_invalid": "Dùng 2–32 chữ, số hoặc dấu cách.",
+    "restore": "Khôi phục giao dịch",
+    "privacy": "Chính sách quyền riêng tư",
+    "terms": "Điều khoản sử dụng",
+    "cookies": "Chính sách cookie",
+    "child_safety": "Tiêu chuẩn an toàn trẻ em",
+    "about": "Giới thiệu",
+    "version": "Dashink · phiên bản {}",
+    "restore_success": "Đã khôi phục giao dịch của bạn.",
+    "restore_none": "Không có giao dịch để khôi phục.",
+    "notifications_denied": "Quyền thông báo bị từ chối.",
+    "language_title": "NGÔN NGỮ"
+  },
+  "notifications": {
+    "daily_title": "Đường đua hôm nay đã sẵn sàng!",
+    "daily_body": "Hôm nay vào top 100 và nhận 100 xu."
+  }
+}

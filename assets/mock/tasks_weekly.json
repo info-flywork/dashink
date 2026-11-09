@@ -1,0 +1,46 @@
+{
+  "status": "success",
+  "message": "ok",
+  "data": {
+    "period": "weekly",
+    "resets_at": "2099-01-05T00:00:00.000Z",
+    "tasks": [
+      {
+        "id": "weekly_play_20",
+        "icon": "play",
+        "target": 20,
+        "progress": 7,
+        "reward": 150,
+        "status": "in_progress",
+        "unlocks_item": null
+      },
+      {
+        "id": "weekly_challenge_3",
+        "icon": "calendar",
+        "target": 3,
+        "progress": 1,
+        "reward": 120,
+        "status": "in_progress",
+        "unlocks_item": null
+      },
+      {
+        "id": "weekly_coins_300",
+        "icon": "coin",
+        "target": 300,
+        "progress": 214,
+        "reward": 100,
+        "status": "in_progress",
+        "unlocks_item": null
+      },
+      {
+        "id": "weekly_score_300",
+        "icon": "crown",
+        "target": 300,
+        "progress": 312,
+        "reward": 150,
+        "status": "claimable",
+        "unlocks_item": null
+      }
+    ]
+  }
+}

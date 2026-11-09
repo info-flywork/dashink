@@ -1,0 +1,359 @@
+{
+  "common": {
+    "unexpected_error": "Něco se pokazilo. Zkus to znovu.",
+    "offline": "Žádné připojení k internetu.",
+    "retry": "ZKUSIT ZNOVU",
+    "coming_soon": "Již brzy",
+    "cancel": "Zrušit",
+    "close": "Zavřít",
+    "you": "Ty"
+  },
+  "tabs": {
+    "play": "Hrát",
+    "shop": "Obchod",
+    "tasks": "Úkoly",
+    "settings": "Nastavení"
+  },
+  "home": {
+    "best": "NEJLEPŠÍ {}",
+    "tap_to_play": "KLEPNI A HRAJ",
+    "daily": "DENNĚ",
+    "leaderboard": "ŽEBŘÍČEK",
+    "reward_daily": "V denní výzvě jsi #{rank}: +{coins} mincí!"
+  },
+  "tutorial": {
+    "skip": "Přeskočit",
+    "got_it": "ROZUMÍM",
+    "next": "DALŠÍ",
+    "step1_title": "KRESLI PŘED MÍČ",
+    "step1_body": "Inkoust zmizí za 1 sekundu",
+    "step2_title": "SEBER MINCE",
+    "step2_body": "Odemkni nové míče v obchodě",
+    "step3_title": "VYHNI SE HROTŮM",
+    "step3_body": "Došel inkoust? Pusť a doplní se",
+    "step_label": "Krok {current} / {total}"
+  },
+  "game": {
+    "pause": "Pauza",
+    "paused": "POZASTAVENO",
+    "resume": "POKRAČOVAT",
+    "home": "DOMŮ",
+    "restart": "OD ZAČÁTKU",
+    "ink_label": "Inkoust",
+    "daily_badge": "DENNÍ TRAŤ",
+    "draw_hint": "Kresli před míč!"
+  },
+  "game_over": {
+    "score": "SKÓRE",
+    "best": "NEJLEPŠÍ {}",
+    "new_record": "NOVÝ REKORD!",
+    "play_again": "HRÁT ZNOVU",
+    "share": "Sdílet",
+    "home": "Domů",
+    "coins_earned": "+{} mincí",
+    "daily_rank": "Dnes jsi #{}",
+    "offline_note": "Offline: skóre se odešle, až budeš znovu online"
+  },
+  "record": {
+    "title": "NOVÝ REKORD!",
+    "previous": "Předchozí rekord {previous} · +{diff} bodů",
+    "continue": "POKRAČOVAT",
+    "share": "SDÍLET"
+  },
+  "choice": {
+    "question": "CO DÁL?",
+    "play_again": "HRÁT ZNOVU",
+    "play_again_sub": "Začít znovu",
+    "share": "SDÍLET",
+    "share_sub": "Poslat klip",
+    "home": "DOMŮ",
+    "home_sub": "Zpět do menu"
+  },
+  "clip": {
+    "title": "SDÍLET KLIP",
+    "subtitle": "Posledních {seconds} sekund · {score} bodů",
+    "share": "SDÍLET",
+    "save": "ULOŽIT DO GALERIE",
+    "preparing": "Připravuje se klip…",
+    "saved": "Uloženo do galerie",
+    "save_failed": "Nepodařilo se uložit",
+    "permission_denied": "Přístup do galerie byl odmítnut. Povolíš ho v Nastavení.",
+    "permission_title": "PŘÍSTUP KE GALERII",
+    "open_settings": "OTEVŘÍT NASTAVENÍ",
+    "share_text": "Mám {score} v Dashink! Překonáš to?",
+    "share_text_with_link": "Mám {score} v Dashink! Překonáš to?\n{url}",
+    "no_clip": "Žádný klip, sdílí se karta se skóre",
+    "play": "Přehrát"
+  },
+  "leaderboard": {
+    "title": "ŽEBŘÍČEK",
+    "daily": "Denně",
+    "weekly": "Týdně",
+    "all": "Vše",
+    "empty": "Ještě nikdo nehrál. Buď první!",
+    "not_ranked": "V tomto období zatím žádné hry"
+  },
+  "daily": {
+    "title": "DENNĚ",
+    "date_label": "{} · VÝZVA",
+    "description": "Dnes jedou všichni stejnou trať. Jedna trať, neomezené pokusy — počítá se tvé nejlepší skóre.",
+    "participants": "hráčů",
+    "your_best": "tvé nejlepší",
+    "time_left": "zbývající čas",
+    "reward_title": "ODMĚNA",
+    "reward_body": "Dostaň se do top {} a vyhraj mince",
+    "start": "START",
+    "your_rank": "Tvé pořadí: {}"
+  },
+  "shop": {
+    "title": "OBCHOD",
+    "balls": "Míče",
+    "inks": "Inkousty",
+    "themes": "Motivy",
+    "equipped": "NASAZENO",
+    "equip": "Nasadit",
+    "task": "Úkol",
+    "premium": "Premium",
+    "buy_and_equip": "KOUPIT A NASADIT",
+    "balance_after": "Máš {balance} mincí · po nákupu zbude {after}",
+    "not_enough_title": "NEDOSTATEK MINCÍ",
+    "not_enough_body": "{item} stojí {price} mincí. Plň úkoly a získej ještě {missing}.",
+    "do_tasks": "SPLNIT ÚKOLY",
+    "get_coins": "+{coins} MINCÍ · {price}",
+    "locked_title": "ODEMČENO ÚKOLEM",
+    "locked_body": "{item} bude tvé, až splníš „{task}“.",
+    "go_tasks": "K ÚKOLŮM",
+    "premium_title": "PREMIUM",
+    "premium_body": "Hvězdný míč, zlatý inkoust a noční motiv + {} mincí. Bez reklam, navždy tvé.",
+    "premium_buy": "KOUPIT · {}",
+    "premium_unavailable": "Obchod teď není dostupný",
+    "premium_owned": "Premium už máš",
+    "purchase_success": "Premium odemčeno! Užij si to.",
+    "purchase_pending": "Platba se zpracovává; odemkne se po schválení.",
+    "purchase_failed": "Nákup se nepodařilo dokončit.",
+    "equipped_toast": "Nasazeno: {}",
+    "coins_pack_success": "+{} coins added!",
+    "coins_pack_processing": "Platba přijata! Mince dorazí za chvíli."
+  },
+  "items": {
+    "ball_klasik": {
+      "name": "KLASIKA",
+      "desc": "Rajčatově červený míč, u kterého to začalo."
+    },
+    "ball_karpuz": {
+      "name": "MELOUN",
+      "desc": "Šťavnatý a rychlý. Nechává zelenou stopu v inkoustu."
+    },
+    "ball_basket": {
+      "name": "BASKETBAL",
+      "desc": "Skáče po inkoustu, ne do koše."
+    },
+    "ball_tenis": {
+      "name": "TENIS",
+      "desc": "Chlupatý a hbitý při každém odskoku."
+    },
+    "ball_plaj": {
+      "name": "PLÁŽOVÝ MÍČ",
+      "desc": "Letní barvy na trati."
+    },
+    "ball_gezegen": {
+      "name": "PLANETA",
+      "desc": "Malý svět klouzající se svými prstenci."
+    },
+    "ball_ay": {
+      "name": "MĚSÍC",
+      "desc": "Kutálí se tiše i s krátery."
+    },
+    "ball_bilardo": {
+      "name": "OSMIČKA",
+      "desc": "Vždy dává poslední šťouch."
+    },
+    "ball_goz": {
+      "name": "OKO",
+      "desc": "Nepřehlédne žádnou mezeru."
+    },
+    "ball_buz": {
+      "name": "LED",
+      "desc": "Hladký, chladný a kluzký."
+    },
+    "ball_lav": {
+      "name": "LÁVA",
+      "desc": "Horký až do jádra."
+    },
+    "ball_gokkusagi": {
+      "name": "DUHA",
+      "desc": "Sedm barev v jednom míči."
+    },
+    "ball_disko": {
+      "name": "DISCO",
+      "desc": "Zrcadlová koule, která se při každém otočení třpytí."
+    },
+    "ball_yildiz": {
+      "name": "HVĚZDA",
+      "desc": "Zlatá hvězda hráčů Premium."
+    },
+    "ink_lacivert": {
+      "name": "NÁMOŘNICKÁ",
+      "desc": "Klasický inkoust do plnicího pera."
+    },
+    "ink_kirmizi": {
+      "name": "ČERVENÁ",
+      "desc": "Výrazná jako pero učitele."
+    },
+    "ink_nane": {
+      "name": "MÁTA",
+      "desc": "Svěží, poutavá zelená."
+    },
+    "ink_turuncu": {
+      "name": "ORANŽOVÁ",
+      "desc": "Energická oranžová."
+    },
+    "ink_pembe": {
+      "name": "RŮŽOVÁ",
+      "desc": "Sladká jako bonbon."
+    },
+    "ink_mavi": {
+      "name": "MODRÁ",
+      "desc": "Klasická propisková modř."
+    },
+    "ink_turkuaz": {
+      "name": "TYRKYSOVÁ",
+      "desc": "Čistá jako moře."
+    },
+    "ink_yesil": {
+      "name": "ZELENÁ",
+      "desc": "Svěží zeleň listí."
+    },
+    "ink_mor": {
+      "name": "FIALOVÁ",
+      "desc": "Tajemná sytá fialová."
+    },
+    "ink_kahve": {
+      "name": "HNĚDÁ",
+      "desc": "Hřejivá jako skvrna od kávy."
+    },
+    "ink_bordo": {
+      "name": "VÍNOVÁ",
+      "desc": "Sytá, elegantní červená."
+    },
+    "ink_gumus": {
+      "name": "STŘÍBRNÁ",
+      "desc": "Stříbro, které chytá světlo."
+    },
+    "ink_altin": {
+      "name": "ZLATO",
+      "desc": "Třpytivý inkoust, jen s Premium."
+    },
+    "theme_kagit": {
+      "name": "PAPÍR",
+      "desc": "Stránka sešitu na čtverečky."
+    },
+    "theme_nane": {
+      "name": "MÁTA",
+      "desc": "Chladná, nazelenalá stránka."
+    },
+    "theme_gunbatimi": {
+      "name": "ZÁPAD",
+      "desc": "Teplá stránka v broskvových tónech."
+    },
+    "theme_lavanta": {
+      "name": "LEVANDULE",
+      "desc": "Klidná šeříková stránka."
+    },
+    "theme_gokyuzu": {
+      "name": "NEBE",
+      "desc": "Světle modrá stránka oblohy."
+    },
+    "theme_limon": {
+      "name": "CITRON",
+      "desc": "Slunečná citronová stránka."
+    },
+    "theme_seker": {
+      "name": "CUKROVÁ VATA",
+      "desc": "Růžová stránka jako cukrová vata."
+    },
+    "theme_orman": {
+      "name": "LES",
+      "desc": "Tmavě zelený les v noci."
+    },
+    "theme_uzay": {
+      "name": "VESMÍR",
+      "desc": "Hluboký, temný vesmír."
+    },
+    "theme_gece": {
+      "name": "NOC",
+      "desc": "Čáry zářící v námořnické noci."
+    }
+  },
+  "tasks": {
+    "title": "ÚKOLY",
+    "daily": "Denně",
+    "weekly": "Týdně",
+    "achievements": "Cíle",
+    "resets_in": "Reset za {}",
+    "achievements_note": "Cíle lze vyzvednout jen jednou",
+    "claim": "VZÍT",
+    "claimed": "VYZVEDNUTO",
+    "unlocks": "Odemkne: {}",
+    "claimed_toast": "+{} mincí",
+    "unlocked_toast": "Odemčeno: {}!",
+    "empty": "Teď žádné úkoly",
+    "names": {
+      "daily_play_3": "Zahraj 3 hry",
+      "daily_coins_50": "Nasbírej 50 mincí v jedné hře",
+      "daily_share_1": "Sdílej klip",
+      "daily_challenge_1": "Zahraj denní trať",
+      "daily_score_100": "Získej přes 100 bodů",
+      "weekly_play_20": "Zahraj 20 her",
+      "weekly_challenge_3": "Zahraj denní trať ve 3 dnech",
+      "weekly_coins_300": "Nasbírej celkem 300 mincí",
+      "weekly_score_300": "Získej přes 300 bodů",
+      "ach_games_10": "Zahraj 10 her",
+      "ach_score_500": "Získej 500 bodů v jedné hře",
+      "ach_games_50": "Zahraj 50 her",
+      "ach_coins_1000": "Nasbírej celkem 1000 mincí",
+      "ach_run_coins_100": "Nasbírej 100 mincí v jedné hře",
+      "ach_share_5": "Sdílej 5 klipů",
+      "ach_daily_7": "Zahraj denní trať v 7 dnech",
+      "ach_score_1000": "Získej 1000 bodů v jedné hře",
+      "ach_games_200": "Zahraj 200 her",
+      "ach_coins_5000": "Nasbírej celkem 5000 mincí",
+      "ach_share_20": "Sdílej 20 klipů",
+      "ach_daily_30": "Zahraj denní trať ve 30 dnech"
+    }
+  },
+  "settings": {
+    "title": "NASTAVENÍ",
+    "sound": "ZVUK",
+    "sfx": "Zvukové efekty",
+    "music": "Hudba",
+    "vibration": "Vibrace",
+    "game": "HRA",
+    "language": "Jazyk",
+    "language_name": "Čeština",
+    "notifications": "Oznámení",
+    "replay_tutorial": "Přehrát návod",
+    "account": "ÚČET",
+    "name": "Zobrazované jméno",
+    "name_title": "TVÉ JMÉNO",
+    "name_hint": "Zadej jméno",
+    "name_save": "ULOŽIT",
+    "name_saved": "Jméno aktualizováno.",
+    "name_invalid": "Použij 2–32 písmen, číslic nebo mezer.",
+    "restore": "Obnovit nákupy",
+    "privacy": "Zásady ochrany soukromí",
+    "terms": "Podmínky použití",
+    "cookies": "Zásady cookies",
+    "child_safety": "Standardy ochrany dětí",
+    "about": "O aplikaci",
+    "version": "Dashink · verze {}",
+    "restore_success": "Tvé nákupy byly obnoveny.",
+    "restore_none": "Žádné nákupy k obnovení.",
+    "notifications_denied": "Oprávnění k oznámením bylo zamítnuto.",
+    "language_title": "JAZYK"
+  },
+  "notifications": {
+    "daily_title": "Dnešní trať je připravená!",
+    "daily_body": "Dostaň se dnes do top 100 a vyhraj 100 mincí."
+  }
+}

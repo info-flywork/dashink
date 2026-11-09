@@ -1,0 +1,359 @@
+{
+  "common": {
+    "unexpected_error": "Valami hiba történt. Próbáld újra.",
+    "offline": "Nincs internetkapcsolat.",
+    "retry": "ÚJRA",
+    "coming_soon": "Hamarosan",
+    "cancel": "Mégse",
+    "close": "Bezárás",
+    "you": "Te"
+  },
+  "tabs": {
+    "play": "Játék",
+    "shop": "Bolt",
+    "tasks": "Feladatok",
+    "settings": "Beállítások"
+  },
+  "home": {
+    "best": "LEGJOBB {}",
+    "tap_to_play": "ÉRINTSD MEG A JÁTÉKHOZ",
+    "daily": "NAPI",
+    "leaderboard": "RANGSOR",
+    "reward_daily": "A napi kihívásban #{rank}. lettél: +{coins} érme!"
+  },
+  "tutorial": {
+    "skip": "Kihagyás",
+    "got_it": "ÉRTEM",
+    "next": "TOVÁBB",
+    "step1_title": "RAJZOLJ A LABDA ELÉ",
+    "step1_body": "A tinta 1 másodperc alatt elhalványul",
+    "step2_title": "KAPD EL AZ ÉRMÉKET",
+    "step2_body": "Nyiss új labdákat a boltban",
+    "step3_title": "KERÜLD A TÜSKÉKET",
+    "step3_body": "Elfogyott a tinta? Engedd el, és újratölt",
+    "step_label": "Lépés {current} / {total}"
+  },
+  "game": {
+    "pause": "Szünet",
+    "paused": "SZÜNETEL",
+    "resume": "FOLYTATÁS",
+    "home": "FŐMENÜ",
+    "restart": "ÚJRAKEZDÉS",
+    "ink_label": "Tinta",
+    "daily_badge": "NAPI PÁLYA",
+    "draw_hint": "Rajzolj a labda elé!"
+  },
+  "game_over": {
+    "score": "PONTSZÁM",
+    "best": "LEGJOBB {}",
+    "new_record": "ÚJ REKORD!",
+    "play_again": "ÚJRA JÁTSZOM",
+    "share": "Megosztás",
+    "home": "Főmenü",
+    "coins_earned": "+{} érme",
+    "daily_rank": "Ma te vagy a(z) #{}",
+    "offline_note": "Offline: a pontszámod elküldjük, ha újra online leszel"
+  },
+  "record": {
+    "title": "ÚJ REKORD!",
+    "previous": "Előző rekord {previous} · +{diff} pont",
+    "continue": "TOVÁBB",
+    "share": "MEGOSZTÁS"
+  },
+  "choice": {
+    "question": "MI LEGYEN?",
+    "play_again": "ÚJRA JÁTSZOM",
+    "play_again_sub": "Kezdd elölről",
+    "share": "MEGOSZTÁS",
+    "share_sub": "Küldd el a klipet",
+    "home": "FŐMENÜ",
+    "home_sub": "Vissza a menübe"
+  },
+  "clip": {
+    "title": "KLIP MEGOSZTÁSA",
+    "subtitle": "Utolsó {seconds} másodperc · {score} pont",
+    "share": "MEGOSZTÁS",
+    "save": "MENTÉS A GALÉRIÁBA",
+    "preparing": "Klip előkészítése…",
+    "saved": "Mentve a galériába",
+    "save_failed": "Nem sikerült menteni",
+    "permission_denied": "A galéria hozzáférés megtagadva. Az engedélyt a Beállításokban adhatod meg.",
+    "permission_title": "GALÉRIA-HOZZÁFÉRÉS",
+    "open_settings": "BEÁLLÍTÁSOK MEGNYITÁSA",
+    "share_text": "{score} pontot értem el a Dashinkben! Meg tudod verni?",
+    "share_text_with_link": "{score} pontot értem el a Dashinkben! Meg tudod verni?\n{url}",
+    "no_clip": "Nincs klip, pontkártyát osztunk meg",
+    "play": "Lejátszás"
+  },
+  "leaderboard": {
+    "title": "RANGSOR",
+    "daily": "Napi",
+    "weekly": "Heti",
+    "all": "Összes",
+    "empty": "Még senki sem játszott. Legyél az első!",
+    "not_ranked": "Ebben az időszakban még nincs játék"
+  },
+  "daily": {
+    "title": "NAPI",
+    "date_label": "{} · KIHÍVÁS",
+    "description": "Ma mindenki ugyanazt a pályát futja. Egy pálya, korlátlan próbálkozás — a legjobb pontszámod számít.",
+    "participants": "játékos",
+    "your_best": "a legjobbad",
+    "time_left": "hátralévő idő",
+    "reward_title": "JUTALOM",
+    "reward_body": "Kerülj a top {} közé, és nyerj érméket",
+    "start": "INDÍTÁS",
+    "your_rank": "Helyezésed: {}"
+  },
+  "shop": {
+    "title": "BOLT",
+    "balls": "Labdák",
+    "inks": "Tinták",
+    "themes": "Témák",
+    "equipped": "FELSZERELVE",
+    "equip": "Felszerelés",
+    "task": "Feladat",
+    "premium": "Prémium",
+    "buy_and_equip": "VÁSÁRLÁS ÉS FELSZERELÉS",
+    "balance_after": "{balance} érméd van · utána {after} marad",
+    "not_enough_title": "NINCS ELÉG ÉRME",
+    "not_enough_body": "A(z) {item} {price} érmébe kerül. Teljesíts feladatokat, hogy még {missing} érmét szerezz.",
+    "do_tasks": "TELJESÍTSD",
+    "get_coins": "+{coins} ÉRME · {price}",
+    "locked_title": "FELADATTAL NYÍLIK",
+    "locked_body": "A(z) {item} a tiéd, ha teljesíted: „{task}”.",
+    "go_tasks": "A FELADATOKHOZ",
+    "premium_title": "PRÉMIUM",
+    "premium_body": "Csillaglabda, arany tinta és éjszakai téma + {} érme. Reklám nélkül, örökre a tiéd.",
+    "premium_buy": "VÁSÁRLÁS · {}",
+    "premium_unavailable": "A bolt most nem érhető el",
+    "premium_owned": "Megvan a Prémium",
+    "purchase_success": "Prémium feloldva! Jó játékot.",
+    "purchase_pending": "A fizetés függőben; jóváhagyás után nyílik meg.",
+    "purchase_failed": "A vásárlást nem sikerült befejezni.",
+    "equipped_toast": "Felszerelve: {}",
+    "coins_pack_success": "+{} coins added!",
+    "coins_pack_processing": "Fizetés beérkezett! Az érméid hamarosan megérkeznek."
+  },
+  "items": {
+    "ball_klasik": {
+      "name": "KLASSZIKUS",
+      "desc": "A paradicsompiros labda, ahol minden kezdődött."
+    },
+    "ball_karpuz": {
+      "name": "GÖRÖGDINNYE",
+      "desc": "Lédús és gyors. Zöld csíkot hagy a tintán."
+    },
+    "ball_basket": {
+      "name": "KOSÁRLABDA",
+      "desc": "Tintán pattog, nem a palánkon."
+    },
+    "ball_tenis": {
+      "name": "TENISZ",
+      "desc": "Bolyhos és fürge minden pattanásnál."
+    },
+    "ball_plaj": {
+      "name": "STRANDLABDA",
+      "desc": "Nyári színek a pályán."
+    },
+    "ball_gezegen": {
+      "name": "BOLYGÓ",
+      "desc": "Apró világ, amely a gyűrűivel siklik."
+    },
+    "ball_ay": {
+      "name": "HOLD",
+      "desc": "Csendben gurul, kráterestül."
+    },
+    "ball_bilardo": {
+      "name": "8-AS GOLYÓ",
+      "desc": "Mindig ő löki az utolsót."
+    },
+    "ball_goz": {
+      "name": "SZEM",
+      "desc": "Egy rést sem hagy ki."
+    },
+    "ball_buz": {
+      "name": "JÉG",
+      "desc": "Sima, hűvös és csúszós."
+    },
+    "ball_lav": {
+      "name": "LÁVA",
+      "desc": "Forró egészen a magjáig."
+    },
+    "ball_gokkusagi": {
+      "name": "SZIVÁRVÁNY",
+      "desc": "Hét szín egyetlen labdában."
+    },
+    "ball_disko": {
+      "name": "DISZKÓ",
+      "desc": "Tükörgömb, amely minden fordulónál csillog."
+    },
+    "ball_yildiz": {
+      "name": "CSILLAG",
+      "desc": "A prémium játékosok arany csillaga."
+    },
+    "ink_lacivert": {
+      "name": "TENGERÉSZKÉK",
+      "desc": "Klasszikus töltőtolltinta."
+    },
+    "ink_kirmizi": {
+      "name": "PIROS",
+      "desc": "Határozott, mint a tanár tolla."
+    },
+    "ink_nane": {
+      "name": "MENTA",
+      "desc": "Friss, feltűnő zöld."
+    },
+    "ink_turuncu": {
+      "name": "NARANCS",
+      "desc": "Energikus narancs."
+    },
+    "ink_pembe": {
+      "name": "RÓZSASZÍN",
+      "desc": "Édes, mint a cukorka."
+    },
+    "ink_mavi": {
+      "name": "KÉK",
+      "desc": "Klasszikus golyóstollkék."
+    },
+    "ink_turkuaz": {
+      "name": "TÜRKIZ",
+      "desc": "Tiszta, mint a tenger."
+    },
+    "ink_yesil": {
+      "name": "ZÖLD",
+      "desc": "Friss levélzöld."
+    },
+    "ink_mor": {
+      "name": "LILA",
+      "desc": "Titokzatos mélylila."
+    },
+    "ink_kahve": {
+      "name": "BARNA",
+      "desc": "Meleg, mint egy kávéfolt."
+    },
+    "ink_bordo": {
+      "name": "BORDÓ",
+      "desc": "Mély, elegáns vörös."
+    },
+    "ink_gumus": {
+      "name": "EZÜST",
+      "desc": "Ezüst, ami csillog a fényben."
+    },
+    "ink_altin": {
+      "name": "ARANY",
+      "desc": "Csillogó tinta, csak Prémiummal."
+    },
+    "theme_kagit": {
+      "name": "PAPÍR",
+      "desc": "Kockás füzetlap."
+    },
+    "theme_nane": {
+      "name": "MENTA",
+      "desc": "Hűvös, zöldes lap."
+    },
+    "theme_gunbatimi": {
+      "name": "NAPNYUGTA",
+      "desc": "Meleg lap barackos árnyalatokban."
+    },
+    "theme_lavanta": {
+      "name": "LEVENDULA",
+      "desc": "Nyugodt, lila lap."
+    },
+    "theme_gokyuzu": {
+      "name": "ÉGBOLT",
+      "desc": "Világoskék, égszínű lap."
+    },
+    "theme_limon": {
+      "name": "CITROM",
+      "desc": "Napsütéses, citromsárga lap."
+    },
+    "theme_seker": {
+      "name": "VATTACUKOR",
+      "desc": "Vattacukor-rózsaszín lap."
+    },
+    "theme_orman": {
+      "name": "ERDŐ",
+      "desc": "Sötétzöld erdő éjjel."
+    },
+    "theme_uzay": {
+      "name": "ŰR",
+      "desc": "Mély, sötét világűr."
+    },
+    "theme_gece": {
+      "name": "ÉJSZAKA",
+      "desc": "Vonalak, amelyek egy tengerészkék éjszakában világítanak."
+    }
+  },
+  "tasks": {
+    "title": "FELADATOK",
+    "daily": "Napi",
+    "weekly": "Heti",
+    "achievements": "Célok",
+    "resets_in": "Újraindul {} múlva",
+    "achievements_note": "A célokat csak egyszer lehet átvenni",
+    "claim": "ÁTVESZ",
+    "claimed": "ÁTVÉVE",
+    "unlocks": "Feloldja: {}",
+    "claimed_toast": "+{} érme",
+    "unlocked_toast": "Feloldva: {}!",
+    "empty": "Most nincs feladat",
+    "names": {
+      "daily_play_3": "Játssz 3 kört",
+      "daily_coins_50": "Gyűjts 50 érmét egy körben",
+      "daily_share_1": "Ossz meg egy klipet",
+      "daily_challenge_1": "Játszd a napi pályát",
+      "daily_score_100": "Érj el 100 pontnál többet",
+      "weekly_play_20": "Játssz 20 kört",
+      "weekly_challenge_3": "Játszd a napi pályát 3 napon",
+      "weekly_coins_300": "Gyűjts összesen 300 érmét",
+      "weekly_score_300": "Érj el 300 pontnál többet",
+      "ach_games_10": "Játssz 10 kört",
+      "ach_score_500": "Érj el 500 pontot egy körben",
+      "ach_games_50": "Játssz 50 kört",
+      "ach_coins_1000": "Gyűjts összesen 1000 érmét",
+      "ach_run_coins_100": "Gyűjts 100 érmét egy körben",
+      "ach_share_5": "Ossz meg 5 klipet",
+      "ach_daily_7": "Játszd a napi pályát 7 napon",
+      "ach_score_1000": "Érj el 1000 pontot egy körben",
+      "ach_games_200": "Játssz 200 kört",
+      "ach_coins_5000": "Gyűjts összesen 5000 érmét",
+      "ach_share_20": "Ossz meg 20 klipet",
+      "ach_daily_30": "Játszd a napi pályát 30 napon"
+    }
+  },
+  "settings": {
+    "title": "BEÁLLÍTÁSOK",
+    "sound": "HANG",
+    "sfx": "Hangeffektek",
+    "music": "Zene",
+    "vibration": "Rezgés",
+    "game": "JÁTÉK",
+    "language": "Nyelv",
+    "language_name": "Magyar",
+    "notifications": "Értesítések",
+    "replay_tutorial": "Oktató újranézése",
+    "account": "FIÓK",
+    "name": "Megjelenő név",
+    "name_title": "A NEVED",
+    "name_hint": "Adj meg egy nevet",
+    "name_save": "MENTÉS",
+    "name_saved": "A név frissült.",
+    "name_invalid": "Használj 2–32 betűt, számot vagy szóközt.",
+    "restore": "Vásárlások visszaállítása",
+    "privacy": "Adatvédelmi irányelvek",
+    "terms": "Felhasználási feltételek",
+    "cookies": "Sütiszabályzat",
+    "child_safety": "Gyermekvédelmi irányelvek",
+    "about": "Névjegy",
+    "version": "Dashink · verzió {}",
+    "restore_success": "A vásárlásaid visszaálltak.",
+    "restore_none": "Nincs visszaállítható vásárlás.",
+    "notifications_denied": "Az értesítések engedélye elutasítva.",
+    "language_title": "NYELV"
+  },
+  "notifications": {
+    "daily_title": "A mai pálya készen áll!",
+    "daily_body": "Kerülj ma a top 100-ba, és nyerj 100 érmét."
+  }
+}

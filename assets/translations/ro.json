@@ -1,0 +1,359 @@
+{
+  "common": {
+    "unexpected_error": "Ceva nu a mers bine. Încearcă din nou.",
+    "offline": "Nu există conexiune la internet.",
+    "retry": "ÎNCEARCĂ DIN NOU",
+    "coming_soon": "În curând",
+    "cancel": "Anulează",
+    "close": "Închide",
+    "you": "Tu"
+  },
+  "tabs": {
+    "play": "Joacă",
+    "shop": "Magazin",
+    "tasks": "Sarcini",
+    "settings": "Setări"
+  },
+  "home": {
+    "best": "CEL MAI BUN {}",
+    "tap_to_play": "ATINGE CA SĂ JOCI",
+    "daily": "ZILNIC",
+    "leaderboard": "CLASAMENT",
+    "reward_daily": "Ești #{rank} în provocarea zilnică: +{coins} monede!"
+  },
+  "tutorial": {
+    "skip": "Omite",
+    "got_it": "AM ÎNȚELES",
+    "next": "ÎNAINTE",
+    "step1_title": "DESENEAZĂ ÎN FAȚA BILEI",
+    "step1_body": "Cerneala dispare în 1 secundă",
+    "step2_title": "IA MONDELE",
+    "step2_body": "Deblochează bile noi în magazin",
+    "step3_title": "EVITĂ ȚEPII",
+    "step3_body": "Nu mai ai cerneală? Dă drumul și se reumple",
+    "step_label": "Pasul {current} / {total}"
+  },
+  "game": {
+    "pause": "Pauză",
+    "paused": "ÎN PAUZĂ",
+    "resume": "CONTINUĂ",
+    "home": "ACASĂ",
+    "restart": "REÎNCEPE",
+    "ink_label": "Cerneală",
+    "daily_badge": "TRASEUL ZILEI",
+    "draw_hint": "Desenează în fața bilei!"
+  },
+  "game_over": {
+    "score": "SCOR",
+    "best": "CEL MAI BUN {}",
+    "new_record": "RECORD NOU!",
+    "play_again": "JOACĂ DIN NOU",
+    "share": "Distribuie",
+    "home": "Acasă",
+    "coins_earned": "+{} monede",
+    "daily_rank": "Azi ești #{}",
+    "offline_note": "Offline: scorul se trimite când revii online"
+  },
+  "record": {
+    "title": "RECORD NOU!",
+    "previous": "Recordul anterior {previous} · +{diff} puncte",
+    "continue": "CONTINUĂ",
+    "share": "DISTRIBUIE"
+  },
+  "choice": {
+    "question": "CE URMEAZĂ?",
+    "play_again": "JOACĂ DIN NOU",
+    "play_again_sub": "Ia-o de la capăt",
+    "share": "DISTRIBUIE",
+    "share_sub": "Trimite clipul",
+    "home": "ACASĂ",
+    "home_sub": "Înapoi la meniu"
+  },
+  "clip": {
+    "title": "DISTRIBUIE CLIPUL",
+    "subtitle": "Ultimele {seconds} secunde · {score} puncte",
+    "share": "DISTRIBUIE",
+    "save": "SALVEAZĂ ÎN GALERIE",
+    "preparing": "Se pregătește clipul…",
+    "saved": "Salvat în galerie",
+    "save_failed": "Nu s-a putut salva",
+    "permission_denied": "Accesul la galerie a fost refuzat. Îl poți permite din Setări.",
+    "permission_title": "ACCES LA GALERIE",
+    "open_settings": "DESCHIDE SETĂRILE",
+    "share_text": "Am făcut {score} în Dashink! Poți să mă bați?",
+    "share_text_with_link": "Am făcut {score} în Dashink! Poți să mă bați?\n{url}",
+    "no_clip": "Nu există clip, se distribuie un card de scor",
+    "play": "Redă"
+  },
+  "leaderboard": {
+    "title": "CLASAMENT",
+    "daily": "Zilnic",
+    "weekly": "Săptămânal",
+    "all": "Tot",
+    "empty": "Nimeni nu a jucat încă. Fii primul!",
+    "not_ranked": "Nicio partidă în această perioadă"
+  },
+  "daily": {
+    "title": "ZILNIC",
+    "date_label": "{} · PROVOCARE",
+    "description": "Azi toată lumea parcurge același traseu. Un traseu, încercări nelimitate — contează cel mai bun scor.",
+    "participants": "jucători",
+    "your_best": "cel mai bun al tău",
+    "time_left": "timp rămas",
+    "reward_title": "RECOMPENSĂ",
+    "reward_body": "Intră în top {} ca să câștigi monede",
+    "start": "START",
+    "your_rank": "Locul tău: {}"
+  },
+  "shop": {
+    "title": "MAGAZIN",
+    "balls": "Bile",
+    "inks": "Cerneluri",
+    "themes": "Teme",
+    "equipped": "ECHIPAT",
+    "equip": "Echipează",
+    "task": "Sarcină",
+    "premium": "Premium",
+    "buy_and_equip": "CUMPĂRĂ ȘI ECHIPEAZĂ",
+    "balance_after": "Ai {balance} monede · rămân {after}",
+    "not_enough_title": "MONEDE INSUFICIENTE",
+    "not_enough_body": "{item} costă {price} monede. Termină sarcini ca să mai câștigi {missing}.",
+    "do_tasks": "FĂ SARCINILE",
+    "get_coins": "+{coins} MONEDE · {price}",
+    "locked_title": "SE DEBLOCHEAZĂ CU O SARCINĂ",
+    "locked_body": "{item} e al tău când termini „{task}”.",
+    "go_tasks": "LA SARCINI",
+    "premium_title": "PREMIUM",
+    "premium_body": "Bilă stea, cerneală aurie și temă de noapte + {} monede. Fără reclame, al tău pentru totdeauna.",
+    "premium_buy": "CUMPĂRĂ · {}",
+    "premium_unavailable": "Magazinul nu este disponibil acum",
+    "premium_owned": "Ai Premium",
+    "purchase_success": "Premium deblocat! Distrează-te.",
+    "purchase_pending": "Plata este în așteptare; se deblochează după aprobare.",
+    "purchase_failed": "Achiziția nu a putut fi finalizată.",
+    "equipped_toast": "{} echipat",
+    "coins_pack_success": "+{} coins added!",
+    "coins_pack_processing": "Plată primită! Monedele tale sosesc imediat."
+  },
+  "items": {
+    "ball_klasik": {
+      "name": "CLASICĂ",
+      "desc": "Bila roșie ca roșia, de unde a început totul."
+    },
+    "ball_karpuz": {
+      "name": "PEPENE",
+      "desc": "Suculentă și rapidă. Lasă o urmă verde pe cerneală."
+    },
+    "ball_basket": {
+      "name": "BASCHET",
+      "desc": "Sare pe cerneală, nu la coș."
+    },
+    "ball_tenis": {
+      "name": "TENIS",
+      "desc": "Pufoasă și agilă la fiecare salt."
+    },
+    "ball_plaj": {
+      "name": "MINGE DE PLAJĂ",
+      "desc": "Culorile verii pe traseu."
+    },
+    "ball_gezegen": {
+      "name": "PLANETĂ",
+      "desc": "O lume mică care alunecă cu inelele ei."
+    },
+    "ball_ay": {
+      "name": "LUNĂ",
+      "desc": "Se rostogolește tăcut, cu tot cu cratere."
+    },
+    "ball_bilardo": {
+      "name": "BILA 8",
+      "desc": "Dă mereu lovitura finală."
+    },
+    "ball_goz": {
+      "name": "OCHI",
+      "desc": "Nu ratează niciun spațiu."
+    },
+    "ball_buz": {
+      "name": "GHEAȚĂ",
+      "desc": "Netedă, rece și alunecoasă."
+    },
+    "ball_lav": {
+      "name": "LAVĂ",
+      "desc": "Fierbinte până în miez."
+    },
+    "ball_gokkusagi": {
+      "name": "CURCUBEU",
+      "desc": "Șapte culori într-o minge."
+    },
+    "ball_disko": {
+      "name": "DISCO",
+      "desc": "O bilă oglindă care sclipește la fiecare tură."
+    },
+    "ball_yildiz": {
+      "name": "STEA",
+      "desc": "Steaua de aur a jucătorilor Premium."
+    },
+    "ink_lacivert": {
+      "name": "BLEUMARIN",
+      "desc": "Cerneală clasică de stilou."
+    },
+    "ink_kirmizi": {
+      "name": "ROȘU",
+      "desc": "Îndrăzneață ca stiloul unui profesor."
+    },
+    "ink_nane": {
+      "name": "MENTĂ",
+      "desc": "Un verde proaspăt, care atrage privirea."
+    },
+    "ink_turuncu": {
+      "name": "PORTOCALIU",
+      "desc": "Un portocaliu plin de energie."
+    },
+    "ink_pembe": {
+      "name": "ROZ",
+      "desc": "Dulce ca bomboana."
+    },
+    "ink_mavi": {
+      "name": "ALBASTRU",
+      "desc": "Albastrul clasic de pix."
+    },
+    "ink_turkuaz": {
+      "name": "TURCOAZ",
+      "desc": "Limpede ca marea."
+    },
+    "ink_yesil": {
+      "name": "VERDE",
+      "desc": "Verde de frunză proaspătă."
+    },
+    "ink_mor": {
+      "name": "MOV",
+      "desc": "Un mov intens și misterios."
+    },
+    "ink_kahve": {
+      "name": "MARO",
+      "desc": "Cald ca o pată de cafea."
+    },
+    "ink_bordo": {
+      "name": "VIȘINIU",
+      "desc": "Un roșu intens și elegant."
+    },
+    "ink_gumus": {
+      "name": "ARGINTIU",
+      "desc": "Argint care prinde lumina."
+    },
+    "ink_altin": {
+      "name": "AUR",
+      "desc": "Cerneală sclipitoare, doar cu Premium."
+    },
+    "theme_kagit": {
+      "name": "HÂRTIE",
+      "desc": "O pagină de caiet cu pătrățele."
+    },
+    "theme_nane": {
+      "name": "MENTĂ",
+      "desc": "O pagină răcoroasă, verzuie."
+    },
+    "theme_gunbatimi": {
+      "name": "APUS",
+      "desc": "O pagină caldă în nuanțe de piersică."
+    },
+    "theme_lavanta": {
+      "name": "LAVANDĂ",
+      "desc": "O pagină liliachie și calmă."
+    },
+    "theme_gokyuzu": {
+      "name": "CER",
+      "desc": "O pagină bleu, ca cerul."
+    },
+    "theme_limon": {
+      "name": "LĂMÂIE",
+      "desc": "O pagină însorită, galben-lămâie."
+    },
+    "theme_seker": {
+      "name": "VATĂ DE ZAHĂR",
+      "desc": "O pagină roz ca vata de zahăr."
+    },
+    "theme_orman": {
+      "name": "PĂDURE",
+      "desc": "O pădure verde-închis noaptea."
+    },
+    "theme_uzay": {
+      "name": "COSMOS",
+      "desc": "Spațiu adânc și întunecat."
+    },
+    "theme_gece": {
+      "name": "NOAPTE",
+      "desc": "Linii care strălucesc într-o noapte bleumarin."
+    }
+  },
+  "tasks": {
+    "title": "SARCINI",
+    "daily": "Zilnice",
+    "weekly": "Săptămânale",
+    "achievements": "Obiective",
+    "resets_in": "Se resetează în {}",
+    "achievements_note": "Obiectivele se pot revendica o singură dată",
+    "claim": "IA",
+    "claimed": "REVENDICAT",
+    "unlocks": "Deblochează: {}",
+    "claimed_toast": "+{} monede",
+    "unlocked_toast": "{} deblocat!",
+    "empty": "Nicio sarcină acum",
+    "names": {
+      "daily_play_3": "Joacă 3 partide",
+      "daily_coins_50": "Adună 50 de monede într-o partidă",
+      "daily_share_1": "Distribuie un clip",
+      "daily_challenge_1": "Joacă traseul zilei",
+      "daily_score_100": "Fă peste 100 de puncte",
+      "weekly_play_20": "Joacă 20 de partide",
+      "weekly_challenge_3": "Joacă traseul zilei în 3 zile",
+      "weekly_coins_300": "Adună 300 de monede în total",
+      "weekly_score_300": "Fă peste 300 de puncte",
+      "ach_games_10": "Joacă 10 partide",
+      "ach_score_500": "Fă 500 de puncte într-o partidă",
+      "ach_games_50": "Joacă 50 de partide",
+      "ach_coins_1000": "Adună 1000 de monede în total",
+      "ach_run_coins_100": "Adună 100 de monede într-o partidă",
+      "ach_share_5": "Distribuie 5 clipuri",
+      "ach_daily_7": "Joacă traseul zilei în 7 zile",
+      "ach_score_1000": "Fă 1000 de puncte într-o partidă",
+      "ach_games_200": "Joacă 200 de partide",
+      "ach_coins_5000": "Adună 5000 de monede în total",
+      "ach_share_20": "Distribuie 20 de clipuri",
+      "ach_daily_30": "Joacă traseul zilei în 30 de zile"
+    }
+  },
+  "settings": {
+    "title": "SETĂRI",
+    "sound": "SUNET",
+    "sfx": "Efecte sonore",
+    "music": "Muzică",
+    "vibration": "Vibrație",
+    "game": "JOC",
+    "language": "Limbă",
+    "language_name": "Română",
+    "notifications": "Notificări",
+    "replay_tutorial": "Reia tutorialul",
+    "account": "CONT",
+    "name": "Nume afișat",
+    "name_title": "NUMELE TĂU",
+    "name_hint": "Introdu un nume",
+    "name_save": "SALVEAZĂ",
+    "name_saved": "Numele a fost actualizat.",
+    "name_invalid": "Folosește 2–32 litere, cifre sau spații.",
+    "restore": "Restaurează achizițiile",
+    "privacy": "Politica de confidențialitate",
+    "terms": "Termeni de utilizare",
+    "cookies": "Politica privind cookie-urile",
+    "child_safety": "Standarde de siguranță a copiilor",
+    "about": "Despre",
+    "version": "Dashink · versiunea {}",
+    "restore_success": "Achizițiile tale au fost restaurate.",
+    "restore_none": "Nu există achiziții de restaurat.",
+    "notifications_denied": "Permisiunea pentru notificări a fost refuzată.",
+    "language_title": "LIMBĂ"
+  },
+  "notifications": {
+    "daily_title": "Traseul de azi este gata!",
+    "daily_body": "Intră azi în top 100 și câștigă 100 de monede."
+  }
+}

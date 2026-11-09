@@ -1,0 +1,8 @@
+{
+  "status": "success",
+  "message": "ok",
+  "data": {
+    "period": "daily",
+    "entries": []
+  }
+}

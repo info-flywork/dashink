@@ -1,0 +1,359 @@
+{
+  "common": {
+    "unexpected_error": "うまくいかなかった。もう一度試して。",
+    "offline": "インターネットに接続されていません。",
+    "retry": "もう一度",
+    "coming_soon": "近日公開",
+    "cancel": "キャンセル",
+    "close": "閉じる",
+    "you": "あなた"
+  },
+  "tabs": {
+    "play": "プレイ",
+    "shop": "ショップ",
+    "tasks": "タスク",
+    "settings": "設定"
+  },
+  "home": {
+    "best": "ベスト {}",
+    "tap_to_play": "タップしてプレイ",
+    "daily": "デイリー",
+    "leaderboard": "ランキング",
+    "reward_daily": "デイリーチャレンジ #{rank}位: +{coins} コイン!"
+  },
+  "tutorial": {
+    "skip": "スキップ",
+    "got_it": "わかった",
+    "next": "次へ",
+    "step1_title": "ボールの先に線を引こう",
+    "step1_body": "インクは1秒で消える",
+    "step2_title": "コインを集めよう",
+    "step2_body": "ショップで新しいボールを解放",
+    "step3_title": "トゲを避けよう",
+    "step3_body": "インクが切れたら指を離すと回復する",
+    "step_label": "ステップ {current} / {total}"
+  },
+  "game": {
+    "pause": "一時停止",
+    "paused": "一時停止中",
+    "resume": "再開",
+    "home": "ホーム",
+    "restart": "リスタート",
+    "ink_label": "インク",
+    "daily_badge": "デイリーコース",
+    "draw_hint": "ボールの先に線を引いて！"
+  },
+  "game_over": {
+    "score": "スコア",
+    "best": "ベスト {}",
+    "new_record": "新記録！",
+    "play_again": "もう一度プレイ",
+    "share": "シェア",
+    "home": "ホーム",
+    "coins_earned": "+{} コイン",
+    "daily_rank": "今日の順位は #{}",
+    "offline_note": "オフライン: オンラインに戻るとスコアを送信します"
+  },
+  "record": {
+    "title": "新記録！",
+    "previous": "これまでのベスト {previous} · +{diff} ポイント",
+    "continue": "つづける",
+    "share": "シェア"
+  },
+  "choice": {
+    "question": "つぎは？",
+    "play_again": "もう一度プレイ",
+    "play_again_sub": "最初から",
+    "share": "シェア",
+    "share_sub": "クリップを送る",
+    "home": "ホーム",
+    "home_sub": "メニューに戻る"
+  },
+  "clip": {
+    "title": "クリップをシェア",
+    "subtitle": "直近 {seconds} 秒 · {score} ポイント",
+    "share": "シェア",
+    "save": "ギャラリーに保存",
+    "preparing": "クリップを準備中…",
+    "saved": "ギャラリーに保存しました",
+    "save_failed": "保存できませんでした",
+    "permission_denied": "ギャラリーへのアクセスが拒否されました。設定から許可できます。",
+    "permission_title": "写真へのアクセス",
+    "open_settings": "設定を開く",
+    "share_text": "Dashinkで {score} 点とった！超えられる？",
+    "share_text_with_link": "Dashinkで {score} 点とった！超えられる？\n{url}",
+    "no_clip": "クリップがないため、スコアカードをシェアします",
+    "play": "再生"
+  },
+  "leaderboard": {
+    "title": "ランキング",
+    "daily": "デイリー",
+    "weekly": "ウィークリー",
+    "all": "すべて",
+    "empty": "まだ誰もプレイしていません。一番乗りになろう！",
+    "not_ranked": "この期間のプレイはまだありません"
+  },
+  "daily": {
+    "title": "デイリー",
+    "date_label": "{} · チャレンジ",
+    "description": "今日はみんな同じコース。1コース、挑戦は無制限。ベストスコアが記録されます。",
+    "participants": "プレイヤー",
+    "your_best": "あなたのベスト",
+    "time_left": "残り時間",
+    "reward_title": "報酬",
+    "reward_body": "トップ {} に入ってコインをゲット",
+    "start": "スタート",
+    "your_rank": "あなたの順位: {}"
+  },
+  "shop": {
+    "title": "ショップ",
+    "balls": "ボール",
+    "inks": "インク",
+    "themes": "テーマ",
+    "equipped": "装備中",
+    "equip": "装備",
+    "task": "タスク",
+    "premium": "プレミアム",
+    "buy_and_equip": "購入して装備",
+    "balance_after": "所持 {balance} コイン · 購入後 {after}",
+    "not_enough_title": "コインが足りません",
+    "not_enough_body": "{item} は {price} コインです。タスクをクリアしてあと {missing} 集めよう。",
+    "do_tasks": "タスクへ",
+    "get_coins": "+{coins} コイン · {price}",
+    "locked_title": "タスクで解放",
+    "locked_body": "「{task}」をクリアすると {item} が手に入る。",
+    "go_tasks": "タスクへ行く",
+    "premium_title": "プレミアム",
+    "premium_body": "スターボール、ゴールドインク、ナイトテーマ + {} コイン。広告なし、ずっとあなたのもの。",
+    "premium_buy": "購入 · {}",
+    "premium_unavailable": "ストアは現在利用できません",
+    "premium_owned": "プレミアム所持中",
+    "purchase_success": "プレミアムを解放しました！楽しんで。",
+    "purchase_pending": "支払いは保留中です。承認後に解放されます。",
+    "purchase_failed": "購入を完了できませんでした。",
+    "equipped_toast": "{} を装備しました",
+    "coins_pack_success": "+{} coins added!",
+    "coins_pack_processing": "お支払いを受け付けました！コインはまもなく追加されます。"
+  },
+  "items": {
+    "ball_klasik": {
+      "name": "クラシック",
+      "desc": "すべてが始まったトマト色のボール。"
+    },
+    "ball_karpuz": {
+      "name": "スイカ",
+      "desc": "みずみずしくて速い。インクに緑の軌跡を残す。"
+    },
+    "ball_basket": {
+      "name": "バスケ",
+      "desc": "ゴールじゃなく、インクで弾む。"
+    },
+    "ball_tenis": {
+      "name": "テニス",
+      "desc": "ふわふわで身軽、弾むたびに。"
+    },
+    "ball_plaj": {
+      "name": "ビーチボール",
+      "desc": "夏の色をコースへ。"
+    },
+    "ball_gezegen": {
+      "name": "プラネット",
+      "desc": "リングをまとって滑る小さな世界。"
+    },
+    "ball_ay": {
+      "name": "月",
+      "desc": "クレーターごと静かに転がる。"
+    },
+    "ball_bilardo": {
+      "name": "8ボール",
+      "desc": "最後の一打はいつもこれ。"
+    },
+    "ball_goz": {
+      "name": "目玉",
+      "desc": "すき間を見逃さない。"
+    },
+    "ball_buz": {
+      "name": "氷",
+      "desc": "なめらかでひんやり、つるつる。"
+    },
+    "ball_lav": {
+      "name": "溶岩",
+      "desc": "芯まで熱い。"
+    },
+    "ball_gokkusagi": {
+      "name": "虹",
+      "desc": "ひとつのボールに七色。"
+    },
+    "ball_disko": {
+      "name": "ディスコ",
+      "desc": "回転するたびにきらめくミラーボール。"
+    },
+    "ball_yildiz": {
+      "name": "スター",
+      "desc": "プレミアムプレイヤーの金の星。"
+    },
+    "ink_lacivert": {
+      "name": "ネイビー",
+      "desc": "クラシックな万年筆のインク。"
+    },
+    "ink_kirmizi": {
+      "name": "レッド",
+      "desc": "先生のペンみたいにはっきり。"
+    },
+    "ink_nane": {
+      "name": "ミント",
+      "desc": "さわやかで目を引く緑。"
+    },
+    "ink_turuncu": {
+      "name": "オレンジ",
+      "desc": "元気いっぱいのオレンジ。"
+    },
+    "ink_pembe": {
+      "name": "ピンク",
+      "desc": "キャンディみたいに甘い。"
+    },
+    "ink_mavi": {
+      "name": "ブルー",
+      "desc": "定番のボールペンの青。"
+    },
+    "ink_turkuaz": {
+      "name": "ターコイズ",
+      "desc": "海のように澄んだ色。"
+    },
+    "ink_yesil": {
+      "name": "グリーン",
+      "desc": "みずみずしい若葉色。"
+    },
+    "ink_mor": {
+      "name": "パープル",
+      "desc": "ミステリアスな深い紫。"
+    },
+    "ink_kahve": {
+      "name": "ブラウン",
+      "desc": "コーヒーのしみのように温かい。"
+    },
+    "ink_bordo": {
+      "name": "ボルドー",
+      "desc": "深く上品な赤。"
+    },
+    "ink_gumus": {
+      "name": "シルバー",
+      "desc": "光にきらめくシルバー。"
+    },
+    "ink_altin": {
+      "name": "ゴールド",
+      "desc": "きらめくインク。プレミアム限定。"
+    },
+    "theme_kagit": {
+      "name": "ペーパー",
+      "desc": "方眼ノートのページ。"
+    },
+    "theme_nane": {
+      "name": "ミント",
+      "desc": "涼しげな緑がかったページ。"
+    },
+    "theme_gunbatimi": {
+      "name": "サンセット",
+      "desc": "ピーチ色のあたたかいページ。"
+    },
+    "theme_lavanta": {
+      "name": "ラベンダー",
+      "desc": "ライラック色の落ち着いたページ。"
+    },
+    "theme_gokyuzu": {
+      "name": "空",
+      "desc": "淡い水色の空のページ。"
+    },
+    "theme_limon": {
+      "name": "レモン",
+      "desc": "陽気なレモン色のページ。"
+    },
+    "theme_seker": {
+      "name": "わたあめ",
+      "desc": "わたあめピンクのページ。"
+    },
+    "theme_orman": {
+      "name": "森",
+      "desc": "夜の深い緑の森。"
+    },
+    "theme_uzay": {
+      "name": "宇宙",
+      "desc": "深く暗い宇宙。"
+    },
+    "theme_gece": {
+      "name": "ナイト",
+      "desc": "紺の夜に光るライン。"
+    }
+  },
+  "tasks": {
+    "title": "タスク",
+    "daily": "デイリー",
+    "weekly": "ウィークリー",
+    "achievements": "目標",
+    "resets_in": "リセットまで {}",
+    "achievements_note": "目標は1回だけ受け取れます",
+    "claim": "受け取る",
+    "claimed": "受取済み",
+    "unlocks": "解放: {}",
+    "claimed_toast": "+{} コイン",
+    "unlocked_toast": "{} を解放！",
+    "empty": "いまタスクはありません",
+    "names": {
+      "daily_play_3": "3回プレイする",
+      "daily_coins_50": "1ゲームでコインを50枚集める",
+      "daily_share_1": "クリップをシェアする",
+      "daily_challenge_1": "デイリーコースをプレイする",
+      "daily_score_100": "スコア100を超える",
+      "weekly_play_20": "20回プレイする",
+      "weekly_challenge_3": "3日デイリーコースをプレイする",
+      "weekly_coins_300": "コインを合計300枚集める",
+      "weekly_score_300": "スコア300を超える",
+      "ach_games_10": "10回プレイする",
+      "ach_score_500": "1ゲームでスコア500",
+      "ach_games_50": "50回プレイする",
+      "ach_coins_1000": "コインを合計1000枚集める",
+      "ach_run_coins_100": "1ゲームでコインを100枚集める",
+      "ach_share_5": "クリップを5回シェアする",
+      "ach_daily_7": "7日デイリーコースをプレイする",
+      "ach_score_1000": "1ゲームでスコア1000",
+      "ach_games_200": "200回プレイする",
+      "ach_coins_5000": "コインを合計5000枚集める",
+      "ach_share_20": "クリップを20回シェアする",
+      "ach_daily_30": "30日デイリーコースをプレイする"
+    }
+  },
+  "settings": {
+    "title": "設定",
+    "sound": "サウンド",
+    "sfx": "効果音",
+    "music": "ミュージック",
+    "vibration": "振動",
+    "game": "ゲーム",
+    "language": "言語",
+    "language_name": "日本語",
+    "notifications": "通知",
+    "replay_tutorial": "チュートリアルをもう一度",
+    "account": "アカウント",
+    "name": "表示名",
+    "name_title": "あなたの名前",
+    "name_hint": "名前を入力",
+    "name_save": "保存",
+    "name_saved": "名前を更新しました。",
+    "name_invalid": "2～32文字の文字、数字またはスペースを使ってください。",
+    "restore": "購入を復元",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "cookies": "Cookieポリシー",
+    "child_safety": "子どもの安全基準",
+    "about": "このアプリについて",
+    "version": "Dashink · バージョン {}",
+    "restore_success": "購入を復元しました。",
+    "restore_none": "復元できる購入はありません。",
+    "notifications_denied": "通知の許可が拒否されました。",
+    "language_title": "言語"
+  },
+  "notifications": {
+    "daily_title": "今日のコースが準備できました！",
+    "daily_body": "今日トップ100に入って100コインをゲット。"
+  }
+}

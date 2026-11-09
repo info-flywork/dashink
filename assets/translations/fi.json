@@ -1,0 +1,359 @@
+{
+  "common": {
+    "unexpected_error": "Jotain meni pieleen. Yritä uudelleen.",
+    "offline": "Ei internetyhteyttä.",
+    "retry": "YRITÄ UUDELLEEN",
+    "coming_soon": "Tulossa pian",
+    "cancel": "Peruuta",
+    "close": "Sulje",
+    "you": "Sinä"
+  },
+  "tabs": {
+    "play": "Pelaa",
+    "shop": "Kauppa",
+    "tasks": "Tehtävät",
+    "settings": "Asetukset"
+  },
+  "home": {
+    "best": "PARAS {}",
+    "tap_to_play": "NAPAUTA PELATAKSESI",
+    "daily": "PÄIVITTÄIN",
+    "leaderboard": "SIJOITUS",
+    "reward_daily": "Olit #{rank} päivän haasteessa: +{coins} kolikkoa!"
+  },
+  "tutorial": {
+    "skip": "Ohita",
+    "got_it": "SELVÄ",
+    "next": "SEURAAVA",
+    "step1_title": "PIIRRÄ PALLON ETEEN",
+    "step1_body": "Muste haalistuu 1 sekunnissa",
+    "step2_title": "NAPPAA KOLIKOT",
+    "step2_body": "Avaa uusia palloja kaupasta",
+    "step3_title": "VÄISTÄ PIIKKEJÄ",
+    "step3_body": "Muste loppui? Päästä irti, niin se täyttyy",
+    "step_label": "Vaihe {current} / {total}"
+  },
+  "game": {
+    "pause": "Tauko",
+    "paused": "TAUOLLA",
+    "resume": "JATKA",
+    "home": "KOTI",
+    "restart": "ALOITA ALUSTA",
+    "ink_label": "Muste",
+    "daily_badge": "PÄIVÄN RATA",
+    "draw_hint": "Piirrä pallon eteen!"
+  },
+  "game_over": {
+    "score": "PISTEET",
+    "best": "PARAS {}",
+    "new_record": "UUSI ENNÄTYS!",
+    "play_again": "PELAA UUDESTAAN",
+    "share": "Jaa",
+    "home": "Koti",
+    "coins_earned": "+{} kolikkoa",
+    "daily_rank": "Tänään olet #{}",
+    "offline_note": "Offline: pisteesi lähetetään, kun olet taas verkossa"
+  },
+  "record": {
+    "title": "UUSI ENNÄTYS!",
+    "previous": "Edellinen ennätys {previous} · +{diff} pistettä",
+    "continue": "JATKA",
+    "share": "JAA"
+  },
+  "choice": {
+    "question": "MITÄ SEURAAVAKSI?",
+    "play_again": "PELAA UUDESTAAN",
+    "play_again_sub": "Aloita alusta",
+    "share": "JAA",
+    "share_sub": "Lähetä klippi",
+    "home": "KOTI",
+    "home_sub": "Takaisin valikkoon"
+  },
+  "clip": {
+    "title": "JAA KLIPPI",
+    "subtitle": "Viimeiset {seconds} sekuntia · {score} pistettä",
+    "share": "JAA",
+    "save": "TALLENNA GALLERIAAN",
+    "preparing": "Valmistellaan klippiä…",
+    "saved": "Tallennettu galleriaan",
+    "save_failed": "Tallennus epäonnistui",
+    "permission_denied": "Gallerian käyttö estetty. Voit sallia sen asetuksissa.",
+    "permission_title": "GALLERIAN KÄYTTÖ",
+    "open_settings": "AVAA ASETUKSET",
+    "share_text": "Sain {score} Dashinkissa! Pystytkö parempaan?",
+    "share_text_with_link": "Sain {score} Dashinkissa! Pystytkö parempaan?\n{url}",
+    "no_clip": "Ei klippiä, jaetaan pistetaulu",
+    "play": "Toista"
+  },
+  "leaderboard": {
+    "title": "SIJOITUS",
+    "daily": "Päivittäin",
+    "weekly": "Viikoittain",
+    "all": "Kaikki",
+    "empty": "Kukaan ei ole vielä pelannut. Ole ensimmäinen!",
+    "not_ranked": "Ei pelejä tällä jaksolla vielä"
+  },
+  "daily": {
+    "title": "PÄIVITTÄIN",
+    "date_label": "{} · HAASTE",
+    "description": "Tänään kaikki ajavat samaa rataa. Yksi rata, rajattomasti yrityksiä — paras tuloksesi lasketaan.",
+    "participants": "pelaajaa",
+    "your_best": "paras tuloksesi",
+    "time_left": "aikaa jäljellä",
+    "reward_title": "PALKINTO",
+    "reward_body": "Pääse {} parhaan joukkoon ja voita kolikoita",
+    "start": "ALOITA",
+    "your_rank": "Sijoituksesi: {}"
+  },
+  "shop": {
+    "title": "KAUPPA",
+    "balls": "Pallot",
+    "inks": "Musteet",
+    "themes": "Teemat",
+    "equipped": "VARUSTETTU",
+    "equip": "Varusta",
+    "task": "Tehtävä",
+    "premium": "Premium",
+    "buy_and_equip": "OSTA JA VARUSTA",
+    "balance_after": "Sinulla on {balance} kolikkoa · jälkeen jää {after}",
+    "not_enough_title": "EI TARPEEKSI KOLIKOITA",
+    "not_enough_body": "{item} maksaa {price} kolikkoa. Tee tehtäviä ansaitaksesi vielä {missing}.",
+    "do_tasks": "TEE TEHTÄVÄT",
+    "get_coins": "+{coins} KOLIKKOA · {price}",
+    "locked_title": "AVATAAN TEHTÄVÄLLÄ",
+    "locked_body": "{item} on sinun, kun suoritat tehtävän ”{task}”.",
+    "go_tasks": "SIIRRY TEHTÄVIIN",
+    "premium_title": "PREMIUM",
+    "premium_body": "Tähtipallo, kultamuste ja yöteema + {} kolikkoa. Ei mainoksia, sinun ikuisesti.",
+    "premium_buy": "OSTA · {}",
+    "premium_unavailable": "Kauppa ei ole juuri nyt käytettävissä",
+    "premium_owned": "Sinulla on Premium",
+    "purchase_success": "Premium avattu! Pidä hauskaa.",
+    "purchase_pending": "Maksu odottaa; se avautuu hyväksynnän jälkeen.",
+    "purchase_failed": "Ostoa ei voitu viimeistellä.",
+    "equipped_toast": "{} varustettu",
+    "coins_pack_success": "+{} coins added!",
+    "coins_pack_processing": "Maksu vastaanotettu! Kolikkosi saapuvat hetken kuluttua."
+  },
+  "items": {
+    "ball_klasik": {
+      "name": "KLASSIKKO",
+      "desc": "Tomaatinpunainen pallo, josta kaikki alkoi."
+    },
+    "ball_karpuz": {
+      "name": "VESIMELONI",
+      "desc": "Mehukas ja nopea. Jättää vihreän vanan musteeseen."
+    },
+    "ball_basket": {
+      "name": "KORIS",
+      "desc": "Pomppii musteella, ei koriin."
+    },
+    "ball_tenis": {
+      "name": "TENNIS",
+      "desc": "Nukkainen ja ketterä joka pompussa."
+    },
+    "ball_plaj": {
+      "name": "RANTAPALLO",
+      "desc": "Kesän värit radalla."
+    },
+    "ball_gezegen": {
+      "name": "PLANEETTA",
+      "desc": "Pieni maailma, joka liukuu renkaineen."
+    },
+    "ball_ay": {
+      "name": "KUU",
+      "desc": "Vierii hiljaa kraattereineen."
+    },
+    "ball_bilardo": {
+      "name": "KASIPALLO",
+      "desc": "Lyö aina viimeisen lyönnin."
+    },
+    "ball_goz": {
+      "name": "SILMÄ",
+      "desc": "Ei ohita yhtään rakoa."
+    },
+    "ball_buz": {
+      "name": "JÄÄ",
+      "desc": "Sileä, viileä ja liukas."
+    },
+    "ball_lav": {
+      "name": "LAAVA",
+      "desc": "Kuuma ytimeen asti."
+    },
+    "ball_gokkusagi": {
+      "name": "SATEENKAARI",
+      "desc": "Seitsemän väriä yhdessä pallossa."
+    },
+    "ball_disko": {
+      "name": "DISCO",
+      "desc": "Peilipallo, joka kimaltaa joka käänteessä."
+    },
+    "ball_yildiz": {
+      "name": "TÄHTI",
+      "desc": "Premium-pelaajien kultainen tähti."
+    },
+    "ink_lacivert": {
+      "name": "MERENSININEN",
+      "desc": "Klassinen täytekynän muste."
+    },
+    "ink_kirmizi": {
+      "name": "PUNAINEN",
+      "desc": "Rohkea kuin opettajan kynä."
+    },
+    "ink_nane": {
+      "name": "MINTTU",
+      "desc": "Raikas, silmiinpistävä vihreä."
+    },
+    "ink_turuncu": {
+      "name": "ORANSSI",
+      "desc": "Energinen oranssi."
+    },
+    "ink_pembe": {
+      "name": "PINKKI",
+      "desc": "Makea kuin karkki."
+    },
+    "ink_mavi": {
+      "name": "SININEN",
+      "desc": "Klassinen kuulakärkikynän sininen."
+    },
+    "ink_turkuaz": {
+      "name": "TURKOOSI",
+      "desc": "Kirkas kuin meri."
+    },
+    "ink_yesil": {
+      "name": "VIHREÄ",
+      "desc": "Raikas lehdenvihreä."
+    },
+    "ink_mor": {
+      "name": "VIOLETTI",
+      "desc": "Salaperäinen syvä violetti."
+    },
+    "ink_kahve": {
+      "name": "RUSKEA",
+      "desc": "Lämmin kuin kahvitahra."
+    },
+    "ink_bordo": {
+      "name": "VIININPUNA",
+      "desc": "Syvä ja tyylikäs punainen."
+    },
+    "ink_gumus": {
+      "name": "HOPEA",
+      "desc": "Hopea, joka kimaltaa valossa."
+    },
+    "ink_altin": {
+      "name": "KULTA",
+      "desc": "Kimalteleva muste, vain Premiumilla."
+    },
+    "theme_kagit": {
+      "name": "PAPERI",
+      "desc": "Ruudullinen vihkosivu."
+    },
+    "theme_nane": {
+      "name": "MINTTU",
+      "desc": "Viileä, vihertävä sivu."
+    },
+    "theme_gunbatimi": {
+      "name": "AURINGONLASKU",
+      "desc": "Lämmin sivu persikkasävyissä."
+    },
+    "theme_lavanta": {
+      "name": "LAVENTELI",
+      "desc": "Rauhallinen liila sivu."
+    },
+    "theme_gokyuzu": {
+      "name": "TAIVAS",
+      "desc": "Vaaleansininen taivassivu."
+    },
+    "theme_limon": {
+      "name": "SITRUUNA",
+      "desc": "Aurinkoinen sitruunankeltainen sivu."
+    },
+    "theme_seker": {
+      "name": "HATTARA",
+      "desc": "Hattaranpinkki sivu."
+    },
+    "theme_orman": {
+      "name": "METSÄ",
+      "desc": "Tummanvihreä metsä yöllä."
+    },
+    "theme_uzay": {
+      "name": "AVARUUS",
+      "desc": "Syvä, pimeä avaruus."
+    },
+    "theme_gece": {
+      "name": "YÖ",
+      "desc": "Viivat, jotka hohtavat merensinisen yön keskellä."
+    }
+  },
+  "tasks": {
+    "title": "TEHTÄVÄT",
+    "daily": "Päivittäin",
+    "weekly": "Viikoittain",
+    "achievements": "Tavoitteet",
+    "resets_in": "Nollautuu {} kuluttua",
+    "achievements_note": "Tavoitteet voi lunastaa kerran",
+    "claim": "NOUDA",
+    "claimed": "LUNASTETTU",
+    "unlocks": "Avaa: {}",
+    "claimed_toast": "+{} kolikkoa",
+    "unlocked_toast": "{} avattu!",
+    "empty": "Ei tehtäviä juuri nyt",
+    "names": {
+      "daily_play_3": "Pelaa 3 peliä",
+      "daily_coins_50": "Kerää 50 kolikkoa yhdessä pelissä",
+      "daily_share_1": "Jaa klippi",
+      "daily_challenge_1": "Pelaa päivän rata",
+      "daily_score_100": "Saa yli 100 pistettä",
+      "weekly_play_20": "Pelaa 20 peliä",
+      "weekly_challenge_3": "Pelaa päivän rata 3 päivänä",
+      "weekly_coins_300": "Kerää yhteensä 300 kolikkoa",
+      "weekly_score_300": "Saa yli 300 pistettä",
+      "ach_games_10": "Pelaa 10 peliä",
+      "ach_score_500": "Saa 500 pistettä yhdessä pelissä",
+      "ach_games_50": "Pelaa 50 peliä",
+      "ach_coins_1000": "Kerää yhteensä 1000 kolikkoa",
+      "ach_run_coins_100": "Kerää 100 kolikkoa yhdessä pelissä",
+      "ach_share_5": "Jaa 5 klippiä",
+      "ach_daily_7": "Pelaa päivän rata 7 päivänä",
+      "ach_score_1000": "Saa 1000 pistettä yhdessä pelissä",
+      "ach_games_200": "Pelaa 200 peliä",
+      "ach_coins_5000": "Kerää yhteensä 5000 kolikkoa",
+      "ach_share_20": "Jaa 20 klippiä",
+      "ach_daily_30": "Pelaa päivän rata 30 päivänä"
+    }
+  },
+  "settings": {
+    "title": "ASETUKSET",
+    "sound": "ÄÄNI",
+    "sfx": "Äänitehosteet",
+    "music": "Musiikki",
+    "vibration": "Värinä",
+    "game": "PELI",
+    "language": "Kieli",
+    "language_name": "Suomi",
+    "notifications": "Ilmoitukset",
+    "replay_tutorial": "Katso opastus uudelleen",
+    "account": "TILI",
+    "name": "Näyttönimi",
+    "name_title": "NIMESI",
+    "name_hint": "Kirjoita nimi",
+    "name_save": "TALLENNA",
+    "name_saved": "Nimi päivitettiin.",
+    "name_invalid": "Käytä 2–32 kirjainta, numeroa tai välilyöntiä.",
+    "restore": "Palauta ostokset",
+    "privacy": "Tietosuojakäytäntö",
+    "terms": "Käyttöehdot",
+    "cookies": "Evästekäytäntö",
+    "child_safety": "Lasten turvallisuusstandardit",
+    "about": "Tietoja",
+    "version": "Dashink · versio {}",
+    "restore_success": "Ostoksesi palautettiin.",
+    "restore_none": "Ei palautettavia ostoksia.",
+    "notifications_denied": "Ilmoituslupa evättiin.",
+    "language_title": "KIELI"
+  },
+  "notifications": {
+    "daily_title": "Tämän päivän rata on valmis!",
+    "daily_body": "Pääse tänään 100 parhaan joukkoon ja voita 100 kolikkoa."
+  }
+}

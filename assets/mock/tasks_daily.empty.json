@@ -1,0 +1,9 @@
+{
+  "status": "success",
+  "message": "ok",
+  "data": {
+    "period": "daily",
+    "resets_at": "2099-01-01T00:00:00.000Z",
+    "tasks": []
+  }
+}

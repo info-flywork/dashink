@@ -1,0 +1,359 @@
+{
+  "common": {
+    "unexpected_error": "Qualcosa è andato storto. Riprova.",
+    "offline": "Nessuna connessione a internet.",
+    "retry": "RIPROVA",
+    "coming_soon": "In arrivo",
+    "cancel": "Annulla",
+    "close": "Chiudi",
+    "you": "Tu"
+  },
+  "tabs": {
+    "play": "Gioca",
+    "shop": "Negozio",
+    "tasks": "Sfide",
+    "settings": "Impostazioni"
+  },
+  "home": {
+    "best": "MIGLIOR {}",
+    "tap_to_play": "TOCCA PER GIOCARE",
+    "daily": "OGGI",
+    "leaderboard": "CLASSIFICA",
+    "reward_daily": "Sei #{rank} nella sfida giornaliera: +{coins} monete!"
+  },
+  "tutorial": {
+    "skip": "Salta",
+    "got_it": "CAPITO",
+    "next": "AVANTI",
+    "step1_title": "DISEGNA DAVANTI ALLA PALLA",
+    "step1_body": "L'inchiostro svanisce in 1 secondo",
+    "step2_title": "PRENDI LE MONETE",
+    "step2_body": "Sblocca nuove palle nel negozio",
+    "step3_title": "EVITA LE PUNTE",
+    "step3_body": "Inchiostro finito? Lascia e si ricarica",
+    "step_label": "Passo {current} / {total}"
+  },
+  "game": {
+    "pause": "Pausa",
+    "paused": "IN PAUSA",
+    "resume": "RIPRENDI",
+    "home": "MENU",
+    "restart": "RICOMINCIA",
+    "ink_label": "Inchiostro",
+    "daily_badge": "PERCORSO DEL GIORNO",
+    "draw_hint": "Disegna davanti alla palla!"
+  },
+  "game_over": {
+    "score": "PUNTEGGIO",
+    "best": "MIGLIOR {}",
+    "new_record": "NUOVO RECORD!",
+    "play_again": "GIOCA ANCORA",
+    "share": "Condividi",
+    "home": "Menu",
+    "coins_earned": "+{} monete",
+    "daily_rank": "Oggi sei #{}",
+    "offline_note": "Offline: il punteggio verrà inviato quando torni online"
+  },
+  "record": {
+    "title": "NUOVO RECORD!",
+    "previous": "Record precedente {previous} · +{diff} punti",
+    "continue": "CONTINUA",
+    "share": "CONDIVIDI"
+  },
+  "choice": {
+    "question": "E ORA?",
+    "play_again": "GIOCA ANCORA",
+    "play_again_sub": "Ricomincia",
+    "share": "CONDIVIDI",
+    "share_sub": "Invia la clip",
+    "home": "MENU",
+    "home_sub": "Torna al menu"
+  },
+  "clip": {
+    "title": "CONDIVIDI CLIP",
+    "subtitle": "Ultimi {seconds} secondi · {score} punti",
+    "share": "CONDIVIDI",
+    "save": "SALVA IN GALLERIA",
+    "preparing": "Preparazione della clip…",
+    "saved": "Salvata in galleria",
+    "save_failed": "Salvataggio non riuscito",
+    "permission_denied": "Accesso alla galleria negato. Puoi consentirlo in Impostazioni.",
+    "permission_title": "ACCESSO ALLA GALLERIA",
+    "open_settings": "APRI IMPOSTAZIONI",
+    "share_text": "Ho fatto {score} in Dashink! Riesci a battermi?",
+    "share_text_with_link": "Ho fatto {score} in Dashink! Riesci a battermi?\n{url}",
+    "no_clip": "Nessuna clip, condivido una scheda punteggio",
+    "play": "Riproduci"
+  },
+  "leaderboard": {
+    "title": "CLASSIFICA",
+    "daily": "Oggi",
+    "weekly": "Settimana",
+    "all": "Tutto",
+    "empty": "Nessuno ha ancora giocato. Sii il primo!",
+    "not_ranked": "Nessuna partita in questo periodo"
+  },
+  "daily": {
+    "title": "OGGI",
+    "date_label": "{} · SFIDA",
+    "description": "Oggi tutti affrontano lo stesso percorso. Un percorso, tentativi illimitati: conta il tuo miglior punteggio.",
+    "participants": "giocatori",
+    "your_best": "il tuo record",
+    "time_left": "tempo rimasto",
+    "reward_title": "PREMIO",
+    "reward_body": "Raggiungi la top {} per vincere monete",
+    "start": "INIZIA",
+    "your_rank": "La tua posizione: {}"
+  },
+  "shop": {
+    "title": "NEGOZIO",
+    "balls": "Palle",
+    "inks": "Inchiostri",
+    "themes": "Temi",
+    "equipped": "EQUIPAGGIATO",
+    "equip": "Equipaggia",
+    "task": "Sfida",
+    "premium": "Premium",
+    "buy_and_equip": "COMPRA ED EQUIPAGGIA",
+    "balance_after": "Hai {balance} monete · ne restano {after}",
+    "not_enough_title": "MONETE INSUFFICIENTI",
+    "not_enough_body": "{item} costa {price} monete. Completa le sfide per guadagnarne altre {missing}.",
+    "do_tasks": "FAI LE SFIDE",
+    "get_coins": "+{coins} MONETE · {price}",
+    "locked_title": "SI SBLOCCA CON UNA SFIDA",
+    "locked_body": "{item} è tuo quando completi «{task}».",
+    "go_tasks": "VAI ALLE SFIDE",
+    "premium_title": "PREMIUM",
+    "premium_body": "Palla stella, inchiostro oro e tema notte + {} monete. Niente pubblicità, tuo per sempre.",
+    "premium_buy": "COMPRA · {}",
+    "premium_unavailable": "Il negozio non è disponibile ora",
+    "premium_owned": "Hai già Premium",
+    "purchase_success": "Premium sbloccato! Divertiti.",
+    "purchase_pending": "Pagamento in sospeso; si sblocca dopo l'approvazione.",
+    "purchase_failed": "Impossibile completare l'acquisto.",
+    "equipped_toast": "{} equipaggiato",
+    "coins_pack_success": "+{} coins added!",
+    "coins_pack_processing": "Pagamento ricevuto! Le tue monete arriveranno tra un attimo."
+  },
+  "items": {
+    "ball_klasik": {
+      "name": "CLASSICA",
+      "desc": "La palla rosso pomodoro da cui è iniziato tutto."
+    },
+    "ball_karpuz": {
+      "name": "ANGURIA",
+      "desc": "Succosa e veloce. Lascia una scia verde sull'inchiostro."
+    },
+    "ball_basket": {
+      "name": "BASKET",
+      "desc": "Rimbalza sull'inchiostro, non a canestro."
+    },
+    "ball_tenis": {
+      "name": "TENNIS",
+      "desc": "Pelosa e agile a ogni rimbalzo."
+    },
+    "ball_plaj": {
+      "name": "SPIAGGIA",
+      "desc": "Colori d'estate sul percorso."
+    },
+    "ball_gezegen": {
+      "name": "PIANETA",
+      "desc": "Un piccolo mondo che scivola con i suoi anelli."
+    },
+    "ball_ay": {
+      "name": "LUNA",
+      "desc": "Rotola in silenzio, crateri compresi."
+    },
+    "ball_bilardo": {
+      "name": "PALLA 8",
+      "desc": "Fa sempre l'ultimo tiro."
+    },
+    "ball_goz": {
+      "name": "OCCHIO",
+      "desc": "Non si perde un varco."
+    },
+    "ball_buz": {
+      "name": "GHIACCIO",
+      "desc": "Liscia, fresca e scivolosa."
+    },
+    "ball_lav": {
+      "name": "LAVA",
+      "desc": "Bollente fino al nucleo."
+    },
+    "ball_gokkusagi": {
+      "name": "ARCOBALENO",
+      "desc": "Sette colori in una palla."
+    },
+    "ball_disko": {
+      "name": "DISCO",
+      "desc": "Una sfera a specchi che brilla a ogni giro."
+    },
+    "ball_yildiz": {
+      "name": "STELLA",
+      "desc": "La stella d'oro dei giocatori Premium."
+    },
+    "ink_lacivert": {
+      "name": "BLU NOTTE",
+      "desc": "Inchiostro classico da stilografica."
+    },
+    "ink_kirmizi": {
+      "name": "ROSSO",
+      "desc": "Deciso come la penna di un insegnante."
+    },
+    "ink_nane": {
+      "name": "MENTA",
+      "desc": "Un verde fresco che cattura l'occhio."
+    },
+    "ink_turuncu": {
+      "name": "ARANCIONE",
+      "desc": "Un arancione pieno di energia."
+    },
+    "ink_pembe": {
+      "name": "ROSA",
+      "desc": "Dolce come una caramella."
+    },
+    "ink_mavi": {
+      "name": "BLU",
+      "desc": "Il classico blu della biro."
+    },
+    "ink_turkuaz": {
+      "name": "TURCHESE",
+      "desc": "Limpido come il mare."
+    },
+    "ink_yesil": {
+      "name": "VERDE",
+      "desc": "Verde foglia fresca."
+    },
+    "ink_mor": {
+      "name": "VIOLA",
+      "desc": "Un viola profondo e misterioso."
+    },
+    "ink_kahve": {
+      "name": "MARRONE",
+      "desc": "Caldo come una macchia di caffè."
+    },
+    "ink_bordo": {
+      "name": "BORDEAUX",
+      "desc": "Un rosso intenso ed elegante."
+    },
+    "ink_gumus": {
+      "name": "ARGENTO",
+      "desc": "Argento che cattura la luce."
+    },
+    "ink_altin": {
+      "name": "ORO",
+      "desc": "Inchiostro scintillante, solo Premium."
+    },
+    "theme_kagit": {
+      "name": "CARTA",
+      "desc": "Una pagina di quaderno a quadretti."
+    },
+    "theme_nane": {
+      "name": "MENTA",
+      "desc": "Una pagina fresca, verdognola."
+    },
+    "theme_gunbatimi": {
+      "name": "TRAMONTO",
+      "desc": "Una pagina calda nei toni pesca."
+    },
+    "theme_lavanta": {
+      "name": "LAVANDA",
+      "desc": "Una pagina lilla e tranquilla."
+    },
+    "theme_gokyuzu": {
+      "name": "CIELO",
+      "desc": "Una pagina azzurro cielo."
+    },
+    "theme_limon": {
+      "name": "LIMONE",
+      "desc": "Una pagina solare giallo limone."
+    },
+    "theme_seker": {
+      "name": "ZUCCHERO FILATO",
+      "desc": "Una pagina rosa zucchero filato."
+    },
+    "theme_orman": {
+      "name": "FORESTA",
+      "desc": "Una foresta verde scuro di notte."
+    },
+    "theme_uzay": {
+      "name": "SPAZIO",
+      "desc": "Spazio profondo e buio."
+    },
+    "theme_gece": {
+      "name": "NOTTE",
+      "desc": "Linee che brillano in una notte blu."
+    }
+  },
+  "tasks": {
+    "title": "SFIDE",
+    "daily": "Oggi",
+    "weekly": "Settimana",
+    "achievements": "Obiettivi",
+    "resets_in": "Si azzera tra {}",
+    "achievements_note": "Gli obiettivi si riscuotono una sola volta",
+    "claim": "PRENDI",
+    "claimed": "RISCOSSO",
+    "unlocks": "Sblocca: {}",
+    "claimed_toast": "+{} monete",
+    "unlocked_toast": "{} sbloccato!",
+    "empty": "Nessuna sfida al momento",
+    "names": {
+      "daily_play_3": "Gioca 3 partite",
+      "daily_coins_50": "Raccogli 50 monete in una partita",
+      "daily_share_1": "Condividi una clip",
+      "daily_challenge_1": "Gioca il percorso del giorno",
+      "daily_score_100": "Supera i 100 punti",
+      "weekly_play_20": "Gioca 20 partite",
+      "weekly_challenge_3": "Gioca il percorso del giorno per 3 giorni",
+      "weekly_coins_300": "Raccogli 300 monete in totale",
+      "weekly_score_300": "Supera i 300 punti",
+      "ach_games_10": "Gioca 10 partite",
+      "ach_score_500": "Fai 500 punti in una partita",
+      "ach_games_50": "Gioca 50 partite",
+      "ach_coins_1000": "Raccogli 1000 monete in totale",
+      "ach_run_coins_100": "Raccogli 100 monete in una partita",
+      "ach_share_5": "Condividi 5 clip",
+      "ach_daily_7": "Gioca il percorso del giorno per 7 giorni",
+      "ach_score_1000": "Fai 1000 punti in una partita",
+      "ach_games_200": "Gioca 200 partite",
+      "ach_coins_5000": "Raccogli 5000 monete in totale",
+      "ach_share_20": "Condividi 20 clip",
+      "ach_daily_30": "Gioca il percorso del giorno per 30 giorni"
+    }
+  },
+  "settings": {
+    "title": "IMPOSTAZIONI",
+    "sound": "AUDIO",
+    "sfx": "Effetti sonori",
+    "music": "Musica",
+    "vibration": "Vibrazione",
+    "game": "GIOCO",
+    "language": "Lingua",
+    "language_name": "Italiano",
+    "notifications": "Notifiche",
+    "replay_tutorial": "Rivedi il tutorial",
+    "account": "ACCOUNT",
+    "name": "Nome visualizzato",
+    "name_title": "IL TUO NOME",
+    "name_hint": "Inserisci un nome",
+    "name_save": "SALVA",
+    "name_saved": "Nome aggiornato.",
+    "name_invalid": "Usa 2–32 lettere, numeri o spazi.",
+    "restore": "Ripristina gli acquisti",
+    "privacy": "Informativa sulla privacy",
+    "terms": "Termini d'uso",
+    "cookies": "Politica sui cookie",
+    "child_safety": "Standard di sicurezza dei minori",
+    "about": "Informazioni",
+    "version": "Dashink · versione {}",
+    "restore_success": "I tuoi acquisti sono stati ripristinati.",
+    "restore_none": "Nessun acquisto da ripristinare.",
+    "notifications_denied": "Permesso per le notifiche negato.",
+    "language_title": "LINGUA"
+  },
+  "notifications": {
+    "daily_title": "Il percorso di oggi è pronto!",
+    "daily_body": "Raggiungi oggi la top 100 e vinci 100 monete."
+  }
+}

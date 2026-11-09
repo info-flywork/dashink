@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Figma değişkenleri (Dashink) — --color-* token'ları. -->
+<resources>
+    <color name="paper">#F7F0E1</color>
+    <color name="paper_card">#FFFBF2</color>
+    <color name="paper_line">#E6DBC4</color>
+    <color name="ink">#1D2550</color>
+    <color name="ink_soft">#5A6082</color>
+    <color name="tomato">#F45D35</color>
+    <color name="tomato_dark">#C4401C</color>
+    <color name="tomato_tint">#FCD9CC</color>
+    <color name="mint">#2BBF98</color>
+    <color name="gold">#F6B830</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="ink_shadow">#2E1D2550</color>
+    <color name="scrim_paper">#8CF7F0E1</color>
+    <color name="splash_background">#FFFFFF</color>
+</resources>

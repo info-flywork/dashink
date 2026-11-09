@@ -1,0 +1,359 @@
+{
+  "common": {
+    "unexpected_error": "Något gick fel. Försök igen.",
+    "offline": "Ingen internetanslutning.",
+    "retry": "FÖRSÖK IGEN",
+    "coming_soon": "Kommer snart",
+    "cancel": "Avbryt",
+    "close": "Stäng",
+    "you": "Du"
+  },
+  "tabs": {
+    "play": "Spela",
+    "shop": "Butik",
+    "tasks": "Uppdrag",
+    "settings": "Inställningar"
+  },
+  "home": {
+    "best": "BÄST {}",
+    "tap_to_play": "TRYCK FÖR ATT SPELA",
+    "daily": "DAGLIGT",
+    "leaderboard": "RANKING",
+    "reward_daily": "Du kom #{rank} i dagens utmaning: +{coins} mynt!"
+  },
+  "tutorial": {
+    "skip": "Hoppa över",
+    "got_it": "FATTAR",
+    "next": "NÄSTA",
+    "step1_title": "RITA FRAMFÖR BOLLEN",
+    "step1_body": "Bläcket bleknar på 1 sekund",
+    "step2_title": "TA MYNTEN",
+    "step2_body": "Lås upp nya bollar i butiken",
+    "step3_title": "UNDVIK PIGGARNA",
+    "step3_body": "Slut på bläck? Släpp så fylls det på",
+    "step_label": "Steg {current} / {total}"
+  },
+  "game": {
+    "pause": "Pausa",
+    "paused": "PAUSAD",
+    "resume": "FORTSÄTT",
+    "home": "HEM",
+    "restart": "BÖRJA OM",
+    "ink_label": "Bläck",
+    "daily_badge": "DAGENS BANA",
+    "draw_hint": "Rita framför bollen!"
+  },
+  "game_over": {
+    "score": "POÄNG",
+    "best": "BÄST {}",
+    "new_record": "NYTT REKORD!",
+    "play_again": "SPELA IGEN",
+    "share": "Dela",
+    "home": "Hem",
+    "coins_earned": "+{} mynt",
+    "daily_rank": "Idag är du #{}",
+    "offline_note": "Offline: din poäng skickas när du är online igen"
+  },
+  "record": {
+    "title": "NYTT REKORD!",
+    "previous": "Tidigare rekord {previous} · +{diff} poäng",
+    "continue": "FORTSÄTT",
+    "share": "DELA"
+  },
+  "choice": {
+    "question": "VAD NU?",
+    "play_again": "SPELA IGEN",
+    "play_again_sub": "Börja om",
+    "share": "DELA",
+    "share_sub": "Skicka klippet",
+    "home": "HEM",
+    "home_sub": "Tillbaka till menyn"
+  },
+  "clip": {
+    "title": "DELA KLIPP",
+    "subtitle": "Senaste {seconds} sekunderna · {score} poäng",
+    "share": "DELA",
+    "save": "SPARA I GALLERIET",
+    "preparing": "Förbereder klipp…",
+    "saved": "Sparat i galleriet",
+    "save_failed": "Kunde inte spara",
+    "permission_denied": "Åtkomst till galleriet nekades. Du kan tillåta det i Inställningar.",
+    "permission_title": "ÅTKOMST TILL GALLERI",
+    "open_settings": "ÖPPNA INSTÄLLNINGAR",
+    "share_text": "Jag fick {score} i Dashink! Kan du slå det?",
+    "share_text_with_link": "Jag fick {score} i Dashink! Kan du slå det?\n{url}",
+    "no_clip": "Inget klipp, delar ett poängkort",
+    "play": "Spela"
+  },
+  "leaderboard": {
+    "title": "RANKING",
+    "daily": "Dagligen",
+    "weekly": "Veckovis",
+    "all": "Alla",
+    "empty": "Ingen har spelat än. Bli först!",
+    "not_ranked": "Inga spel den här perioden än"
+  },
+  "daily": {
+    "title": "DAGLIGT",
+    "date_label": "{} · UTMANING",
+    "description": "Idag kör alla samma bana. En bana, obegränsat antal försök — ditt bästa resultat räknas.",
+    "participants": "spelare",
+    "your_best": "ditt bästa",
+    "time_left": "tid kvar",
+    "reward_title": "BELÖNING",
+    "reward_body": "Nå topp {} för att vinna mynt",
+    "start": "STARTA",
+    "your_rank": "Din placering: {}"
+  },
+  "shop": {
+    "title": "BUTIK",
+    "balls": "Bollar",
+    "inks": "Bläck",
+    "themes": "Teman",
+    "equipped": "UTRUSTAD",
+    "equip": "Utrusta",
+    "task": "Uppdrag",
+    "premium": "Premium",
+    "buy_and_equip": "KÖP OCH UTRUSTA",
+    "balance_after": "Du har {balance} mynt · {after} kvar efteråt",
+    "not_enough_title": "INTE NOG MED MYNT",
+    "not_enough_body": "{item} kostar {price} mynt. Klara uppdrag för att tjäna {missing} till.",
+    "do_tasks": "GÖR UPPDRAG",
+    "get_coins": "+{coins} MYNT · {price}",
+    "locked_title": "LÅSES UPP MED UPPDRAG",
+    "locked_body": "{item} blir din när du klarar ”{task}”.",
+    "go_tasks": "TILL UPPDRAG",
+    "premium_title": "PREMIUM",
+    "premium_body": "Stjärnboll, guldbläck och nattema + {} mynt. Ingen reklam, din för alltid.",
+    "premium_buy": "KÖP · {}",
+    "premium_unavailable": "Butiken är inte tillgänglig just nu",
+    "premium_owned": "Du har Premium",
+    "purchase_success": "Premium upplåst! Ha så kul.",
+    "purchase_pending": "Betalning väntar; den låses upp när den godkänns.",
+    "purchase_failed": "Köpet kunde inte slutföras.",
+    "equipped_toast": "{} utrustad",
+    "coins_pack_success": "+{} coins added!",
+    "coins_pack_processing": "Betalning mottagen! Dina mynt kommer om ett ögonblick."
+  },
+  "items": {
+    "ball_klasik": {
+      "name": "KLASSISK",
+      "desc": "Den tomatröda bollen där allt började."
+    },
+    "ball_karpuz": {
+      "name": "VATTENMELON",
+      "desc": "Saftig och snabb. Lämnar ett grönt spår i bläcket."
+    },
+    "ball_basket": {
+      "name": "BASKET",
+      "desc": "Studsar på bläck, inte i korgar."
+    },
+    "ball_tenis": {
+      "name": "TENNIS",
+      "desc": "Luddig och kvick i varje studs."
+    },
+    "ball_plaj": {
+      "name": "BADBOLL",
+      "desc": "Sommarfärger på banan."
+    },
+    "ball_gezegen": {
+      "name": "PLANET",
+      "desc": "En liten värld som glider med sina ringar."
+    },
+    "ball_ay": {
+      "name": "MÅNE",
+      "desc": "Rullar tyst, kratrar och allt."
+    },
+    "ball_bilardo": {
+      "name": "8-BOLL",
+      "desc": "Slår alltid sista stöten."
+    },
+    "ball_goz": {
+      "name": "ÖGA",
+      "desc": "Missar inget gap."
+    },
+    "ball_buz": {
+      "name": "IS",
+      "desc": "Slät, sval och hal."
+    },
+    "ball_lav": {
+      "name": "LAVA",
+      "desc": "Het ända in i kärnan."
+    },
+    "ball_gokkusagi": {
+      "name": "REGNBÅGE",
+      "desc": "Sju färger i en boll."
+    },
+    "ball_disko": {
+      "name": "DISCO",
+      "desc": "En discokula som glittrar vid varje varv."
+    },
+    "ball_yildiz": {
+      "name": "STJÄRNA",
+      "desc": "Premiumspelarnas gyllene stjärna."
+    },
+    "ink_lacivert": {
+      "name": "MARINBLÅ",
+      "desc": "Klassiskt reservoarpennebläck."
+    },
+    "ink_kirmizi": {
+      "name": "RÖD",
+      "desc": "Djärv som en lärares penna."
+    },
+    "ink_nane": {
+      "name": "MYNTA",
+      "desc": "En frisk, iögonfallande grön."
+    },
+    "ink_turuncu": {
+      "name": "ORANGE",
+      "desc": "En energisk orange."
+    },
+    "ink_pembe": {
+      "name": "ROSA",
+      "desc": "Söt som godis."
+    },
+    "ink_mavi": {
+      "name": "BLÅ",
+      "desc": "Klassisk kulspetsblå."
+    },
+    "ink_turkuaz": {
+      "name": "TURKOS",
+      "desc": "Klar som havet."
+    },
+    "ink_yesil": {
+      "name": "GRÖN",
+      "desc": "Frisk lövgrön."
+    },
+    "ink_mor": {
+      "name": "LILA",
+      "desc": "En mystisk djuplila."
+    },
+    "ink_kahve": {
+      "name": "BRUN",
+      "desc": "Varm som en kaffefläck."
+    },
+    "ink_bordo": {
+      "name": "VINRÖD",
+      "desc": "En djup, elegant röd."
+    },
+    "ink_gumus": {
+      "name": "SILVER",
+      "desc": "Silver som fångar ljuset."
+    },
+    "ink_altin": {
+      "name": "GULD",
+      "desc": "Glittrande bläck, bara med Premium."
+    },
+    "theme_kagit": {
+      "name": "PAPPER",
+      "desc": "En rutig anteckningsbokssida."
+    },
+    "theme_nane": {
+      "name": "MYNTA",
+      "desc": "En sval, grönaktig sida."
+    },
+    "theme_gunbatimi": {
+      "name": "SOLNEDGÅNG",
+      "desc": "En varm sida i persikotoner."
+    },
+    "theme_lavanta": {
+      "name": "LAVENDEL",
+      "desc": "En lugn lila sida."
+    },
+    "theme_gokyuzu": {
+      "name": "HIMMEL",
+      "desc": "En ljusblå himmelssida."
+    },
+    "theme_limon": {
+      "name": "CITRON",
+      "desc": "En solig citrongul sida."
+    },
+    "theme_seker": {
+      "name": "SOCKERVADD",
+      "desc": "En sockervaddsrosa sida."
+    },
+    "theme_orman": {
+      "name": "SKOG",
+      "desc": "En mörkgrön skog om natten."
+    },
+    "theme_uzay": {
+      "name": "RYMDEN",
+      "desc": "Djup, mörk rymd."
+    },
+    "theme_gece": {
+      "name": "NATT",
+      "desc": "Linjer som lyser i en marinblå natt."
+    }
+  },
+  "tasks": {
+    "title": "UPPDRAG",
+    "daily": "Dagligen",
+    "weekly": "Veckovis",
+    "achievements": "Mål",
+    "resets_in": "Nollställs om {}",
+    "achievements_note": "Mål kan hämtas en gång",
+    "claim": "HÄMTA",
+    "claimed": "HÄMTAD",
+    "unlocks": "Låser upp: {}",
+    "claimed_toast": "+{} mynt",
+    "unlocked_toast": "{} upplåst!",
+    "empty": "Inga uppdrag just nu",
+    "names": {
+      "daily_play_3": "Spela 3 omgångar",
+      "daily_coins_50": "Samla 50 mynt i en omgång",
+      "daily_share_1": "Dela ett klipp",
+      "daily_challenge_1": "Spela dagens bana",
+      "daily_score_100": "Få över 100 poäng",
+      "weekly_play_20": "Spela 20 omgångar",
+      "weekly_challenge_3": "Spela dagens bana under 3 dagar",
+      "weekly_coins_300": "Samla 300 mynt totalt",
+      "weekly_score_300": "Få över 300 poäng",
+      "ach_games_10": "Spela 10 omgångar",
+      "ach_score_500": "Få 500 poäng i en omgång",
+      "ach_games_50": "Spela 50 omgångar",
+      "ach_coins_1000": "Samla 1000 mynt totalt",
+      "ach_run_coins_100": "Samla 100 mynt i en omgång",
+      "ach_share_5": "Dela 5 klipp",
+      "ach_daily_7": "Spela dagens bana under 7 dagar",
+      "ach_score_1000": "Få 1000 poäng i en omgång",
+      "ach_games_200": "Spela 200 omgångar",
+      "ach_coins_5000": "Samla 5000 mynt totalt",
+      "ach_share_20": "Dela 20 klipp",
+      "ach_daily_30": "Spela dagens bana under 30 dagar"
+    }
+  },
+  "settings": {
+    "title": "INSTÄLLNINGAR",
+    "sound": "LJUD",
+    "sfx": "Ljudeffekter",
+    "music": "Musik",
+    "vibration": "Vibration",
+    "game": "SPEL",
+    "language": "Språk",
+    "language_name": "Svenska",
+    "notifications": "Aviseringar",
+    "replay_tutorial": "Visa guiden igen",
+    "account": "KONTO",
+    "name": "Visningsnamn",
+    "name_title": "DITT NAMN",
+    "name_hint": "Ange ett namn",
+    "name_save": "SPARA",
+    "name_saved": "Namnet uppdaterades.",
+    "name_invalid": "Använd 2–32 bokstäver, siffror eller mellanslag.",
+    "restore": "Återställ köp",
+    "privacy": "Integritetspolicy",
+    "terms": "Användarvillkor",
+    "cookies": "Cookiepolicy",
+    "child_safety": "Standarder för barns säkerhet",
+    "about": "Om",
+    "version": "Dashink · version {}",
+    "restore_success": "Dina köp har återställts.",
+    "restore_none": "Inga köp att återställa.",
+    "notifications_denied": "Aviseringsbehörighet nekades.",
+    "language_title": "SPRÅK"
+  },
+  "notifications": {
+    "daily_title": "Dagens bana är redo!",
+    "daily_body": "Nå topp 100 idag och vinn 100 mynt."
+  }
+}

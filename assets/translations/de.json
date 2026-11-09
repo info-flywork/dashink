@@ -1,0 +1,359 @@
+{
+  "common": {
+    "unexpected_error": "Etwas ist schiefgelaufen. Versuch es noch einmal.",
+    "offline": "Keine Internetverbindung.",
+    "retry": "ERNEUT VERSUCHEN",
+    "coming_soon": "Demnächst",
+    "cancel": "Abbrechen",
+    "close": "Schließen",
+    "you": "Du"
+  },
+  "tabs": {
+    "play": "Spielen",
+    "shop": "Shop",
+    "tasks": "Aufgaben",
+    "settings": "Einstellungen"
+  },
+  "home": {
+    "best": "BESTE {}",
+    "tap_to_play": "TIPPEN ZUM SPIELEN",
+    "daily": "TÄGLICH",
+    "leaderboard": "RANGLISTE",
+    "reward_daily": "Platz #{rank} in der Tagesherausforderung: +{coins} Münzen!"
+  },
+  "tutorial": {
+    "skip": "Überspringen",
+    "got_it": "VERSTANDEN",
+    "next": "WEITER",
+    "step1_title": "ZEICHNE VOR DEN BALL",
+    "step1_body": "Die Tinte verblasst nach 1 Sekunde",
+    "step2_title": "SCHNAPP DIR DIE MÜNZEN",
+    "step2_body": "Schalte im Shop neue Bälle frei",
+    "step3_title": "WEICHE DEN STACHELN AUS",
+    "step3_body": "Keine Tinte? Loslassen, dann füllt sie sich",
+    "step_label": "Schritt {current} / {total}"
+  },
+  "game": {
+    "pause": "Pause",
+    "paused": "PAUSIERT",
+    "resume": "WEITER",
+    "home": "MENÜ",
+    "restart": "NEUSTART",
+    "ink_label": "Tinte",
+    "daily_badge": "TAGESSTRECKE",
+    "draw_hint": "Zeichne vor den Ball!"
+  },
+  "game_over": {
+    "score": "PUNKTE",
+    "best": "BESTE {}",
+    "new_record": "NEUER REKORD!",
+    "play_again": "NOCHMAL SPIELEN",
+    "share": "Teilen",
+    "home": "Menü",
+    "coins_earned": "+{} Münzen",
+    "daily_rank": "Heute bist du #{}",
+    "offline_note": "Offline: Dein Punktestand wird gesendet, sobald du wieder online bist"
+  },
+  "record": {
+    "title": "NEUER REKORD!",
+    "previous": "Bisherige Bestleistung {previous} · +{diff} Punkte",
+    "continue": "WEITER",
+    "share": "TEILEN"
+  },
+  "choice": {
+    "question": "WIE GEHT'S WEITER?",
+    "play_again": "NOCHMAL SPIELEN",
+    "play_again_sub": "Von vorn starten",
+    "share": "TEILEN",
+    "share_sub": "Clip senden",
+    "home": "MENÜ",
+    "home_sub": "Zurück zum Menü"
+  },
+  "clip": {
+    "title": "CLIP TEILEN",
+    "subtitle": "Letzte {seconds} Sekunden · {score} Punkte",
+    "share": "TEILEN",
+    "save": "IN GALERIE SICHERN",
+    "preparing": "Clip wird vorbereitet…",
+    "saved": "In der Galerie gespeichert",
+    "save_failed": "Speichern fehlgeschlagen",
+    "permission_denied": "Zugriff auf die Galerie verweigert. Du kannst ihn in den Einstellungen erlauben.",
+    "permission_title": "GALERIE-ZUGRIFF",
+    "open_settings": "EINSTELLUNGEN ÖFFNEN",
+    "share_text": "Ich habe {score} Punkte in Dashink! Schaffst du mehr?",
+    "share_text_with_link": "Ich habe {score} Punkte in Dashink! Schaffst du mehr?\n{url}",
+    "no_clip": "Kein Clip, eine Punktekarte wird geteilt",
+    "play": "Abspielen"
+  },
+  "leaderboard": {
+    "title": "RANGLISTE",
+    "daily": "Täglich",
+    "weekly": "Wöchentlich",
+    "all": "Gesamt",
+    "empty": "Noch hat niemand gespielt. Sei der Erste!",
+    "not_ranked": "In diesem Zeitraum noch keine Spiele"
+  },
+  "daily": {
+    "title": "TÄGLICH",
+    "date_label": "{} · HERAUSFORDERUNG",
+    "description": "Heute läuft jeder dieselbe Strecke. Eine Strecke, unbegrenzte Versuche — dein bestes Ergebnis zählt.",
+    "participants": "Spieler",
+    "your_best": "dein Bestes",
+    "time_left": "verbleibend",
+    "reward_title": "BELOHNUNG",
+    "reward_body": "Erreiche die Top {} und gewinne Münzen",
+    "start": "START",
+    "your_rank": "Dein Rang: {}"
+  },
+  "shop": {
+    "title": "SHOP",
+    "balls": "Bälle",
+    "inks": "Tinte",
+    "themes": "Themen",
+    "equipped": "AUSGERÜSTET",
+    "equip": "Ausrüsten",
+    "task": "Aufgabe",
+    "premium": "Premium",
+    "buy_and_equip": "KAUFEN & AUSRÜSTEN",
+    "balance_after": "Du hast {balance} Münzen · danach bleiben {after}",
+    "not_enough_title": "NICHT GENUG MÜNZEN",
+    "not_enough_body": "{item} kostet {price} Münzen. Erledige Aufgaben, um noch {missing} zu verdienen.",
+    "do_tasks": "AUFGABEN MACHEN",
+    "get_coins": "+{coins} MÜNZEN · {price}",
+    "locked_title": "PER AUFGABE FREISCHALTBAR",
+    "locked_body": "{item} gehört dir, wenn du „{task}“ abschließt.",
+    "go_tasks": "ZU DEN AUFGABEN",
+    "premium_title": "PREMIUM",
+    "premium_body": "Sternball, goldene Tinte und Nachtthema + {} Münzen. Keine Werbung, für immer deins.",
+    "premium_buy": "KAUFEN · {}",
+    "premium_unavailable": "Der Shop ist gerade nicht verfügbar",
+    "premium_owned": "Du besitzt Premium",
+    "purchase_success": "Premium freigeschaltet! Viel Spaß.",
+    "purchase_pending": "Zahlung ausstehend; es wird nach der Freigabe freigeschaltet.",
+    "purchase_failed": "Der Kauf konnte nicht abgeschlossen werden.",
+    "equipped_toast": "{} ausgerüstet",
+    "coins_pack_success": "+{} coins added!",
+    "coins_pack_processing": "Zahlung erhalten! Deine Münzen kommen gleich an."
+  },
+  "items": {
+    "ball_klasik": {
+      "name": "KLASSIK",
+      "desc": "Der tomatenrote Ball, mit dem alles begann."
+    },
+    "ball_karpuz": {
+      "name": "WASSERMELONE",
+      "desc": "Saftig und schnell. Hinterlässt eine grüne Spur in der Tinte."
+    },
+    "ball_basket": {
+      "name": "BASKETBALL",
+      "desc": "Springt auf Tinte, nicht in Körbe."
+    },
+    "ball_tenis": {
+      "name": "TENNIS",
+      "desc": "Flauschig und flink bei jedem Sprung."
+    },
+    "ball_plaj": {
+      "name": "WASSERBALL",
+      "desc": "Sommerfarben auf der Strecke."
+    },
+    "ball_gezegen": {
+      "name": "PLANET",
+      "desc": "Eine kleine Welt, die mit ihren Ringen gleitet."
+    },
+    "ball_ay": {
+      "name": "MOND",
+      "desc": "Rollt leise, samt Kratern."
+    },
+    "ball_bilardo": {
+      "name": "8-BALL",
+      "desc": "Macht immer den letzten Stoß."
+    },
+    "ball_goz": {
+      "name": "AUGAPFEL",
+      "desc": "Verpasst keine Lücke."
+    },
+    "ball_buz": {
+      "name": "EIS",
+      "desc": "Glatt, kühl und rutschig."
+    },
+    "ball_lav": {
+      "name": "LAVA",
+      "desc": "Heiß bis in den Kern."
+    },
+    "ball_gokkusagi": {
+      "name": "REGENBOGEN",
+      "desc": "Sieben Farben in einem Ball."
+    },
+    "ball_disko": {
+      "name": "DISCO",
+      "desc": "Eine Spiegelkugel, die bei jeder Drehung funkelt."
+    },
+    "ball_yildiz": {
+      "name": "STERN",
+      "desc": "Der goldene Stern der Premium-Spieler."
+    },
+    "ink_lacivert": {
+      "name": "MARINE",
+      "desc": "Klassische Füllfederhaltertinte."
+    },
+    "ink_kirmizi": {
+      "name": "ROT",
+      "desc": "Kräftig wie der Stift einer Lehrkraft."
+    },
+    "ink_nane": {
+      "name": "MINZE",
+      "desc": "Ein frisches, auffälliges Grün."
+    },
+    "ink_turuncu": {
+      "name": "ORANGE",
+      "desc": "Ein energiegeladenes Orange."
+    },
+    "ink_pembe": {
+      "name": "ROSA",
+      "desc": "Süß wie Bonbons."
+    },
+    "ink_mavi": {
+      "name": "BLAU",
+      "desc": "Klassisches Kugelschreiberblau."
+    },
+    "ink_turkuaz": {
+      "name": "TÜRKIS",
+      "desc": "Klar wie das Meer."
+    },
+    "ink_yesil": {
+      "name": "GRÜN",
+      "desc": "Frisches Blattgrün."
+    },
+    "ink_mor": {
+      "name": "LILA",
+      "desc": "Ein geheimnisvolles tiefes Violett."
+    },
+    "ink_kahve": {
+      "name": "BRAUN",
+      "desc": "Warm wie ein Kaffeefleck."
+    },
+    "ink_bordo": {
+      "name": "BORDEAUX",
+      "desc": "Ein tiefes, edles Rot."
+    },
+    "ink_gumus": {
+      "name": "SILBER",
+      "desc": "Silber, das im Licht glänzt."
+    },
+    "ink_altin": {
+      "name": "GOLD",
+      "desc": "Glitzernde Tinte, nur mit Premium."
+    },
+    "theme_kagit": {
+      "name": "PAPIER",
+      "desc": "Eine karierte Notizbuchseite."
+    },
+    "theme_nane": {
+      "name": "MINZE",
+      "desc": "Eine kühle, grünliche Seite."
+    },
+    "theme_gunbatimi": {
+      "name": "SONNENUNTERGANG",
+      "desc": "Eine warme Seite in Pfirsichtönen."
+    },
+    "theme_lavanta": {
+      "name": "LAVENDEL",
+      "desc": "Eine ruhige, fliederfarbene Seite."
+    },
+    "theme_gokyuzu": {
+      "name": "HIMMEL",
+      "desc": "Eine hellblaue Himmelsseite."
+    },
+    "theme_limon": {
+      "name": "ZITRONE",
+      "desc": "Eine sonnige Zitronenseite."
+    },
+    "theme_seker": {
+      "name": "ZUCKERWATTE",
+      "desc": "Eine zuckerwattenrosa Seite."
+    },
+    "theme_orman": {
+      "name": "WALD",
+      "desc": "Ein dunkelgrüner Wald bei Nacht."
+    },
+    "theme_uzay": {
+      "name": "WELTALL",
+      "desc": "Tiefes, dunkles All."
+    },
+    "theme_gece": {
+      "name": "NACHT",
+      "desc": "Linien, die in einer marineblauen Nacht leuchten."
+    }
+  },
+  "tasks": {
+    "title": "AUFGABEN",
+    "daily": "Täglich",
+    "weekly": "Wöchentlich",
+    "achievements": "Ziele",
+    "resets_in": "Setzt zurück in {}",
+    "achievements_note": "Ziele können einmal abgeholt werden",
+    "claim": "HOLEN",
+    "claimed": "ABGEHOLT",
+    "unlocks": "Schaltet frei: {}",
+    "claimed_toast": "+{} Münzen",
+    "unlocked_toast": "{} freigeschaltet!",
+    "empty": "Gerade keine Aufgaben",
+    "names": {
+      "daily_play_3": "Spiele 3 Partien",
+      "daily_coins_50": "Sammle 50 Münzen in einer Partie",
+      "daily_share_1": "Teile einen Clip",
+      "daily_challenge_1": "Spiele die Tagesstrecke",
+      "daily_score_100": "Erziele über 100 Punkte",
+      "weekly_play_20": "Spiele 20 Partien",
+      "weekly_challenge_3": "Spiele die Tagesstrecke an 3 Tagen",
+      "weekly_coins_300": "Sammle insgesamt 300 Münzen",
+      "weekly_score_300": "Erziele über 300 Punkte",
+      "ach_games_10": "Spiele 10 Partien",
+      "ach_score_500": "Erziele 500 Punkte in einer Partie",
+      "ach_games_50": "Spiele 50 Partien",
+      "ach_coins_1000": "Sammle insgesamt 1000 Münzen",
+      "ach_run_coins_100": "Sammle 100 Münzen in einer Partie",
+      "ach_share_5": "Teile 5 Clips",
+      "ach_daily_7": "Spiele die Tagesstrecke an 7 Tagen",
+      "ach_score_1000": "Erziele 1000 Punkte in einer Partie",
+      "ach_games_200": "Spiele 200 Partien",
+      "ach_coins_5000": "Sammle insgesamt 5000 Münzen",
+      "ach_share_20": "Teile 20 Clips",
+      "ach_daily_30": "Spiele die Tagesstrecke an 30 Tagen"
+    }
+  },
+  "settings": {
+    "title": "EINSTELLUNGEN",
+    "sound": "TON",
+    "sfx": "Soundeffekte",
+    "music": "Musik",
+    "vibration": "Vibration",
+    "game": "SPIEL",
+    "language": "Sprache",
+    "language_name": "Deutsch",
+    "notifications": "Mitteilungen",
+    "replay_tutorial": "Tutorial wiederholen",
+    "account": "KONTO",
+    "name": "Anzeigename",
+    "name_title": "DEIN NAME",
+    "name_hint": "Name eingeben",
+    "name_save": "SPEICHERN",
+    "name_saved": "Name aktualisiert.",
+    "name_invalid": "Verwende 2–32 Buchstaben, Zahlen oder Leerzeichen.",
+    "restore": "Käufe wiederherstellen",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen",
+    "cookies": "Cookie-Richtlinie",
+    "child_safety": "Kinderschutzstandards",
+    "about": "Über",
+    "version": "Dashink · Version {}",
+    "restore_success": "Deine Käufe wurden wiederhergestellt.",
+    "restore_none": "Keine Käufe zum Wiederherstellen.",
+    "notifications_denied": "Mitteilungsberechtigung verweigert.",
+    "language_title": "SPRACHE"
+  },
+  "notifications": {
+    "daily_title": "Die heutige Strecke ist bereit!",
+    "daily_body": "Erreiche heute die Top 100 und gewinne 100 Münzen."
+  }
+}

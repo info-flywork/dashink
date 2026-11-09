@@ -1,0 +1,359 @@
+{
+  "common": {
+    "unexpected_error": "Coś poszło nie tak. Spróbuj ponownie.",
+    "offline": "Brak połączenia z internetem.",
+    "retry": "SPRÓBUJ PONOWNIE",
+    "coming_soon": "Wkrótce",
+    "cancel": "Anuluj",
+    "close": "Zamknij",
+    "you": "Ty"
+  },
+  "tabs": {
+    "play": "Graj",
+    "shop": "Sklep",
+    "tasks": "Zadania",
+    "settings": "Ustawienia"
+  },
+  "home": {
+    "best": "NAJLEPSZY {}",
+    "tap_to_play": "DOTKNIJ, ABY GRAĆ",
+    "daily": "DZIENNIE",
+    "leaderboard": "RANKING",
+    "reward_daily": "Miejsce #{rank} w dziennym wyzwaniu: +{coins} monet!"
+  },
+  "tutorial": {
+    "skip": "Pomiń",
+    "got_it": "JASNE",
+    "next": "DALEJ",
+    "step1_title": "RYSUJ PRZED PIŁKĄ",
+    "step1_body": "Atrament znika po 1 sekundzie",
+    "step2_title": "ŁAP MONETY",
+    "step2_body": "Odblokuj nowe piłki w sklepie",
+    "step3_title": "UNIKAJ KOLCÓW",
+    "step3_body": "Brak atramentu? Puść, a się uzupełni",
+    "step_label": "Krok {current} / {total}"
+  },
+  "game": {
+    "pause": "Pauza",
+    "paused": "PAUZA",
+    "resume": "WZNÓW",
+    "home": "MENU",
+    "restart": "RESTART",
+    "ink_label": "Atrament",
+    "daily_badge": "TOR DNIA",
+    "draw_hint": "Rysuj przed piłką!"
+  },
+  "game_over": {
+    "score": "WYNIK",
+    "best": "NAJLEPSZY {}",
+    "new_record": "NOWY REKORD!",
+    "play_again": "GRAJ PONOWNIE",
+    "share": "Udostępnij",
+    "home": "Menu",
+    "coins_earned": "+{} monet",
+    "daily_rank": "Dziś jesteś #{}",
+    "offline_note": "Offline: wynik zostanie wysłany, gdy wrócisz do sieci"
+  },
+  "record": {
+    "title": "NOWY REKORD!",
+    "previous": "Poprzedni rekord {previous} · +{diff} pkt",
+    "continue": "DALEJ",
+    "share": "UDOSTĘPNIJ"
+  },
+  "choice": {
+    "question": "CO DALEJ?",
+    "play_again": "GRAJ PONOWNIE",
+    "play_again_sub": "Zacznij od nowa",
+    "share": "UDOSTĘPNIJ",
+    "share_sub": "Wyślij klip",
+    "home": "MENU",
+    "home_sub": "Wróć do menu"
+  },
+  "clip": {
+    "title": "UDOSTĘPNIJ KLIP",
+    "subtitle": "Ostatnie {seconds} sekund · {score} punktów",
+    "share": "UDOSTĘPNIJ",
+    "save": "ZAPISZ W GALERII",
+    "preparing": "Przygotowywanie klipu…",
+    "saved": "Zapisano w galerii",
+    "save_failed": "Nie udało się zapisać",
+    "permission_denied": "Brak dostępu do galerii. Możesz go włączyć w Ustawieniach.",
+    "permission_title": "DOSTĘP DO GALERII",
+    "open_settings": "OTWÓRZ USTAWIENIA",
+    "share_text": "Mam {score} w Dashink! Pobijesz to?",
+    "share_text_with_link": "Mam {score} w Dashink! Pobijesz to?\n{url}",
+    "no_clip": "Brak klipu, udostępniam kartę wyniku",
+    "play": "Odtwórz"
+  },
+  "leaderboard": {
+    "title": "RANKING",
+    "daily": "Dzienny",
+    "weekly": "Tygodniowy",
+    "all": "Całość",
+    "empty": "Nikt jeszcze nie grał. Bądź pierwszy!",
+    "not_ranked": "Brak gier w tym okresie"
+  },
+  "daily": {
+    "title": "DZIENNIE",
+    "date_label": "{} · WYZWANIE",
+    "description": "Dziś wszyscy jadą tym samym torem. Jeden tor, bez limitu prób — liczy się najlepszy wynik.",
+    "participants": "graczy",
+    "your_best": "twój rekord",
+    "time_left": "zostało czasu",
+    "reward_title": "NAGRODA",
+    "reward_body": "Wejdź do top {} i wygraj monety",
+    "start": "START",
+    "your_rank": "Twoje miejsce: {}"
+  },
+  "shop": {
+    "title": "SKLEP",
+    "balls": "Piłki",
+    "inks": "Atramenty",
+    "themes": "Motywy",
+    "equipped": "ZAŁOŻONE",
+    "equip": "Załóż",
+    "task": "Zadanie",
+    "premium": "Premium",
+    "buy_and_equip": "KUP I ZAŁÓŻ",
+    "balance_after": "Masz {balance} monet · po zakupie zostanie {after}",
+    "not_enough_title": "ZA MAŁO MONET",
+    "not_enough_body": "{item} kosztuje {price} monet. Wykonuj zadania, by zdobyć jeszcze {missing}.",
+    "do_tasks": "ZRÓB ZADANIA",
+    "get_coins": "+{coins} MONET · {price}",
+    "locked_title": "ODBLOKOWANE ZADANIEM",
+    "locked_body": "{item} będzie twoje, gdy ukończysz „{task}”.",
+    "go_tasks": "DO ZADAŃ",
+    "premium_title": "PREMIUM",
+    "premium_body": "Piłka gwiazda, złoty atrament i motyw nocy + {} monet. Bez reklam, na zawsze twoje.",
+    "premium_buy": "KUP · {}",
+    "premium_unavailable": "Sklep jest teraz niedostępny",
+    "premium_owned": "Masz Premium",
+    "purchase_success": "Premium odblokowane! Miłej gry.",
+    "purchase_pending": "Płatność oczekuje; odblokuje się po zatwierdzeniu.",
+    "purchase_failed": "Nie udało się dokończyć zakupu.",
+    "equipped_toast": "Założono {}",
+    "coins_pack_success": "+{} coins added!",
+    "coins_pack_processing": "Płatność otrzymana! Monety pojawią się za chwilę."
+  },
+  "items": {
+    "ball_klasik": {
+      "name": "KLASYCZNA",
+      "desc": "Pomidorowoczerwona piłka, od której wszystko się zaczęło."
+    },
+    "ball_karpuz": {
+      "name": "ARBUZ",
+      "desc": "Soczysty i szybki. Zostawia zielony ślad w atramencie."
+    },
+    "ball_basket": {
+      "name": "KOSZYKÓWKA",
+      "desc": "Odbija się od atramentu, nie od kosza."
+    },
+    "ball_tenis": {
+      "name": "TENIS",
+      "desc": "Puszysta i zwinna przy każdym odbiciu."
+    },
+    "ball_plaj": {
+      "name": "PIŁKA PLAŻOWA",
+      "desc": "Letnie kolory na trasie."
+    },
+    "ball_gezegen": {
+      "name": "PLANETA",
+      "desc": "Mały świat sunący ze swoimi pierścieniami."
+    },
+    "ball_ay": {
+      "name": "KSIĘŻYC",
+      "desc": "Toczy się cicho, z kraterami."
+    },
+    "ball_bilardo": {
+      "name": "ÓSEMKA",
+      "desc": "Zawsze wykonuje ostatnie uderzenie."
+    },
+    "ball_goz": {
+      "name": "OKO",
+      "desc": "Nie przegapi żadnej szczeliny."
+    },
+    "ball_buz": {
+      "name": "LÓD",
+      "desc": "Gładki, chłodny i śliski."
+    },
+    "ball_lav": {
+      "name": "LAWA",
+      "desc": "Gorąca do samego jądra."
+    },
+    "ball_gokkusagi": {
+      "name": "TĘCZA",
+      "desc": "Siedem kolorów w jednej piłce."
+    },
+    "ball_disko": {
+      "name": "DISCO",
+      "desc": "Kula lustrzana, która błyszczy przy każdym obrocie."
+    },
+    "ball_yildiz": {
+      "name": "GWIAZDA",
+      "desc": "Złota gwiazda graczy Premium."
+    },
+    "ink_lacivert": {
+      "name": "GRANAT",
+      "desc": "Klasyczny atrament wiecznego pióra."
+    },
+    "ink_kirmizi": {
+      "name": "CZERWONY",
+      "desc": "Wyrazisty jak pióro nauczyciela."
+    },
+    "ink_nane": {
+      "name": "MIĘTA",
+      "desc": "Świeża, przyciągająca zieleń."
+    },
+    "ink_turuncu": {
+      "name": "POMARAŃCZ",
+      "desc": "Energiczny pomarańcz."
+    },
+    "ink_pembe": {
+      "name": "RÓŻ",
+      "desc": "Słodki jak cukierek."
+    },
+    "ink_mavi": {
+      "name": "NIEBIESKI",
+      "desc": "Klasyczny niebieski długopisu."
+    },
+    "ink_turkuaz": {
+      "name": "TURKUS",
+      "desc": "Czysty jak morze."
+    },
+    "ink_yesil": {
+      "name": "ZIELEŃ",
+      "desc": "Świeża zieleń liści."
+    },
+    "ink_mor": {
+      "name": "FIOLET",
+      "desc": "Tajemniczy głęboki fiolet."
+    },
+    "ink_kahve": {
+      "name": "BRĄZ",
+      "desc": "Ciepły jak plama kawy."
+    },
+    "ink_bordo": {
+      "name": "BORDO",
+      "desc": "Głęboka, szlachetna czerwień."
+    },
+    "ink_gumus": {
+      "name": "SREBRO",
+      "desc": "Srebro, które łapie światło."
+    },
+    "ink_altin": {
+      "name": "ZŁOTO",
+      "desc": "Błyszczący atrament, tylko w Premium."
+    },
+    "theme_kagit": {
+      "name": "PAPIER",
+      "desc": "Kartka zeszytu w kratkę."
+    },
+    "theme_nane": {
+      "name": "MIĘTA",
+      "desc": "Chłodna, zielonkawa strona."
+    },
+    "theme_gunbatimi": {
+      "name": "ZACHÓD",
+      "desc": "Ciepła strona w brzoskwiniowych tonach."
+    },
+    "theme_lavanta": {
+      "name": "LAWENDA",
+      "desc": "Spokojna, liliowa strona."
+    },
+    "theme_gokyuzu": {
+      "name": "NIEBO",
+      "desc": "Jasnoniebieska strona nieba."
+    },
+    "theme_limon": {
+      "name": "CYTRYNA",
+      "desc": "Słoneczna, cytrynowa strona."
+    },
+    "theme_seker": {
+      "name": "WATA CUKROWA",
+      "desc": "Różowa strona jak wata cukrowa."
+    },
+    "theme_orman": {
+      "name": "LAS",
+      "desc": "Ciemnozielony las nocą."
+    },
+    "theme_uzay": {
+      "name": "KOSMOS",
+      "desc": "Głęboki, ciemny kosmos."
+    },
+    "theme_gece": {
+      "name": "NOC",
+      "desc": "Linie świecące w granatowej nocy."
+    }
+  },
+  "tasks": {
+    "title": "ZADANIA",
+    "daily": "Dzienne",
+    "weekly": "Tygodniowe",
+    "achievements": "Cele",
+    "resets_in": "Reset za {}",
+    "achievements_note": "Cele można odebrać tylko raz",
+    "claim": "ODBIERZ",
+    "claimed": "ODEBRANE",
+    "unlocks": "Odblokowuje: {}",
+    "claimed_toast": "+{} monet",
+    "unlocked_toast": "Odblokowano {}!",
+    "empty": "Brak zadań",
+    "names": {
+      "daily_play_3": "Zagraj 3 razy",
+      "daily_coins_50": "Zbierz 50 monet w jednej grze",
+      "daily_share_1": "Udostępnij klip",
+      "daily_challenge_1": "Zagraj w tor dnia",
+      "daily_score_100": "Zdobądź ponad 100 punktów",
+      "weekly_play_20": "Zagraj 20 razy",
+      "weekly_challenge_3": "Zagraj w tor dnia przez 3 dni",
+      "weekly_coins_300": "Zbierz łącznie 300 monet",
+      "weekly_score_300": "Zdobądź ponad 300 punktów",
+      "ach_games_10": "Zagraj 10 razy",
+      "ach_score_500": "Zdobądź 500 punktów w jednej grze",
+      "ach_games_50": "Zagraj 50 razy",
+      "ach_coins_1000": "Zbierz łącznie 1000 monet",
+      "ach_run_coins_100": "Zbierz 100 monet w jednej grze",
+      "ach_share_5": "Udostępnij 5 klipów",
+      "ach_daily_7": "Zagraj w tor dnia przez 7 dni",
+      "ach_score_1000": "Zdobądź 1000 punktów w jednej grze",
+      "ach_games_200": "Zagraj 200 razy",
+      "ach_coins_5000": "Zbierz łącznie 5000 monet",
+      "ach_share_20": "Udostępnij 20 klipów",
+      "ach_daily_30": "Zagraj w tor dnia przez 30 dni"
+    }
+  },
+  "settings": {
+    "title": "USTAWIENIA",
+    "sound": "DŹWIĘK",
+    "sfx": "Efekty dźwiękowe",
+    "music": "Muzyka",
+    "vibration": "Wibracje",
+    "game": "GRA",
+    "language": "Język",
+    "language_name": "Polski",
+    "notifications": "Powiadomienia",
+    "replay_tutorial": "Powtórz samouczek",
+    "account": "KONTO",
+    "name": "Nazwa wyświetlana",
+    "name_title": "TWOJE IMIĘ",
+    "name_hint": "Wpisz nazwę",
+    "name_save": "ZAPISZ",
+    "name_saved": "Nazwa zaktualizowana.",
+    "name_invalid": "Użyj 2–32 liter, cyfr lub spacji.",
+    "restore": "Przywróć zakupy",
+    "privacy": "Polityka prywatności",
+    "terms": "Warunki korzystania",
+    "cookies": "Polityka plików cookie",
+    "child_safety": "Standardy bezpieczeństwa dzieci",
+    "about": "Informacje",
+    "version": "Dashink · wersja {}",
+    "restore_success": "Twoje zakupy zostały przywrócone.",
+    "restore_none": "Brak zakupów do przywrócenia.",
+    "notifications_denied": "Odmowa uprawnień do powiadomień.",
+    "language_title": "JĘZYK"
+  },
+  "notifications": {
+    "daily_title": "Dzisiejszy tor jest gotowy!",
+    "daily_body": "Wejdź dziś do top 100 i wygraj 100 monet."
+  }
+}

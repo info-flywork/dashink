@@ -1,0 +1,359 @@
+{
+  "common": {
+    "unexpected_error": "حدث خطأ ما. حاول مرة أخرى.",
+    "offline": "لا يوجد اتصال بالإنترنت.",
+    "retry": "حاول مرة أخرى",
+    "coming_soon": "قريبًا",
+    "cancel": "إلغاء",
+    "close": "إغلاق",
+    "you": "أنت"
+  },
+  "tabs": {
+    "play": "العب",
+    "shop": "المتجر",
+    "tasks": "المهام",
+    "settings": "الإعدادات"
+  },
+  "home": {
+    "best": "الأفضل {}",
+    "tap_to_play": "اضغط للعب",
+    "daily": "يومي",
+    "leaderboard": "الترتيب",
+    "reward_daily": "حللت في المركز #{rank} في التحدي اليومي: +{coins} عملة!"
+  },
+  "tutorial": {
+    "skip": "تخطي",
+    "got_it": "فهمت",
+    "next": "التالي",
+    "step1_title": "ارسم أمام الكرة",
+    "step1_body": "الحبر يختفي خلال ثانية واحدة",
+    "step2_title": "اجمع العملات",
+    "step2_body": "افتح كرات جديدة في المتجر",
+    "step3_title": "تجنّب الأشواك",
+    "step3_body": "نفد الحبر؟ ارفع إصبعك ليمتلئ من جديد",
+    "step_label": "الخطوة {current} / {total}"
+  },
+  "game": {
+    "pause": "إيقاف مؤقت",
+    "paused": "متوقف",
+    "resume": "متابعة",
+    "home": "الرئيسية",
+    "restart": "إعادة",
+    "ink_label": "الحبر",
+    "daily_badge": "مسار اليوم",
+    "draw_hint": "ارسم أمام الكرة!"
+  },
+  "game_over": {
+    "score": "النقاط",
+    "best": "الأفضل {}",
+    "new_record": "رقم قياسي جديد!",
+    "play_again": "العب مجددًا",
+    "share": "مشاركة",
+    "home": "الرئيسية",
+    "coins_earned": "+{} عملة",
+    "daily_rank": "أنت #{} اليوم",
+    "offline_note": "غير متصل: سيُرسل نقاطك عند عودة الاتصال"
+  },
+  "record": {
+    "title": "رقم قياسي جديد!",
+    "previous": "أفضل نتيجة سابقة {previous} · +{diff} نقطة",
+    "continue": "متابعة",
+    "share": "مشاركة"
+  },
+  "choice": {
+    "question": "ماذا بعد؟",
+    "play_again": "العب مجددًا",
+    "play_again_sub": "ابدأ من جديد",
+    "share": "مشاركة",
+    "share_sub": "أرسل المقطع",
+    "home": "الرئيسية",
+    "home_sub": "العودة إلى القائمة"
+  },
+  "clip": {
+    "title": "مشاركة المقطع",
+    "subtitle": "آخر {seconds} ثانية · {score} نقطة",
+    "share": "مشاركة",
+    "save": "حفظ في المعرض",
+    "preparing": "جارٍ تجهيز المقطع…",
+    "saved": "تم الحفظ في المعرض",
+    "save_failed": "تعذر الحفظ",
+    "permission_denied": "تم رفض الوصول إلى المعرض. يمكنك السماح بذلك من الإعدادات.",
+    "permission_title": "الوصول إلى المعرض",
+    "open_settings": "افتح الإعدادات",
+    "share_text": "سجلت {score} في Dashink! هل تتفوق علي؟",
+    "share_text_with_link": "سجلت {score} في Dashink! هل تتفوق علي؟\n{url}",
+    "no_clip": "لا يوجد مقطع، ستتم مشاركة بطاقة النتيجة",
+    "play": "تشغيل"
+  },
+  "leaderboard": {
+    "title": "الترتيب",
+    "daily": "يومي",
+    "weekly": "أسبوعي",
+    "all": "الكل",
+    "empty": "لم يلعب أحد بعد. كن الأول!",
+    "not_ranked": "لا توجد جولات في هذه الفترة بعد"
+  },
+  "daily": {
+    "title": "يومي",
+    "date_label": "{} · تحدٍ",
+    "description": "اليوم يخوض الجميع المسار نفسه. مسار واحد ومحاولات بلا حد، وتُحتسب أفضل نتيجة.",
+    "participants": "لاعبون",
+    "your_best": "أفضل نتيجة لك",
+    "time_left": "الوقت المتبقي",
+    "reward_title": "المكافأة",
+    "reward_body": "ابلغ أفضل {} لتربح العملات",
+    "start": "ابدأ",
+    "your_rank": "ترتيبك: {}"
+  },
+  "shop": {
+    "title": "المتجر",
+    "balls": "الكرات",
+    "inks": "الحبر",
+    "themes": "السمات",
+    "equipped": "مُجهّز",
+    "equip": "تجهيز",
+    "task": "مهمة",
+    "premium": "بريميوم",
+    "buy_and_equip": "اشترِ وجهّز",
+    "balance_after": "لديك {balance} عملة · يتبقى {after} بعد الشراء",
+    "not_enough_title": "العملات غير كافية",
+    "not_enough_body": "{item} يكلف {price} عملة. أكمل المهام لتربح {missing} إضافية.",
+    "do_tasks": "نفّذ المهام",
+    "get_coins": "+{coins} عملة · {price}",
+    "locked_title": "يُفتح بمهمة",
+    "locked_body": "يصبح {item} لك عند إكمال «{task}».",
+    "go_tasks": "إلى المهام",
+    "premium_title": "بريميوم",
+    "premium_body": "كرة النجمة وحبر ذهبي وسمة الليل + {} عملة. بلا إعلانات، لك إلى الأبد.",
+    "premium_buy": "شراء · {}",
+    "premium_unavailable": "المتجر غير متاح حاليًا",
+    "premium_owned": "أنت تملك بريميوم",
+    "purchase_success": "تم فتح بريميوم! استمتع.",
+    "purchase_pending": "الدفع قيد الانتظار؛ يُفتح بعد الموافقة.",
+    "purchase_failed": "تعذر إتمام الشراء.",
+    "equipped_toast": "تم تجهيز {}",
+    "coins_pack_success": "+{} coins added!",
+    "coins_pack_processing": "تم استلام الدفع! ستصل عملاتك بعد لحظات."
+  },
+  "items": {
+    "ball_klasik": {
+      "name": "كلاسيك",
+      "desc": "الكرة الحمراء بلون الطماطم التي بدأ منها كل شيء."
+    },
+    "ball_karpuz": {
+      "name": "بطيخ",
+      "desc": "غنية وسريعة. تترك أثرًا أخضر على الحبر."
+    },
+    "ball_basket": {
+      "name": "كرة سلة",
+      "desc": "ترتد على الحبر، لا في السلة."
+    },
+    "ball_tenis": {
+      "name": "تنس",
+      "desc": "زغبية ورشيقة في كل ارتداد."
+    },
+    "ball_plaj": {
+      "name": "كرة شاطئ",
+      "desc": "ألوان الصيف على المسار."
+    },
+    "ball_gezegen": {
+      "name": "كوكب",
+      "desc": "عالم صغير ينزلق بحلقاته."
+    },
+    "ball_ay": {
+      "name": "قمر",
+      "desc": "تتدحرج بهدوء مع فوهاتها."
+    },
+    "ball_bilardo": {
+      "name": "الكرة 8",
+      "desc": "تسدد الضربة الأخيرة دائمًا."
+    },
+    "ball_goz": {
+      "name": "مقلة",
+      "desc": "لا تفوّت أي فجوة."
+    },
+    "ball_buz": {
+      "name": "جليد",
+      "desc": "ناعمة وباردة وزلقة."
+    },
+    "ball_lav": {
+      "name": "حمم",
+      "desc": "ساخنة حتى النواة."
+    },
+    "ball_gokkusagi": {
+      "name": "قوس قزح",
+      "desc": "سبعة ألوان في كرة واحدة."
+    },
+    "ball_disko": {
+      "name": "ديسكو",
+      "desc": "كرة مرايا تتلألأ في كل دورة."
+    },
+    "ball_yildiz": {
+      "name": "نجمة",
+      "desc": "النجمة الذهبية للاعبي بريميوم."
+    },
+    "ink_lacivert": {
+      "name": "كحلي",
+      "desc": "حبر قلم حبر كلاسيكي."
+    },
+    "ink_kirmizi": {
+      "name": "أحمر",
+      "desc": "جريء كقلم المعلم."
+    },
+    "ink_nane": {
+      "name": "نعناع",
+      "desc": "أخضر منعش يلفت النظر."
+    },
+    "ink_turuncu": {
+      "name": "برتقالي",
+      "desc": "برتقالي مفعم بالطاقة."
+    },
+    "ink_pembe": {
+      "name": "وردي",
+      "desc": "حلو كالحلوى."
+    },
+    "ink_mavi": {
+      "name": "أزرق",
+      "desc": "أزرق قلم الحبر الجاف الكلاسيكي."
+    },
+    "ink_turkuaz": {
+      "name": "فيروزي",
+      "desc": "صافٍ كالبحر."
+    },
+    "ink_yesil": {
+      "name": "أخضر",
+      "desc": "أخضر الأوراق الطازجة."
+    },
+    "ink_mor": {
+      "name": "بنفسجي",
+      "desc": "بنفسجي عميق غامض."
+    },
+    "ink_kahve": {
+      "name": "بني",
+      "desc": "دافئ كبقعة قهوة."
+    },
+    "ink_bordo": {
+      "name": "عنابي",
+      "desc": "أحمر داكن وأنيق."
+    },
+    "ink_gumus": {
+      "name": "فضي",
+      "desc": "فضة تلمع في الضوء."
+    },
+    "ink_altin": {
+      "name": "ذهبي",
+      "desc": "حبر لامع، لبريميوم فقط."
+    },
+    "theme_kagit": {
+      "name": "ورق",
+      "desc": "صفحة دفتر مربعات."
+    },
+    "theme_nane": {
+      "name": "نعناع",
+      "desc": "صفحة باردة مائلة للأخضر."
+    },
+    "theme_gunbatimi": {
+      "name": "غروب",
+      "desc": "صفحة دافئة بدرجات الخوخ."
+    },
+    "theme_lavanta": {
+      "name": "لافندر",
+      "desc": "صفحة هادئة بلون الليلك."
+    },
+    "theme_gokyuzu": {
+      "name": "سماء",
+      "desc": "صفحة سماء زرقاء فاتحة."
+    },
+    "theme_limon": {
+      "name": "ليمون",
+      "desc": "صفحة مشمسة بلون الليمون."
+    },
+    "theme_seker": {
+      "name": "غزل البنات",
+      "desc": "صفحة وردية كغزل البنات."
+    },
+    "theme_orman": {
+      "name": "غابة",
+      "desc": "غابة خضراء داكنة ليلًا."
+    },
+    "theme_uzay": {
+      "name": "فضاء",
+      "desc": "فضاء عميق ومظلم."
+    },
+    "theme_gece": {
+      "name": "ليل",
+      "desc": "خطوط تتوهج في ليل كحلي."
+    }
+  },
+  "tasks": {
+    "title": "المهام",
+    "daily": "يومية",
+    "weekly": "أسبوعية",
+    "achievements": "أهداف",
+    "resets_in": "تُعاد خلال {}",
+    "achievements_note": "يمكن استلام الأهداف مرة واحدة",
+    "claim": "استلام",
+    "claimed": "تم الاستلام",
+    "unlocks": "يفتح: {}",
+    "claimed_toast": "+{} عملة",
+    "unlocked_toast": "تم فتح {}!",
+    "empty": "لا توجد مهام الآن",
+    "names": {
+      "daily_play_3": "العب 3 جولات",
+      "daily_coins_50": "اجمع 50 عملة في جولة واحدة",
+      "daily_share_1": "شارك مقطعًا",
+      "daily_challenge_1": "العب مسار اليوم",
+      "daily_score_100": "تجاوز 100 نقطة",
+      "weekly_play_20": "العب 20 جولة",
+      "weekly_challenge_3": "العب مسار اليوم في 3 أيام",
+      "weekly_coins_300": "اجمع 300 عملة إجمالًا",
+      "weekly_score_300": "تجاوز 300 نقطة",
+      "ach_games_10": "العب 10 جولات",
+      "ach_score_500": "احرز 500 في جولة واحدة",
+      "ach_games_50": "العب 50 جولة",
+      "ach_coins_1000": "اجمع 1000 عملة إجمالًا",
+      "ach_run_coins_100": "اجمع 100 عملة في جولة واحدة",
+      "ach_share_5": "شارك 5 مقاطع",
+      "ach_daily_7": "العب مسار اليوم في 7 أيام",
+      "ach_score_1000": "احرز 1000 في جولة واحدة",
+      "ach_games_200": "العب 200 جولة",
+      "ach_coins_5000": "اجمع 5000 عملة إجمالًا",
+      "ach_share_20": "شارك 20 مقطعًا",
+      "ach_daily_30": "العب مسار اليوم في 30 يومًا"
+    }
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "sound": "الصوت",
+    "sfx": "المؤثرات الصوتية",
+    "music": "الموسيقى",
+    "vibration": "الاهتزاز",
+    "game": "اللعبة",
+    "language": "اللغة",
+    "language_name": "العربية",
+    "notifications": "الإشعارات",
+    "replay_tutorial": "إعادة الشرح",
+    "account": "الحساب",
+    "name": "الاسم المعروض",
+    "name_title": "اسمك",
+    "name_hint": "أدخل اسمًا",
+    "name_save": "حفظ",
+    "name_saved": "تم تحديث الاسم.",
+    "name_invalid": "استخدم 2–32 حرفًا أو رقمًا أو مسافة.",
+    "restore": "استعادة المشتريات",
+    "privacy": "سياسة الخصوصية",
+    "terms": "شروط الاستخدام",
+    "cookies": "سياسة ملفات تعريف الارتباط",
+    "child_safety": "معايير سلامة الأطفال",
+    "about": "حول",
+    "version": "Dashink · الإصدار {}",
+    "restore_success": "تمت استعادة مشترياتك.",
+    "restore_none": "لا توجد مشتريات لاستعادتها.",
+    "notifications_denied": "تم رفض إذن الإشعارات.",
+    "language_title": "اللغة"
+  },
+  "notifications": {
+    "daily_title": "مسار اليوم جاهز!",
+    "daily_body": "ابلغ أفضل 100 اليوم واربح 100 عملة."
+  }
+}

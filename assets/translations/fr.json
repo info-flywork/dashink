@@ -1,0 +1,359 @@
+{
+  "common": {
+    "unexpected_error": "Un problème est survenu. Réessaie.",
+    "offline": "Pas de connexion Internet.",
+    "retry": "RÉESSAYER",
+    "coming_soon": "Bientôt",
+    "cancel": "Annuler",
+    "close": "Fermer",
+    "you": "Toi"
+  },
+  "tabs": {
+    "play": "Jouer",
+    "shop": "Boutique",
+    "tasks": "Défis",
+    "settings": "Réglages"
+  },
+  "home": {
+    "best": "MEILLEUR {}",
+    "tap_to_play": "APPUIE POUR JOUER",
+    "daily": "QUOTIDIEN",
+    "leaderboard": "CLASSEMENT",
+    "reward_daily": "Tu es #{rank} au défi du jour : +{coins} pièces !"
+  },
+  "tutorial": {
+    "skip": "Passer",
+    "got_it": "COMPRIS",
+    "next": "SUIVANT",
+    "step1_title": "DESSINE DEVANT LA BALLE",
+    "step1_body": "L'encre s'efface en 1 seconde",
+    "step2_title": "ATTRAPE LES PIÈCES",
+    "step2_body": "Débloque de nouvelles balles dans la boutique",
+    "step3_title": "ÉVITE LES PIQUES",
+    "step3_body": "Plus d'encre ? Relâche, elle se recharge",
+    "step_label": "Étape {current} / {total}"
+  },
+  "game": {
+    "pause": "Pause",
+    "paused": "EN PAUSE",
+    "resume": "REPRENDRE",
+    "home": "ACCUEIL",
+    "restart": "RECOMMENCER",
+    "ink_label": "Encre",
+    "daily_badge": "PARCOURS DU JOUR",
+    "draw_hint": "Dessine devant la balle !"
+  },
+  "game_over": {
+    "score": "SCORE",
+    "best": "MEILLEUR {}",
+    "new_record": "NOUVEAU RECORD !",
+    "play_again": "REJOUER",
+    "share": "Partager",
+    "home": "Accueil",
+    "coins_earned": "+{} pièces",
+    "daily_rank": "Tu es #{} aujourd'hui",
+    "offline_note": "Hors ligne : ton score sera envoyé dès que tu seras reconnecté"
+  },
+  "record": {
+    "title": "NOUVEAU RECORD !",
+    "previous": "Ancien record {previous} · +{diff} points",
+    "continue": "CONTINUER",
+    "share": "PARTAGER"
+  },
+  "choice": {
+    "question": "ET ENSUITE ?",
+    "play_again": "REJOUER",
+    "play_again_sub": "Recommencer",
+    "share": "PARTAGER",
+    "share_sub": "Envoyer le clip",
+    "home": "ACCUEIL",
+    "home_sub": "Retour au menu"
+  },
+  "clip": {
+    "title": "PARTAGER LE CLIP",
+    "subtitle": "Dernières {seconds} secondes · {score} points",
+    "share": "PARTAGER",
+    "save": "ENREGISTRER DANS LA GALERIE",
+    "preparing": "Préparation du clip…",
+    "saved": "Enregistré dans la galerie",
+    "save_failed": "Enregistrement impossible",
+    "permission_denied": "Accès à la galerie refusé. Tu peux l'autoriser dans Réglages.",
+    "permission_title": "ACCÈS À LA GALERIE",
+    "open_settings": "OUVRIR LES RÉGLAGES",
+    "share_text": "J'ai fait {score} dans Dashink ! Tu fais mieux ?",
+    "share_text_with_link": "J'ai fait {score} dans Dashink ! Tu fais mieux ?\n{url}",
+    "no_clip": "Pas de clip, partage d'une carte de score",
+    "play": "Lire"
+  },
+  "leaderboard": {
+    "title": "CLASSEMENT",
+    "daily": "Jour",
+    "weekly": "Semaine",
+    "all": "Tout",
+    "empty": "Personne n'a encore joué. Sois le premier !",
+    "not_ranked": "Aucune partie sur cette période"
+  },
+  "daily": {
+    "title": "QUOTIDIEN",
+    "date_label": "{} · DÉFI",
+    "description": "Tout le monde fait le même parcours aujourd'hui. Un parcours, essais illimités — ton meilleur score compte.",
+    "participants": "joueurs",
+    "your_best": "ton record",
+    "time_left": "temps restant",
+    "reward_title": "RÉCOMPENSE",
+    "reward_body": "Atteins le top {} pour gagner des pièces",
+    "start": "COMMENCER",
+    "your_rank": "Ton rang : {}"
+  },
+  "shop": {
+    "title": "BOUTIQUE",
+    "balls": "Balles",
+    "inks": "Encres",
+    "themes": "Thèmes",
+    "equipped": "ÉQUIPÉ",
+    "equip": "Équiper",
+    "task": "Défi",
+    "premium": "Premium",
+    "buy_and_equip": "ACHETER ET ÉQUIPER",
+    "balance_after": "Tu as {balance} pièces · il restera {after}",
+    "not_enough_title": "PAS ASSEZ DE PIÈCES",
+    "not_enough_body": "{item} coûte {price} pièces. Termine des défis pour gagner encore {missing}.",
+    "do_tasks": "VOIR LES DÉFIS",
+    "get_coins": "+{coins} PIÈCES · {price}",
+    "locked_title": "DÉBLOQUÉ PAR UN DÉFI",
+    "locked_body": "{item} est à toi quand tu termines « {task} ».",
+    "go_tasks": "VERS LES DÉFIS",
+    "premium_title": "PREMIUM",
+    "premium_body": "Balle étoile, encre dorée et thème nuit + {} pièces. Sans pub, à toi pour toujours.",
+    "premium_buy": "ACHETER · {}",
+    "premium_unavailable": "La boutique est indisponible pour le moment",
+    "premium_owned": "Tu possèdes Premium",
+    "purchase_success": "Premium débloqué ! Amuse-toi bien.",
+    "purchase_pending": "Paiement en attente ; il se débloque une fois approuvé.",
+    "purchase_failed": "L'achat n'a pas pu aboutir.",
+    "equipped_toast": "{} équipé",
+    "coins_pack_success": "+{} coins added!",
+    "coins_pack_processing": "Paiement reçu ! Tes pièces arrivent dans un instant."
+  },
+  "items": {
+    "ball_klasik": {
+      "name": "CLASSIQUE",
+      "desc": "La balle rouge tomate, là où tout a commencé."
+    },
+    "ball_karpuz": {
+      "name": "PASTÈQUE",
+      "desc": "Juteuse et rapide. Laisse une traînée verte dans l'encre."
+    },
+    "ball_basket": {
+      "name": "BASKET",
+      "desc": "Rebondit sur l'encre, pas dans les paniers."
+    },
+    "ball_tenis": {
+      "name": "TENNIS",
+      "desc": "Duveteuse et agile à chaque rebond."
+    },
+    "ball_plaj": {
+      "name": "BALLON DE PLAGE",
+      "desc": "Les couleurs de l'été sur le parcours."
+    },
+    "ball_gezegen": {
+      "name": "PLANÈTE",
+      "desc": "Un petit monde qui glisse avec ses anneaux."
+    },
+    "ball_ay": {
+      "name": "LUNE",
+      "desc": "Roule en silence, cratères compris."
+    },
+    "ball_bilardo": {
+      "name": "BOULE 8",
+      "desc": "Joue toujours le dernier coup."
+    },
+    "ball_goz": {
+      "name": "ŒIL",
+      "desc": "Ne rate aucun passage."
+    },
+    "ball_buz": {
+      "name": "GLACE",
+      "desc": "Lisse, fraîche et glissante."
+    },
+    "ball_lav": {
+      "name": "LAVE",
+      "desc": "Brûlante jusqu'au cœur."
+    },
+    "ball_gokkusagi": {
+      "name": "ARC-EN-CIEL",
+      "desc": "Sept couleurs dans une balle."
+    },
+    "ball_disko": {
+      "name": "DISCO",
+      "desc": "Une boule à facettes qui brille à chaque tour."
+    },
+    "ball_yildiz": {
+      "name": "ÉTOILE",
+      "desc": "L'étoile dorée des joueurs Premium."
+    },
+    "ink_lacivert": {
+      "name": "MARINE",
+      "desc": "Encre classique de stylo plume."
+    },
+    "ink_kirmizi": {
+      "name": "ROUGE",
+      "desc": "Vive comme le stylo d'un professeur."
+    },
+    "ink_nane": {
+      "name": "MENTHE",
+      "desc": "Un vert frais qui attire l'œil."
+    },
+    "ink_turuncu": {
+      "name": "ORANGE",
+      "desc": "Un orange plein d'énergie."
+    },
+    "ink_pembe": {
+      "name": "ROSE",
+      "desc": "Doux comme un bonbon."
+    },
+    "ink_mavi": {
+      "name": "BLEU",
+      "desc": "Le bleu classique du stylo bille."
+    },
+    "ink_turkuaz": {
+      "name": "TURQUOISE",
+      "desc": "Clair comme la mer."
+    },
+    "ink_yesil": {
+      "name": "VERT",
+      "desc": "Vert feuille fraîche."
+    },
+    "ink_mor": {
+      "name": "VIOLET",
+      "desc": "Un violet profond et mystérieux."
+    },
+    "ink_kahve": {
+      "name": "MARRON",
+      "desc": "Chaud comme une tache de café."
+    },
+    "ink_bordo": {
+      "name": "BORDEAUX",
+      "desc": "Un rouge profond et chic."
+    },
+    "ink_gumus": {
+      "name": "ARGENT",
+      "desc": "Un argent qui accroche la lumière."
+    },
+    "ink_altin": {
+      "name": "OR",
+      "desc": "Encre scintillante, réservée à Premium."
+    },
+    "theme_kagit": {
+      "name": "PAPIER",
+      "desc": "Une page de cahier à carreaux."
+    },
+    "theme_nane": {
+      "name": "MENTHE",
+      "desc": "Une page fraîche, tirant sur le vert."
+    },
+    "theme_gunbatimi": {
+      "name": "CRÉPUSCULE",
+      "desc": "Une page chaude aux tons pêche."
+    },
+    "theme_lavanta": {
+      "name": "LAVANDE",
+      "desc": "Une page lilas toute calme."
+    },
+    "theme_gokyuzu": {
+      "name": "CIEL",
+      "desc": "Une page bleu ciel clair."
+    },
+    "theme_limon": {
+      "name": "CITRON",
+      "desc": "Une page ensoleillée jaune citron."
+    },
+    "theme_seker": {
+      "name": "BARBE À PAPA",
+      "desc": "Une page rose barbe à papa."
+    },
+    "theme_orman": {
+      "name": "FORÊT",
+      "desc": "Une forêt vert sombre la nuit."
+    },
+    "theme_uzay": {
+      "name": "ESPACE",
+      "desc": "L'espace profond et sombre."
+    },
+    "theme_gece": {
+      "name": "NUIT",
+      "desc": "Des lignes qui brillent dans une nuit marine."
+    }
+  },
+  "tasks": {
+    "title": "DÉFIS",
+    "daily": "Jour",
+    "weekly": "Semaine",
+    "achievements": "Objectifs",
+    "resets_in": "Réinitialisation dans {}",
+    "achievements_note": "Les objectifs ne se récupèrent qu'une fois",
+    "claim": "PRENDRE",
+    "claimed": "RÉCUPÉRÉ",
+    "unlocks": "Débloque : {}",
+    "claimed_toast": "+{} pièces",
+    "unlocked_toast": "{} débloqué !",
+    "empty": "Aucun défi pour le moment",
+    "names": {
+      "daily_play_3": "Joue 3 parties",
+      "daily_coins_50": "Collecte 50 pièces en une partie",
+      "daily_share_1": "Partage un clip",
+      "daily_challenge_1": "Joue le parcours du jour",
+      "daily_score_100": "Dépasse 100 points",
+      "weekly_play_20": "Joue 20 parties",
+      "weekly_challenge_3": "Joue le parcours du jour sur 3 jours",
+      "weekly_coins_300": "Collecte 300 pièces au total",
+      "weekly_score_300": "Dépasse 300 points",
+      "ach_games_10": "Joue 10 parties",
+      "ach_score_500": "Fais 500 points en une partie",
+      "ach_games_50": "Joue 50 parties",
+      "ach_coins_1000": "Collecte 1000 pièces au total",
+      "ach_run_coins_100": "Collecte 100 pièces en une partie",
+      "ach_share_5": "Partage 5 clips",
+      "ach_daily_7": "Joue le parcours du jour sur 7 jours",
+      "ach_score_1000": "Fais 1000 points en une partie",
+      "ach_games_200": "Joue 200 parties",
+      "ach_coins_5000": "Collecte 5000 pièces au total",
+      "ach_share_20": "Partage 20 clips",
+      "ach_daily_30": "Joue le parcours du jour sur 30 jours"
+    }
+  },
+  "settings": {
+    "title": "RÉGLAGES",
+    "sound": "SON",
+    "sfx": "Effets sonores",
+    "music": "Musique",
+    "vibration": "Vibrations",
+    "game": "JEU",
+    "language": "Langue",
+    "language_name": "Français",
+    "notifications": "Notifications",
+    "replay_tutorial": "Revoir le tutoriel",
+    "account": "COMPTE",
+    "name": "Nom affiché",
+    "name_title": "TON NOM",
+    "name_hint": "Saisis un nom",
+    "name_save": "ENREGISTRER",
+    "name_saved": "Nom mis à jour.",
+    "name_invalid": "Utilise 2–32 lettres, chiffres ou espaces.",
+    "restore": "Restaurer les achats",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "cookies": "Politique de cookies",
+    "child_safety": "Normes de sécurité des enfants",
+    "about": "À propos",
+    "version": "Dashink · version {}",
+    "restore_success": "Tes achats ont été restaurés.",
+    "restore_none": "Aucun achat à restaurer.",
+    "notifications_denied": "Autorisation de notification refusée.",
+    "language_title": "LANGUE"
+  },
+  "notifications": {
+    "daily_title": "Le parcours du jour est prêt !",
+    "daily_body": "Atteins le top 100 aujourd'hui et gagne 100 pièces."
+  }
+}

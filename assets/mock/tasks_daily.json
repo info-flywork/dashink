@@ -1,0 +1,55 @@
+{
+  "status": "success",
+  "message": "ok",
+  "data": {
+    "period": "daily",
+    "resets_at": "2099-01-01T00:00:00.000Z",
+    "tasks": [
+      {
+        "id": "daily_play_3",
+        "icon": "play",
+        "target": 3,
+        "progress": 3,
+        "reward": 30,
+        "status": "claimable",
+        "unlocks_item": null
+      },
+      {
+        "id": "daily_coins_50",
+        "icon": "trophy",
+        "target": 50,
+        "progress": 32,
+        "reward": 50,
+        "status": "in_progress",
+        "unlocks_item": null
+      },
+      {
+        "id": "daily_share_1",
+        "icon": "share",
+        "target": 1,
+        "progress": 0,
+        "reward": 40,
+        "status": "in_progress",
+        "unlocks_item": null
+      },
+      {
+        "id": "daily_challenge_1",
+        "icon": "calendar",
+        "target": 1,
+        "progress": 0,
+        "reward": 30,
+        "status": "in_progress",
+        "unlocks_item": null
+      },
+      {
+        "id": "daily_score_100",
+        "icon": "crown",
+        "target": 100,
+        "progress": 100,
+        "reward": 30,
+        "status": "claimed",
+        "unlocks_item": null
+      }
+    ]
+  }
+}

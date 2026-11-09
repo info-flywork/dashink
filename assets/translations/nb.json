@@ -1,0 +1,359 @@
+{
+  "common": {
+    "unexpected_error": "Noe gikk galt. Prøv igjen.",
+    "offline": "Ingen internettforbindelse.",
+    "retry": "PRØV IGJEN",
+    "coming_soon": "Kommer snart",
+    "cancel": "Avbryt",
+    "close": "Lukk",
+    "you": "Du"
+  },
+  "tabs": {
+    "play": "Spill",
+    "shop": "Butikk",
+    "tasks": "Oppgaver",
+    "settings": "Innstillinger"
+  },
+  "home": {
+    "best": "BESTE {}",
+    "tap_to_play": "TRYKK FOR Å SPILLE",
+    "daily": "DAGLIG",
+    "leaderboard": "RANGERING",
+    "reward_daily": "Du ble #{rank} i dagens utfordring: +{coins} mynter!"
+  },
+  "tutorial": {
+    "skip": "Hopp over",
+    "got_it": "SKJØNNER",
+    "next": "NESTE",
+    "step1_title": "TEGN FORAN BALLEN",
+    "step1_body": "Blekket blekner på 1 sekund",
+    "step2_title": "TA MYNTENE",
+    "step2_body": "Lås opp nye baller i butikken",
+    "step3_title": "UNNGÅ PIGGENE",
+    "step3_body": "Tomt for blekk? Slipp, så fylles det",
+    "step_label": "Steg {current} / {total}"
+  },
+  "game": {
+    "pause": "Pause",
+    "paused": "PAUSET",
+    "resume": "FORTSETT",
+    "home": "HJEM",
+    "restart": "START PÅ NYTT",
+    "ink_label": "Blekk",
+    "daily_badge": "DAGENS BANE",
+    "draw_hint": "Tegn foran ballen!"
+  },
+  "game_over": {
+    "score": "POENG",
+    "best": "BESTE {}",
+    "new_record": "NY REKORD!",
+    "play_again": "SPILL IGJEN",
+    "share": "Del",
+    "home": "Hjem",
+    "coins_earned": "+{} mynter",
+    "daily_rank": "I dag er du #{}",
+    "offline_note": "Frakoblet: poengsummen sendes når du er på nett igjen"
+  },
+  "record": {
+    "title": "NY REKORD!",
+    "previous": "Forrige rekord {previous} · +{diff} poeng",
+    "continue": "FORTSETT",
+    "share": "DEL"
+  },
+  "choice": {
+    "question": "HVA NÅ?",
+    "play_again": "SPILL IGJEN",
+    "play_again_sub": "Start på nytt",
+    "share": "DEL",
+    "share_sub": "Send klippet",
+    "home": "HJEM",
+    "home_sub": "Tilbake til menyen"
+  },
+  "clip": {
+    "title": "DEL KLIPP",
+    "subtitle": "Siste {seconds} sekunder · {score} poeng",
+    "share": "DEL",
+    "save": "LAGRE I GALLERI",
+    "preparing": "Klargjør klipp…",
+    "saved": "Lagret i galleriet",
+    "save_failed": "Kunne ikke lagre",
+    "permission_denied": "Tilgang til galleriet ble avslått. Du kan tillate det i Innstillinger.",
+    "permission_title": "TILGANG TIL GALLERI",
+    "open_settings": "ÅPNE INNSTILLINGER",
+    "share_text": "Jeg fikk {score} i Dashink! Kan du slå det?",
+    "share_text_with_link": "Jeg fikk {score} i Dashink! Kan du slå det?\n{url}",
+    "no_clip": "Ingen klipp, deler et poengkort",
+    "play": "Spill av"
+  },
+  "leaderboard": {
+    "title": "RANGERING",
+    "daily": "Daglig",
+    "weekly": "Ukentlig",
+    "all": "Alle",
+    "empty": "Ingen har spilt ennå. Bli den første!",
+    "not_ranked": "Ingen spill i denne perioden ennå"
+  },
+  "daily": {
+    "title": "DAGLIG",
+    "date_label": "{} · UTFORDRING",
+    "description": "I dag kjører alle samme bane. Én bane, ubegrenset med forsøk — den beste poengsummen teller.",
+    "participants": "spillere",
+    "your_best": "din beste",
+    "time_left": "tid igjen",
+    "reward_title": "PREMIE",
+    "reward_body": "Nå topp {} for å vinne mynter",
+    "start": "START",
+    "your_rank": "Din plassering: {}"
+  },
+  "shop": {
+    "title": "BUTIKK",
+    "balls": "Baller",
+    "inks": "Blekk",
+    "themes": "Temaer",
+    "equipped": "UTSTYRT",
+    "equip": "Utstyr",
+    "task": "Oppgave",
+    "premium": "Premium",
+    "buy_and_equip": "KJØP OG UTSTYR",
+    "balance_after": "Du har {balance} mynter · {after} igjen etterpå",
+    "not_enough_title": "IKKE NOK MYNTER",
+    "not_enough_body": "{item} koster {price} mynter. Fullfør oppgaver for å tjene {missing} til.",
+    "do_tasks": "GJØR OPPGAVER",
+    "get_coins": "+{coins} MYNTER · {price}",
+    "locked_title": "LÅSES OPP MED EN OPPGAVE",
+    "locked_body": "{item} er din når du fullfører «{task}».",
+    "go_tasks": "GÅ TIL OPPGAVER",
+    "premium_title": "PREMIUM",
+    "premium_body": "Stjerneball, gullblekk og nattetema + {} mynter. Ingen reklame, din for alltid.",
+    "premium_buy": "KJØP · {}",
+    "premium_unavailable": "Butikken er ikke tilgjengelig akkurat nå",
+    "premium_owned": "Du eier Premium",
+    "purchase_success": "Premium er låst opp! Kos deg.",
+    "purchase_pending": "Betaling venter; den låses opp når den er godkjent.",
+    "purchase_failed": "Kjøpet kunne ikke fullføres.",
+    "equipped_toast": "{} utstyrt",
+    "coins_pack_success": "+{} coins added!",
+    "coins_pack_processing": "Betaling mottatt! Myntene dine kommer om et øyeblikk."
+  },
+  "items": {
+    "ball_klasik": {
+      "name": "KLASSISK",
+      "desc": "Den tomatrøde ballen der alt begynte."
+    },
+    "ball_karpuz": {
+      "name": "VANNMELON",
+      "desc": "Saftig og rask. Legger igjen et grønt spor i blekket."
+    },
+    "ball_basket": {
+      "name": "BASKETBALL",
+      "desc": "Spretter på blekk, ikke i kurver."
+    },
+    "ball_tenis": {
+      "name": "TENNIS",
+      "desc": "Lodden og kvikk i hvert sprett."
+    },
+    "ball_plaj": {
+      "name": "BADEBALL",
+      "desc": "Sommerfarger på banen."
+    },
+    "ball_gezegen": {
+      "name": "PLANET",
+      "desc": "En liten verden som glir med ringene sine."
+    },
+    "ball_ay": {
+      "name": "MÅNE",
+      "desc": "Ruller stille, med kratre og alt."
+    },
+    "ball_bilardo": {
+      "name": "8-BALL",
+      "desc": "Tar alltid det siste støtet."
+    },
+    "ball_goz": {
+      "name": "ØYE",
+      "desc": "Går ikke glipp av et gap."
+    },
+    "ball_buz": {
+      "name": "IS",
+      "desc": "Glatt, kjølig og sleip."
+    },
+    "ball_lav": {
+      "name": "LAVA",
+      "desc": "Varm helt inn til kjernen."
+    },
+    "ball_gokkusagi": {
+      "name": "REGNBUE",
+      "desc": "Sju farger i én ball."
+    },
+    "ball_disko": {
+      "name": "DISCO",
+      "desc": "En speilkule som glitrer i hver sving."
+    },
+    "ball_yildiz": {
+      "name": "STJERNE",
+      "desc": "Den gylne stjernen til Premium-spillere."
+    },
+    "ink_lacivert": {
+      "name": "MARINEBLÅ",
+      "desc": "Klassisk fyllepennblekk."
+    },
+    "ink_kirmizi": {
+      "name": "RØD",
+      "desc": "Tydelig som en lærers penn."
+    },
+    "ink_nane": {
+      "name": "MYNTE",
+      "desc": "En frisk, iøynefallende grønn."
+    },
+    "ink_turuncu": {
+      "name": "ORANSJE",
+      "desc": "En energisk oransje."
+    },
+    "ink_pembe": {
+      "name": "ROSA",
+      "desc": "Søt som godteri."
+    },
+    "ink_mavi": {
+      "name": "BLÅ",
+      "desc": "Klassisk kulepennblå."
+    },
+    "ink_turkuaz": {
+      "name": "TURKIS",
+      "desc": "Klar som havet."
+    },
+    "ink_yesil": {
+      "name": "GRØNN",
+      "desc": "Frisk bladgrønn."
+    },
+    "ink_mor": {
+      "name": "LILLA",
+      "desc": "En mystisk dyp lilla."
+    },
+    "ink_kahve": {
+      "name": "BRUN",
+      "desc": "Varm som en kaffeflekk."
+    },
+    "ink_bordo": {
+      "name": "BURGUNDER",
+      "desc": "En dyp, elegant rød."
+    },
+    "ink_gumus": {
+      "name": "SØLV",
+      "desc": "Sølv som fanger lyset."
+    },
+    "ink_altin": {
+      "name": "GULL",
+      "desc": "Glitrende blekk, bare med Premium."
+    },
+    "theme_kagit": {
+      "name": "PAPIR",
+      "desc": "En rutet notatbokside."
+    },
+    "theme_nane": {
+      "name": "MYNTE",
+      "desc": "En kjølig, grønnlig side."
+    },
+    "theme_gunbatimi": {
+      "name": "SOLNEDGANG",
+      "desc": "En varm side i ferskentoner."
+    },
+    "theme_lavanta": {
+      "name": "LAVENDEL",
+      "desc": "En rolig lilla side."
+    },
+    "theme_gokyuzu": {
+      "name": "HIMMEL",
+      "desc": "En lyseblå himmelside."
+    },
+    "theme_limon": {
+      "name": "SITRON",
+      "desc": "En solrik sitrongul side."
+    },
+    "theme_seker": {
+      "name": "SUKKERSPINN",
+      "desc": "En sukkerspinnrosa side."
+    },
+    "theme_orman": {
+      "name": "SKOG",
+      "desc": "En mørkegrønn skog om natten."
+    },
+    "theme_uzay": {
+      "name": "VERDENSROMMET",
+      "desc": "Dypt, mørkt rom."
+    },
+    "theme_gece": {
+      "name": "NATT",
+      "desc": "Linjer som lyser i en marineblå natt."
+    }
+  },
+  "tasks": {
+    "title": "OPPGAVER",
+    "daily": "Daglig",
+    "weekly": "Ukentlig",
+    "achievements": "Mål",
+    "resets_in": "Nullstilles om {}",
+    "achievements_note": "Mål kan hentes én gang",
+    "claim": "HENT",
+    "claimed": "HENTET",
+    "unlocks": "Låser opp: {}",
+    "claimed_toast": "+{} mynter",
+    "unlocked_toast": "{} låst opp!",
+    "empty": "Ingen oppgaver akkurat nå",
+    "names": {
+      "daily_play_3": "Spill 3 spill",
+      "daily_coins_50": "Samle 50 mynter i ett spill",
+      "daily_share_1": "Del et klipp",
+      "daily_challenge_1": "Spill dagens bane",
+      "daily_score_100": "Få over 100 poeng",
+      "weekly_play_20": "Spill 20 spill",
+      "weekly_challenge_3": "Spill dagens bane på 3 dager",
+      "weekly_coins_300": "Samle 300 mynter totalt",
+      "weekly_score_300": "Få over 300 poeng",
+      "ach_games_10": "Spill 10 spill",
+      "ach_score_500": "Få 500 poeng i ett spill",
+      "ach_games_50": "Spill 50 spill",
+      "ach_coins_1000": "Samle 1000 mynter totalt",
+      "ach_run_coins_100": "Samle 100 mynter i ett spill",
+      "ach_share_5": "Del 5 klipp",
+      "ach_daily_7": "Spill dagens bane på 7 dager",
+      "ach_score_1000": "Få 1000 poeng i ett spill",
+      "ach_games_200": "Spill 200 spill",
+      "ach_coins_5000": "Samle 5000 mynter totalt",
+      "ach_share_20": "Del 20 klipp",
+      "ach_daily_30": "Spill dagens bane på 30 dager"
+    }
+  },
+  "settings": {
+    "title": "INNSTILLINGER",
+    "sound": "LYD",
+    "sfx": "Lydeffekter",
+    "music": "Musikk",
+    "vibration": "Vibrasjon",
+    "game": "SPILL",
+    "language": "Språk",
+    "language_name": "Norsk bokmål",
+    "notifications": "Varsler",
+    "replay_tutorial": "Se veiledningen igjen",
+    "account": "KONTO",
+    "name": "Visningsnavn",
+    "name_title": "DITT NAVN",
+    "name_hint": "Skriv inn et navn",
+    "name_save": "LAGRE",
+    "name_saved": "Navnet er oppdatert.",
+    "name_invalid": "Bruk 2–32 bokstaver, tall eller mellomrom.",
+    "restore": "Gjenopprett kjøp",
+    "privacy": "Personvernerklæring",
+    "terms": "Bruksvilkår",
+    "cookies": "Retningslinjer for informasjonskapsler",
+    "child_safety": "Standarder for barns sikkerhet",
+    "about": "Om",
+    "version": "Dashink · versjon {}",
+    "restore_success": "Kjøpene dine ble gjenopprettet.",
+    "restore_none": "Ingen kjøp å gjenopprette.",
+    "notifications_denied": "Tillatelse til varsler ble avslått.",
+    "language_title": "SPRÅK"
+  },
+  "notifications": {
+    "daily_title": "Dagens bane er klar!",
+    "daily_body": "Nå topp 100 i dag og vinn 100 mynter."
+  }
+}

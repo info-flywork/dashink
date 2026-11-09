@@ -1,0 +1,359 @@
+{
+  "common": {
+    "unexpected_error": "Algo deu errado. Tente de novo.",
+    "offline": "Sem conexão com a internet.",
+    "retry": "TENTAR DE NOVO",
+    "coming_soon": "Em breve",
+    "cancel": "Cancelar",
+    "close": "Fechar",
+    "you": "Você"
+  },
+  "tabs": {
+    "play": "Jogar",
+    "shop": "Loja",
+    "tasks": "Tarefas",
+    "settings": "Ajustes"
+  },
+  "home": {
+    "best": "MELHOR {}",
+    "tap_to_play": "TOQUE PARA JOGAR",
+    "daily": "DIÁRIO",
+    "leaderboard": "RANKING",
+    "reward_daily": "Você ficou em #{rank} no desafio diário: +{coins} moedas!"
+  },
+  "tutorial": {
+    "skip": "Pular",
+    "got_it": "ENTENDI",
+    "next": "PRÓXIMO",
+    "step1_title": "DESENHE À FRENTE DA BOLA",
+    "step1_body": "A tinta some em 1 segundo",
+    "step2_title": "PEGUE AS MOEDAS",
+    "step2_body": "Desbloqueie bolas novas na loja",
+    "step3_title": "DESVIE DOS ESPINHOS",
+    "step3_body": "Sem tinta? Solte e ela recarrega",
+    "step_label": "Passo {current} / {total}"
+  },
+  "game": {
+    "pause": "Pausar",
+    "paused": "PAUSADO",
+    "resume": "CONTINUAR",
+    "home": "INÍCIO",
+    "restart": "RECOMEÇAR",
+    "ink_label": "Tinta",
+    "daily_badge": "PERCURSO DIÁRIO",
+    "draw_hint": "Desenhe à frente da bola!"
+  },
+  "game_over": {
+    "score": "PONTOS",
+    "best": "MELHOR {}",
+    "new_record": "NOVO RECORDE!",
+    "play_again": "JOGAR DE NOVO",
+    "share": "Compartilhar",
+    "home": "Início",
+    "coins_earned": "+{} moedas",
+    "daily_rank": "Hoje você é #{}",
+    "offline_note": "Offline: sua pontuação será enviada quando você voltar a ficar online"
+  },
+  "record": {
+    "title": "NOVO RECORDE!",
+    "previous": "Recorde anterior {previous} · +{diff} pontos",
+    "continue": "CONTINUAR",
+    "share": "COMPARTILHAR"
+  },
+  "choice": {
+    "question": "E AGORA?",
+    "play_again": "JOGAR DE NOVO",
+    "play_again_sub": "Começar de novo",
+    "share": "COMPARTILHAR",
+    "share_sub": "Enviar o clipe",
+    "home": "INÍCIO",
+    "home_sub": "Voltar ao menu"
+  },
+  "clip": {
+    "title": "COMPARTILHAR CLIPE",
+    "subtitle": "Últimos {seconds} segundos · {score} pontos",
+    "share": "COMPARTILHAR",
+    "save": "SALVAR NA GALERIA",
+    "preparing": "Preparando o clipe…",
+    "saved": "Salvo na galeria",
+    "save_failed": "Não foi possível salvar",
+    "permission_denied": "Acesso à galeria negado. Você pode permitir isso em Ajustes.",
+    "permission_title": "ACESSO À GALERIA",
+    "open_settings": "ABRIR AJUSTES",
+    "share_text": "Fiz {score} no Dashink! Consegue superar?",
+    "share_text_with_link": "Fiz {score} no Dashink! Consegue superar?\n{url}",
+    "no_clip": "Sem clipe, compartilhando um cartão de pontuação",
+    "play": "Reproduzir"
+  },
+  "leaderboard": {
+    "title": "RANKING",
+    "daily": "Diário",
+    "weekly": "Semanal",
+    "all": "Tudo",
+    "empty": "Ninguém jogou ainda. Seja o primeiro!",
+    "not_ranked": "Nenhuma partida neste período ainda"
+  },
+  "daily": {
+    "title": "DIÁRIO",
+    "date_label": "{} · DESAFIO",
+    "description": "Hoje todo mundo corre o mesmo percurso. Um percurso, tentativas ilimitadas — vale a sua melhor pontuação.",
+    "participants": "jogadores",
+    "your_best": "seu recorde",
+    "time_left": "tempo restante",
+    "reward_title": "PRÊMIO",
+    "reward_body": "Chegue ao top {} para ganhar moedas",
+    "start": "COMEÇAR",
+    "your_rank": "Sua posição: {}"
+  },
+  "shop": {
+    "title": "LOJA",
+    "balls": "Bolas",
+    "inks": "Tintas",
+    "themes": "Temas",
+    "equipped": "EQUIPADO",
+    "equip": "Equipar",
+    "task": "Tarefa",
+    "premium": "Premium",
+    "buy_and_equip": "COMPRAR E EQUIPAR",
+    "balance_after": "Você tem {balance} moedas · restarão {after}",
+    "not_enough_title": "MOEDAS INSUFICIENTES",
+    "not_enough_body": "{item} custa {price} moedas. Conclua tarefas para ganhar mais {missing}.",
+    "do_tasks": "FAZER TAREFAS",
+    "get_coins": "+{coins} MOEDAS · {price}",
+    "locked_title": "DESBLOQUEADO POR UMA TAREFA",
+    "locked_body": "{item} será seu quando você concluir “{task}”.",
+    "go_tasks": "IR PARA TAREFAS",
+    "premium_title": "PREMIUM",
+    "premium_body": "Bola estrela, tinta dourada e tema noturno + {} moedas. Sem anúncios, seu para sempre.",
+    "premium_buy": "COMPRAR · {}",
+    "premium_unavailable": "A loja está indisponível no momento",
+    "premium_owned": "Você tem o Premium",
+    "purchase_success": "Premium desbloqueado! Aproveite.",
+    "purchase_pending": "Pagamento pendente; desbloqueia quando for aprovado.",
+    "purchase_failed": "Não foi possível concluir a compra.",
+    "equipped_toast": "{} equipado",
+    "coins_pack_success": "+{} coins added!",
+    "coins_pack_processing": "Pagamento recebido! Suas moedas chegam em instantes."
+  },
+  "items": {
+    "ball_klasik": {
+      "name": "CLÁSSICA",
+      "desc": "A bola vermelho-tomate onde tudo começou."
+    },
+    "ball_karpuz": {
+      "name": "MELANCIA",
+      "desc": "Suculenta e rápida. Deixa um rastro verde na tinta."
+    },
+    "ball_basket": {
+      "name": "BASQUETE",
+      "desc": "Quica na tinta, não na cesta."
+    },
+    "ball_tenis": {
+      "name": "TÊNIS",
+      "desc": "Felpuda e ágil a cada quique."
+    },
+    "ball_plaj": {
+      "name": "BOLA DE PRAIA",
+      "desc": "Cores de verão na pista."
+    },
+    "ball_gezegen": {
+      "name": "PLANETA",
+      "desc": "Um mundinho que desliza com seus anéis."
+    },
+    "ball_ay": {
+      "name": "LUA",
+      "desc": "Rola em silêncio, com crateras e tudo."
+    },
+    "ball_bilardo": {
+      "name": "BOLA 8",
+      "desc": "Sempre dá a última tacada."
+    },
+    "ball_goz": {
+      "name": "OLHO",
+      "desc": "Não perde nenhuma fresta."
+    },
+    "ball_buz": {
+      "name": "GELO",
+      "desc": "Lisa, fria e escorregadia."
+    },
+    "ball_lav": {
+      "name": "LAVA",
+      "desc": "Quente até o núcleo."
+    },
+    "ball_gokkusagi": {
+      "name": "ARCO-ÍRIS",
+      "desc": "Sete cores em uma bola."
+    },
+    "ball_disko": {
+      "name": "DISCO",
+      "desc": "Uma bola de espelhos que brilha a cada giro."
+    },
+    "ball_yildiz": {
+      "name": "ESTRELA",
+      "desc": "A estrela dourada dos jogadores Premium."
+    },
+    "ink_lacivert": {
+      "name": "MARINHO",
+      "desc": "Tinta clássica de caneta-tinteiro."
+    },
+    "ink_kirmizi": {
+      "name": "VERMELHO",
+      "desc": "Marcante como a caneta de um professor."
+    },
+    "ink_nane": {
+      "name": "MENTA",
+      "desc": "Um verde fresco que chama atenção."
+    },
+    "ink_turuncu": {
+      "name": "LARANJA",
+      "desc": "Um laranja cheio de energia."
+    },
+    "ink_pembe": {
+      "name": "ROSA",
+      "desc": "Doce como bala."
+    },
+    "ink_mavi": {
+      "name": "AZUL",
+      "desc": "O clássico azul de caneta."
+    },
+    "ink_turkuaz": {
+      "name": "TURQUESA",
+      "desc": "Claro como o mar."
+    },
+    "ink_yesil": {
+      "name": "VERDE",
+      "desc": "Verde de folha fresca."
+    },
+    "ink_mor": {
+      "name": "ROXO",
+      "desc": "Um roxo profundo e misterioso."
+    },
+    "ink_kahve": {
+      "name": "MARROM",
+      "desc": "Quente como mancha de café."
+    },
+    "ink_bordo": {
+      "name": "BORDÔ",
+      "desc": "Um vermelho profundo e elegante."
+    },
+    "ink_gumus": {
+      "name": "PRATA",
+      "desc": "Prata que brilha na luz."
+    },
+    "ink_altin": {
+      "name": "OURO",
+      "desc": "Tinta brilhante, só no Premium."
+    },
+    "theme_kagit": {
+      "name": "PAPEL",
+      "desc": "Uma página de caderno quadriculado."
+    },
+    "theme_nane": {
+      "name": "MENTA",
+      "desc": "Uma página fresca, esverdeada."
+    },
+    "theme_gunbatimi": {
+      "name": "PÔR DO SOL",
+      "desc": "Uma página quente em tons de pêssego."
+    },
+    "theme_lavanta": {
+      "name": "LAVANDA",
+      "desc": "Uma página lilás e tranquila."
+    },
+    "theme_gokyuzu": {
+      "name": "CÉU",
+      "desc": "Uma página azul-clara de céu."
+    },
+    "theme_limon": {
+      "name": "LIMÃO",
+      "desc": "Uma página ensolarada cor de limão."
+    },
+    "theme_seker": {
+      "name": "ALGODÃO DOCE",
+      "desc": "Uma página rosa algodão-doce."
+    },
+    "theme_orman": {
+      "name": "FLORESTA",
+      "desc": "Uma floresta verde-escura à noite."
+    },
+    "theme_uzay": {
+      "name": "ESPAÇO",
+      "desc": "Espaço profundo e escuro."
+    },
+    "theme_gece": {
+      "name": "NOITE",
+      "desc": "Linhas que brilham numa noite marinha."
+    }
+  },
+  "tasks": {
+    "title": "TAREFAS",
+    "daily": "Diárias",
+    "weekly": "Semanais",
+    "achievements": "Metas",
+    "resets_in": "Reinicia em {}",
+    "achievements_note": "As metas só podem ser resgatadas uma vez",
+    "claim": "PEGAR",
+    "claimed": "RESGATADO",
+    "unlocks": "Desbloqueia: {}",
+    "claimed_toast": "+{} moedas",
+    "unlocked_toast": "{} desbloqueado!",
+    "empty": "Nenhuma tarefa agora",
+    "names": {
+      "daily_play_3": "Jogue 3 partidas",
+      "daily_coins_50": "Junte 50 moedas em uma partida",
+      "daily_share_1": "Compartilhe um clipe",
+      "daily_challenge_1": "Jogue o percurso diário",
+      "daily_score_100": "Faça mais de 100 pontos",
+      "weekly_play_20": "Jogue 20 partidas",
+      "weekly_challenge_3": "Jogue o percurso diário em 3 dias",
+      "weekly_coins_300": "Junte 300 moedas no total",
+      "weekly_score_300": "Faça mais de 300 pontos",
+      "ach_games_10": "Jogue 10 partidas",
+      "ach_score_500": "Faça 500 pontos em uma partida",
+      "ach_games_50": "Jogue 50 partidas",
+      "ach_coins_1000": "Junte 1000 moedas no total",
+      "ach_run_coins_100": "Junte 100 moedas em uma partida",
+      "ach_share_5": "Compartilhe 5 clipes",
+      "ach_daily_7": "Jogue o percurso diário em 7 dias",
+      "ach_score_1000": "Faça 1000 pontos em uma partida",
+      "ach_games_200": "Jogue 200 partidas",
+      "ach_coins_5000": "Junte 5000 moedas no total",
+      "ach_share_20": "Compartilhe 20 clipes",
+      "ach_daily_30": "Jogue o percurso diário em 30 dias"
+    }
+  },
+  "settings": {
+    "title": "AJUSTES",
+    "sound": "SOM",
+    "sfx": "Efeitos sonoros",
+    "music": "Música",
+    "vibration": "Vibração",
+    "game": "JOGO",
+    "language": "Idioma",
+    "language_name": "Português",
+    "notifications": "Notificações",
+    "replay_tutorial": "Rever o tutorial",
+    "account": "CONTA",
+    "name": "Nome de exibição",
+    "name_title": "SEU NOME",
+    "name_hint": "Digite um nome",
+    "name_save": "SALVAR",
+    "name_saved": "Nome atualizado.",
+    "name_invalid": "Use 2–32 letras, números ou espaços.",
+    "restore": "Restaurar compras",
+    "privacy": "Política de privacidade",
+    "terms": "Termos de uso",
+    "cookies": "Política de cookies",
+    "child_safety": "Padrões de segurança infantil",
+    "about": "Sobre",
+    "version": "Dashink · versão {}",
+    "restore_success": "Suas compras foram restauradas.",
+    "restore_none": "Nenhuma compra para restaurar.",
+    "notifications_denied": "Permissão de notificações negada.",
+    "language_title": "IDIOMA"
+  },
+  "notifications": {
+    "daily_title": "O percurso de hoje está pronto!",
+    "daily_body": "Chegue ao top 100 hoje e ganhe 100 moedas."
+  }
+}

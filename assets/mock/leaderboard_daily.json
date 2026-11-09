@@ -1,0 +1,100 @@
+{
+  "status": "success",
+  "message": "ok",
+  "data": {
+    "period": "daily",
+    "entries": [
+      {
+        "rank": 1,
+        "user_id": "u0",
+        "name": "Zeynep",
+        "score": 1024,
+        "is_me": false
+      },
+      {
+        "rank": 2,
+        "user_id": "u1",
+        "name": "Mert",
+        "score": 842,
+        "is_me": false
+      },
+      {
+        "rank": 3,
+        "user_id": "u2",
+        "name": "Ece",
+        "score": 790,
+        "is_me": false
+      },
+      {
+        "rank": 4,
+        "user_id": "u3",
+        "name": "Deniz",
+        "score": 712,
+        "is_me": false
+      },
+      {
+        "rank": 5,
+        "user_id": "u4",
+        "name": "Kaan",
+        "score": 655,
+        "is_me": false
+      },
+      {
+        "rank": 6,
+        "user_id": "u5",
+        "name": "Elif",
+        "score": 601,
+        "is_me": false
+      },
+      {
+        "rank": 7,
+        "user_id": "u6",
+        "name": "Burak",
+        "score": 588,
+        "is_me": false
+      },
+      {
+        "rank": 8,
+        "user_id": "u7",
+        "name": "Selin",
+        "score": 540,
+        "is_me": false
+      },
+      {
+        "rank": 9,
+        "user_id": "u8",
+        "name": "Can",
+        "score": 503,
+        "is_me": false
+      },
+      {
+        "rank": 10,
+        "user_id": "u9",
+        "name": "Ada",
+        "score": 470,
+        "is_me": false
+      },
+      {
+        "rank": 11,
+        "user_id": "u10",
+        "name": "Emre",
+        "score": 455,
+        "is_me": false
+      },
+      {
+        "rank": 12,
+        "user_id": "u11",
+        "name": "Defne",
+        "score": 430,
+        "is_me": false
+      }
+    ],
+    "me": {
+      "rank": 24,
+      "user_id": "me",
+      "name": "Sen",
+      "score": 312,
+      "is_me": true
+    }
+  }
+}

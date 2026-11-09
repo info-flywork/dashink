@@ -1,0 +1,359 @@
+{
+  "common": {
+    "unexpected_error": "Bir şeyler ters gitti. Tekrar dene.",
+    "offline": "İnternet bağlantısı yok.",
+    "retry": "TEKRAR DENE",
+    "coming_soon": "Yakında",
+    "cancel": "Vazgeç",
+    "close": "Kapat",
+    "you": "Sen"
+  },
+  "tabs": {
+    "play": "Oyna",
+    "shop": "Mağaza",
+    "tasks": "Görevler",
+    "settings": "Ayarlar"
+  },
+  "home": {
+    "best": "EN İYİ {}",
+    "tap_to_play": "OYNAMAK İÇİN DOKUN",
+    "daily": "GÜNLÜK",
+    "leaderboard": "SIRALAMA",
+    "reward_daily": "Günlük meydan okumada {rank}. oldun: +{coins} altın!"
+  },
+  "tutorial": {
+    "skip": "Geç",
+    "got_it": "ANLADIM",
+    "next": "SIRADAKİ",
+    "step1_title": "TOPUN ÖNÜNE ÇİZ",
+    "step1_body": "Mürekkep 1 saniyede silinir",
+    "step2_title": "ALTINLARI TOPLA",
+    "step2_body": "Altınla mağazada yeni toplar aç",
+    "step3_title": "SİVRİLERE DOKUNMA",
+    "step3_body": "Mürekkep biterse çizmeyi bırak, dolsun",
+    "step_label": "Adım {current} / {total}"
+  },
+  "game": {
+    "pause": "Duraklat",
+    "paused": "DURAKLATILDI",
+    "resume": "DEVAM ET",
+    "home": "ANA EKRAN",
+    "restart": "BAŞTAN BAŞLA",
+    "ink_label": "Mürekkep",
+    "daily_badge": "GÜNLÜK PARKUR",
+    "draw_hint": "Topun önüne çiz!"
+  },
+  "game_over": {
+    "score": "SKOR",
+    "best": "EN İYİ {}",
+    "new_record": "YENİ REKOR!",
+    "play_again": "TEKRAR OYNA",
+    "share": "Paylaş",
+    "home": "Ana ekran",
+    "coins_earned": "+{} altın",
+    "daily_rank": "Günlükte {}. sıradasın",
+    "offline_note": "Çevrimdışı: skor bağlanınca gönderilecek"
+  },
+  "record": {
+    "title": "YENİ REKOR!",
+    "previous": "Önceki en iyi {previous} · +{diff} puan",
+    "continue": "DEVAM ET",
+    "share": "PAYLAŞ"
+  },
+  "choice": {
+    "question": "NE YAPMAK İSTERSİN?",
+    "play_again": "TEKRAR OYNA",
+    "play_again_sub": "Baştan başla",
+    "share": "PAYLAŞ",
+    "share_sub": "Klibi gönder",
+    "home": "ANA EKRAN",
+    "home_sub": "Menüye dön"
+  },
+  "clip": {
+    "title": "KLİBİ PAYLAŞ",
+    "subtitle": "Son {seconds} saniye · {score} puan",
+    "share": "PAYLAŞ",
+    "save": "GALERİYE KAYDET",
+    "preparing": "Klip hazırlanıyor…",
+    "saved": "Galeriye kaydedildi",
+    "save_failed": "Kaydedilemedi",
+    "permission_denied": "Galeri izni verilmedi. Ayarlardan izin verebilirsin.",
+    "permission_title": "GALERİ İZNİ",
+    "open_settings": "AYARLARI AÇ",
+    "share_text": "Dashink'te {score} puan yaptım! Sen kaç yaparsın?",
+    "share_text_with_link": "Dashink'te {score} puan yaptım! Sen kaç yaparsın?\n{url}",
+    "no_clip": "Klip yok, skor kartı paylaşılacak",
+    "play": "Oynat"
+  },
+  "leaderboard": {
+    "title": "SIRALAMA",
+    "daily": "Günlük",
+    "weekly": "Haftalık",
+    "all": "Tümü",
+    "empty": "Henüz kimse oynamadı. İlk sen ol!",
+    "not_ranked": "Bu dönemde henüz oyunun yok"
+  },
+  "daily": {
+    "title": "GÜNLÜK",
+    "date_label": "{} · MEYDAN OKUMA",
+    "description": "Bugün herkes aynı parkurda koşuyor. Tek parkur, sınırsız deneme — en yüksek skorun sayılır.",
+    "participants": "katılımcı",
+    "your_best": "en iyin",
+    "time_left": "kalan süre",
+    "reward_title": "ÖDÜL",
+    "reward_body": "İlk {}’e gir, altını kap",
+    "start": "BAŞLA",
+    "your_rank": "Sıran: {}"
+  },
+  "shop": {
+    "title": "MAĞAZA",
+    "balls": "Toplar",
+    "inks": "Mürekkep",
+    "themes": "Temalar",
+    "equipped": "KUŞANILDI",
+    "equip": "Kuşan",
+    "task": "Görev",
+    "premium": "Premium",
+    "buy_and_equip": "SATIN AL VE KUŞAN",
+    "balance_after": "Sende {balance} altın · sonra {after} kalır",
+    "not_enough_title": "ALTIN YETERSİZ",
+    "not_enough_body": "{item} için {price} altın gerekiyor. Görev yaparak {missing} altın daha topla.",
+    "do_tasks": "GÖREV YAP",
+    "get_coins": "+{coins} ALTIN · {price}",
+    "locked_title": "GÖREVLE AÇILIR",
+    "locked_body": "{item}, “{task}” başarımını tamamlayınca senin olur.",
+    "go_tasks": "GÖREVLERE GİT",
+    "premium_title": "PREMIUM",
+    "premium_body": "Yıldız top, altın mürekkep ve gece teması + {} altın. Reklam yok, sonsuza dek senin.",
+    "premium_buy": "SATIN AL · {}",
+    "premium_unavailable": "Mağaza şu an kullanılamıyor",
+    "premium_owned": "Premium sende",
+    "purchase_success": "Premium açıldı! Afiyet olsun.",
+    "purchase_pending": "Ödeme onay bekliyor; onaylanınca açılacak.",
+    "purchase_failed": "Satın alma tamamlanamadı.",
+    "equipped_toast": "{} kuşanıldı",
+    "coins_pack_success": "+{} altın eklendi!",
+    "coins_pack_processing": "Ödeme alındı! Altınların birazdan hesabına eklenecek."
+  },
+  "items": {
+    "ball_klasik": {
+      "name": "KLASİK",
+      "desc": "Her şeyin başladığı domates kırmızısı top."
+    },
+    "ball_karpuz": {
+      "name": "KARPUZ",
+      "desc": "Sulu ve hızlı. Mürekkep yolunda yeşil iz bırakır."
+    },
+    "ball_basket": {
+      "name": "BASKET",
+      "desc": "Potaya değil, mürekkebe zıplar."
+    },
+    "ball_tenis": {
+      "name": "TENİS",
+      "desc": "Keçeli ve çevik, her sekişte hızlanır."
+    },
+    "ball_plaj": {
+      "name": "PLAJ TOPU",
+      "desc": "Yazın renkleri parkura taşınıyor."
+    },
+    "ball_gezegen": {
+      "name": "GEZEGEN",
+      "desc": "Halkalarıyla parkurda süzülen minik bir dünya."
+    },
+    "ball_ay": {
+      "name": "AY",
+      "desc": "Kraterleriyle sessizce yuvarlanır."
+    },
+    "ball_bilardo": {
+      "name": "8 TOPU",
+      "desc": "Son atışı hep o yapar."
+    },
+    "ball_goz": {
+      "name": "GÖZLÜ TOP",
+      "desc": "Hiçbir boşluğu gözden kaçırmaz."
+    },
+    "ball_buz": {
+      "name": "BUZ",
+      "desc": "Pürüzsüz, serin ve kaygan."
+    },
+    "ball_lav": {
+      "name": "LAV",
+      "desc": "İçi kaynayan sıcak bir top."
+    },
+    "ball_gokkusagi": {
+      "name": "GÖKKUŞAĞI",
+      "desc": "Yedi renk tek bir topta."
+    },
+    "ball_disko": {
+      "name": "DİSKO",
+      "desc": "Her dönüşte parıldayan ayna top."
+    },
+    "ball_yildiz": {
+      "name": "YILDIZ",
+      "desc": "Premium oyuncuların altın yıldızı."
+    },
+    "ink_lacivert": {
+      "name": "LACİVERT",
+      "desc": "Klasik dolma kalem mürekkebi."
+    },
+    "ink_kirmizi": {
+      "name": "KIRMIZI",
+      "desc": "Öğretmen kalemi gibi iddialı."
+    },
+    "ink_nane": {
+      "name": "NANE",
+      "desc": "Ferah ve göz alıcı yeşil."
+    },
+    "ink_turuncu": {
+      "name": "TURUNCU",
+      "desc": "Enerjik bir turuncu."
+    },
+    "ink_pembe": {
+      "name": "PEMBE",
+      "desc": "Şeker gibi tatlı bir pembe."
+    },
+    "ink_mavi": {
+      "name": "MAVİ",
+      "desc": "Tükenmez kalem mavisi."
+    },
+    "ink_turkuaz": {
+      "name": "TURKUAZ",
+      "desc": "Deniz kadar berrak."
+    },
+    "ink_yesil": {
+      "name": "YEŞİL",
+      "desc": "Taze yaprak yeşili."
+    },
+    "ink_mor": {
+      "name": "MOR",
+      "desc": "Gizemli, koyu bir mor."
+    },
+    "ink_kahve": {
+      "name": "KAHVE",
+      "desc": "Kahve lekesi gibi sıcak."
+    },
+    "ink_bordo": {
+      "name": "BORDO",
+      "desc": "Koyu ve asil bir kırmızı."
+    },
+    "ink_gumus": {
+      "name": "GÜMÜŞ",
+      "desc": "Işıkta parlayan gümüş."
+    },
+    "ink_altin": {
+      "name": "ALTIN",
+      "desc": "Premium'a özel parıltılı mürekkep."
+    },
+    "theme_kagit": {
+      "name": "KAĞIT",
+      "desc": "Kareli defter sayfası."
+    },
+    "theme_nane": {
+      "name": "NANE",
+      "desc": "Yeşile çalan serin bir sayfa."
+    },
+    "theme_gunbatimi": {
+      "name": "GÜN BATIMI",
+      "desc": "Şeftali tonlarında sıcak bir sayfa."
+    },
+    "theme_lavanta": {
+      "name": "LAVANTA",
+      "desc": "Lila tonlarında sakin bir sayfa."
+    },
+    "theme_gokyuzu": {
+      "name": "GÖKYÜZÜ",
+      "desc": "Açık mavi bir gökyüzü sayfası."
+    },
+    "theme_limon": {
+      "name": "LİMON",
+      "desc": "Güneşli, limon sarısı bir sayfa."
+    },
+    "theme_seker": {
+      "name": "PAMUK ŞEKER",
+      "desc": "Pamuk şeker pembesi bir sayfa."
+    },
+    "theme_orman": {
+      "name": "ORMAN",
+      "desc": "Gece ormanında koyu yeşil bir sayfa."
+    },
+    "theme_uzay": {
+      "name": "UZAY",
+      "desc": "Yıldızsız derin uzay."
+    },
+    "theme_gece": {
+      "name": "GECE",
+      "desc": "Lacivert gecede parlayan çizgiler."
+    }
+  },
+  "tasks": {
+    "title": "GÖREVLER",
+    "daily": "Günlük",
+    "weekly": "Haftalık",
+    "achievements": "Başarım",
+    "resets_in": "Yenilenmesine {}",
+    "achievements_note": "Başarımlar bir kez alınır",
+    "claim": "AL",
+    "claimed": "ALINDI",
+    "unlocks": "Açar: {}",
+    "claimed_toast": "+{} altın",
+    "unlocked_toast": "{} açıldı!",
+    "empty": "Şimdilik görev yok",
+    "names": {
+      "daily_play_3": "3 oyun oyna",
+      "daily_coins_50": "Tek oyunda 50 altın topla",
+      "daily_share_1": "Bir klip paylaş",
+      "daily_challenge_1": "Günlük parkuru oyna",
+      "daily_score_100": "100 puanı geç",
+      "weekly_play_20": "20 oyun oyna",
+      "weekly_challenge_3": "3 farklı gün günlük parkur oyna",
+      "weekly_coins_300": "Toplam 300 altın topla",
+      "weekly_score_300": "300 puanı geç",
+      "ach_games_10": "10 oyun oyna",
+      "ach_score_500": "Tek oyunda 500 puan yap",
+      "ach_games_50": "50 oyun oyna",
+      "ach_coins_1000": "Toplam 1000 altın topla",
+      "ach_run_coins_100": "Tek oyunda 100 altın topla",
+      "ach_share_5": "5 klip paylaş",
+      "ach_daily_7": "7 farklı gün günlük parkur oyna",
+      "ach_score_1000": "Tek oyunda 1000 puan yap",
+      "ach_games_200": "200 oyun oyna",
+      "ach_coins_5000": "Toplam 5000 altın topla",
+      "ach_share_20": "20 klip paylaş",
+      "ach_daily_30": "30 farklı gün günlük parkur oyna"
+    }
+  },
+  "settings": {
+    "title": "AYARLAR",
+    "sound": "SES",
+    "sfx": "Ses efektleri",
+    "music": "Müzik",
+    "vibration": "Titreşim",
+    "game": "OYUN",
+    "language": "Dil",
+    "language_name": "Türkçe",
+    "notifications": "Bildirimler",
+    "replay_tutorial": "Eğitimi tekrar izle",
+    "account": "HESAP",
+    "name": "İsim",
+    "name_title": "OYUNCU ADI",
+    "name_hint": "Adın",
+    "name_save": "KAYDET",
+    "name_saved": "Adın kaydedildi.",
+    "name_invalid": "Geçerli bir ad gir.",
+    "restore": "Satın alımları geri yükle",
+    "privacy": "Gizlilik politikası",
+    "terms": "Kullanım Koşulları",
+    "cookies": "Çerez Politikası",
+    "child_safety": "Çocuk Güvenliği Standartları",
+    "about": "Hakkında",
+    "version": "Dashink · sürüm {}",
+    "restore_success": "Satın alımların geri yüklendi.",
+    "restore_none": "Geri yüklenecek satın alım bulunamadı.",
+    "notifications_denied": "Bildirim izni verilmedi.",
+    "language_title": "DİL"
+  },
+  "notifications": {
+    "daily_title": "Günlük parkur hazır!",
+    "daily_body": "Bugünün parkurunda ilk 100'e gir, 100 altın kap."
+  }
+}

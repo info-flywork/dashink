@@ -1,0 +1,359 @@
+{
+  "common": {
+    "unexpected_error": "Nešto je pošlo po zlu. Pokušaj ponovno.",
+    "offline": "Nema internetske veze.",
+    "retry": "POKUŠAJ PONOVNO",
+    "coming_soon": "Uskoro",
+    "cancel": "Odustani",
+    "close": "Zatvori",
+    "you": "Ti"
+  },
+  "tabs": {
+    "play": "Igraj",
+    "shop": "Trgovina",
+    "tasks": "Zadaci",
+    "settings": "Postavke"
+  },
+  "home": {
+    "best": "NAJBOLJI {}",
+    "tap_to_play": "DODIRNI ZA IGRU",
+    "daily": "DNEVNO",
+    "leaderboard": "RANG-LISTA",
+    "reward_daily": "Na dnevnom izazovu si #{rank}: +{coins} kovanica!"
+  },
+  "tutorial": {
+    "skip": "Preskoči",
+    "got_it": "RAZUMIJEM",
+    "next": "DALJE",
+    "step1_title": "CRTAJ ISPRED LOPTE",
+    "step1_body": "Tinta nestaje za 1 sekundu",
+    "step2_title": "POKUPI KOVANICE",
+    "step2_body": "Otključaj nove loptice u trgovini",
+    "step3_title": "IZBJEGNI ŠILJKE",
+    "step3_body": "Nema tinte? Pusti i napunit će se",
+    "step_label": "Korak {current} / {total}"
+  },
+  "game": {
+    "pause": "Pauza",
+    "paused": "PAUZIRANO",
+    "resume": "NASTAVI",
+    "home": "IZBORNIK",
+    "restart": "ISPOČETKA",
+    "ink_label": "Tinta",
+    "daily_badge": "DNEVNA STAZA",
+    "draw_hint": "Crtaj ispred lopte!"
+  },
+  "game_over": {
+    "score": "REZULTAT",
+    "best": "NAJBOLJI {}",
+    "new_record": "NOVI REKORD!",
+    "play_again": "IGRAJ PONOVO",
+    "share": "Podijeli",
+    "home": "Izbornik",
+    "coins_earned": "+{} kovanica",
+    "daily_rank": "Danas si #{}",
+    "offline_note": "Izvan mreže: rezultat se šalje kad se vratiš online"
+  },
+  "record": {
+    "title": "NOVI REKORD!",
+    "previous": "Prethodni rekord {previous} · +{diff} bodova",
+    "continue": "NASTAVI",
+    "share": "PODIJELI"
+  },
+  "choice": {
+    "question": "ŠTO DALJE?",
+    "play_again": "IGRAJ PONOVO",
+    "play_again_sub": "Kreni ispočetka",
+    "share": "PODIJELI",
+    "share_sub": "Pošalji isječak",
+    "home": "IZBORNIK",
+    "home_sub": "Natrag na izbornik"
+  },
+  "clip": {
+    "title": "PODIJELI ISJEČAK",
+    "subtitle": "Zadnjih {seconds} sekundi · {score} bodova",
+    "share": "PODIJELI",
+    "save": "SPREMI U GALERIJU",
+    "preparing": "Priprema se isječak…",
+    "saved": "Spremljeno u galeriju",
+    "save_failed": "Spremanje nije uspjelo",
+    "permission_denied": "Pristup galeriji je odbijen. Možeš ga dopustiti u Postavkama.",
+    "permission_title": "PRISTUP GALERIJI",
+    "open_settings": "OTVORI POSTAVKE",
+    "share_text": "Imam {score} u Dashink! Možeš li bolje?",
+    "share_text_with_link": "Imam {score} u Dashink! Možeš li bolje?\n{url}",
+    "no_clip": "Nema isječka, dijeli se kartica rezultata",
+    "play": "Reproduciraj"
+  },
+  "leaderboard": {
+    "title": "RANG-LISTA",
+    "daily": "Dnevno",
+    "weekly": "Tjedno",
+    "all": "Sve",
+    "empty": "Još nitko nije igrao. Budi prvi!",
+    "not_ranked": "Nema igara u ovom razdoblju"
+  },
+  "daily": {
+    "title": "DNEVNO",
+    "date_label": "{} · IZAZOV",
+    "description": "Danas svi voze istu stazu. Jedna staza, neograničeno pokušaja — računa se tvoj najbolji rezultat.",
+    "participants": "igrača",
+    "your_best": "tvoj najbolji",
+    "time_left": "preostalo vrijeme",
+    "reward_title": "NAGRADA",
+    "reward_body": "Uđi u top {} i osvoji kovanice",
+    "start": "START",
+    "your_rank": "Tvoj rang: {}"
+  },
+  "shop": {
+    "title": "TRGOVINA",
+    "balls": "Loptice",
+    "inks": "Tinte",
+    "themes": "Teme",
+    "equipped": "OPREMLJENO",
+    "equip": "Opremi",
+    "task": "Zadatak",
+    "premium": "Premium",
+    "buy_and_equip": "KUPI I OPREMI",
+    "balance_after": "Imaš {balance} kovanica · poslije ostaje {after}",
+    "not_enough_title": "NEMA DOVOLJNO KOVANICA",
+    "not_enough_body": "{item} košta {price} kovanica. Dovrši zadatke da zaradiš još {missing}.",
+    "do_tasks": "RIJEŠI ZADATKE",
+    "get_coins": "+{coins} KOVANICA · {price}",
+    "locked_title": "OTKLJUČAVA SE ZADATAKOM",
+    "locked_body": "{item} je tvoj kad dovršiš „{task}“.",
+    "go_tasks": "NA ZADATKE",
+    "premium_title": "PREMIUM",
+    "premium_body": "Zvjezdana loptica, zlatna tinta i noćna tema + {} kovanica. Bez oglasa, zauvijek tvoje.",
+    "premium_buy": "KUPI · {}",
+    "premium_unavailable": "Trgovina trenutačno nije dostupna",
+    "premium_owned": "Imaš Premium",
+    "purchase_success": "Premium je otključan! Uživaj.",
+    "purchase_pending": "Plaćanje je na čekanju; otključava se nakon odobrenja.",
+    "purchase_failed": "Kupnju nije bilo moguće dovršiti.",
+    "equipped_toast": "Opremljeno: {}",
+    "coins_pack_success": "+{} coins added!",
+    "coins_pack_processing": "Uplata primljena! Kovanice stižu za trenutak."
+  },
+  "items": {
+    "ball_klasik": {
+      "name": "KLASIKA",
+      "desc": "Rajčicasto crvena loptica od koje je sve počelo."
+    },
+    "ball_karpuz": {
+      "name": "LUBENICA",
+      "desc": "Sočna i brza. Ostavlja zeleni trag u tinti."
+    },
+    "ball_basket": {
+      "name": "KOŠARKA",
+      "desc": "Odskače na tinti, ne na košu."
+    },
+    "ball_tenis": {
+      "name": "TENIS",
+      "desc": "Čupava i hitra pri svakom odskoku."
+    },
+    "ball_plaj": {
+      "name": "LOPTA ZA PLAŽU",
+      "desc": "Ljetne boje na stazi."
+    },
+    "ball_gezegen": {
+      "name": "PLANET",
+      "desc": "Mali svijet koji klizi sa svojim prstenovima."
+    },
+    "ball_ay": {
+      "name": "MJESEC",
+      "desc": "Kotrlja se tiho, s kraterima."
+    },
+    "ball_bilardo": {
+      "name": "OSMICA",
+      "desc": "Uvijek izvodi zadnji udarac."
+    },
+    "ball_goz": {
+      "name": "OKO",
+      "desc": "Ne propušta nijedan razmak."
+    },
+    "ball_buz": {
+      "name": "LED",
+      "desc": "Glatka, hladna i skliska."
+    },
+    "ball_lav": {
+      "name": "LAVA",
+      "desc": "Vruća do same jezgre."
+    },
+    "ball_gokkusagi": {
+      "name": "DUGA",
+      "desc": "Sedam boja u jednoj loptici."
+    },
+    "ball_disko": {
+      "name": "DISCO",
+      "desc": "Zrcalna kugla koja blista pri svakom okretu."
+    },
+    "ball_yildiz": {
+      "name": "ZVIJEZDA",
+      "desc": "Zlatna zvijezda Premium igrača."
+    },
+    "ink_lacivert": {
+      "name": "MORNARSKA",
+      "desc": "Klasična tinta za nalivpero."
+    },
+    "ink_kirmizi": {
+      "name": "CRVENA",
+      "desc": "Odlučna poput pera učitelja."
+    },
+    "ink_nane": {
+      "name": "METVICA",
+      "desc": "Svježa, upadljiva zelena."
+    },
+    "ink_turuncu": {
+      "name": "NARANČASTA",
+      "desc": "Energična narančasta."
+    },
+    "ink_pembe": {
+      "name": "RUŽIČASTA",
+      "desc": "Slatka kao bombon."
+    },
+    "ink_mavi": {
+      "name": "PLAVA",
+      "desc": "Klasična plava kemijske."
+    },
+    "ink_turkuaz": {
+      "name": "TIRKIZNA",
+      "desc": "Bistra poput mora."
+    },
+    "ink_yesil": {
+      "name": "ZELENA",
+      "desc": "Svježa zelena lista."
+    },
+    "ink_mor": {
+      "name": "LJUBIČASTA",
+      "desc": "Tajanstvena tamnoljubičasta."
+    },
+    "ink_kahve": {
+      "name": "SMEĐA",
+      "desc": "Topla kao mrlja od kave."
+    },
+    "ink_bordo": {
+      "name": "BORDO",
+      "desc": "Duboka, otmjena crvena."
+    },
+    "ink_gumus": {
+      "name": "SREBRNA",
+      "desc": "Srebro koje hvata svjetlo."
+    },
+    "ink_altin": {
+      "name": "ZLATO",
+      "desc": "Sjajna tinta, samo uz Premium."
+    },
+    "theme_kagit": {
+      "name": "PAPIR",
+      "desc": "Stranica bilježnice na kvadratiće."
+    },
+    "theme_nane": {
+      "name": "METVICA",
+      "desc": "Prohla, zelenkasta stranica."
+    },
+    "theme_gunbatimi": {
+      "name": "ZALAZAK",
+      "desc": "Topla stranica u bojama breskve."
+    },
+    "theme_lavanta": {
+      "name": "LAVANDA",
+      "desc": "Mirna stranica u tonovima lila."
+    },
+    "theme_gokyuzu": {
+      "name": "NEBO",
+      "desc": "Svijetloplava stranica neba."
+    },
+    "theme_limon": {
+      "name": "LIMUN",
+      "desc": "Sunčana stranica boje limuna."
+    },
+    "theme_seker": {
+      "name": "ŠEĆERNA VUNA",
+      "desc": "Ružičasta stranica kao šećerna vuna."
+    },
+    "theme_orman": {
+      "name": "ŠUMA",
+      "desc": "Tamnozelena šuma noću."
+    },
+    "theme_uzay": {
+      "name": "SVEMIR",
+      "desc": "Dubok, taman svemir."
+    },
+    "theme_gece": {
+      "name": "NOĆ",
+      "desc": "Crte koje svijetle u mornarskoj noći."
+    }
+  },
+  "tasks": {
+    "title": "ZADACI",
+    "daily": "Dnevno",
+    "weekly": "Tjedno",
+    "achievements": "Ciljevi",
+    "resets_in": "Reset za {}",
+    "achievements_note": "Ciljeve možeš preuzeti samo jednom",
+    "claim": "PREUZMI",
+    "claimed": "PREUZETO",
+    "unlocks": "Otključava: {}",
+    "claimed_toast": "+{} kovanica",
+    "unlocked_toast": "Otključano: {}!",
+    "empty": "Trenutačno nema zadataka",
+    "names": {
+      "daily_play_3": "Odigraj 3 igre",
+      "daily_coins_50": "Skupi 50 kovanica u jednoj igri",
+      "daily_share_1": "Podijeli isječak",
+      "daily_challenge_1": "Odigraj dnevnu stazu",
+      "daily_score_100": "Osvoji više od 100 bodova",
+      "weekly_play_20": "Odigraj 20 igara",
+      "weekly_challenge_3": "Odigraj dnevnu stazu u 3 dana",
+      "weekly_coins_300": "Skupi ukupno 300 kovanica",
+      "weekly_score_300": "Osvoji više od 300 bodova",
+      "ach_games_10": "Odigraj 10 igara",
+      "ach_score_500": "Osvoji 500 bodova u jednoj igri",
+      "ach_games_50": "Odigraj 50 igara",
+      "ach_coins_1000": "Skupi ukupno 1000 kovanica",
+      "ach_run_coins_100": "Skupi 100 kovanica u jednoj igri",
+      "ach_share_5": "Podijeli 5 isječaka",
+      "ach_daily_7": "Odigraj dnevnu stazu u 7 dana",
+      "ach_score_1000": "Osvoji 1000 bodova u jednoj igri",
+      "ach_games_200": "Odigraj 200 igara",
+      "ach_coins_5000": "Skupi ukupno 5000 kovanica",
+      "ach_share_20": "Podijeli 20 isječaka",
+      "ach_daily_30": "Odigraj dnevnu stazu u 30 dana"
+    }
+  },
+  "settings": {
+    "title": "POSTAVKE",
+    "sound": "ZVUK",
+    "sfx": "Zvučni efekti",
+    "music": "Glazba",
+    "vibration": "Vibracija",
+    "game": "IGRA",
+    "language": "Jezik",
+    "language_name": "Hrvatski",
+    "notifications": "Obavijesti",
+    "replay_tutorial": "Ponovi vodič",
+    "account": "RAČUN",
+    "name": "Prikazano ime",
+    "name_title": "TVOJE IME",
+    "name_hint": "Upiši ime",
+    "name_save": "SPREMI",
+    "name_saved": "Ime je ažurirano.",
+    "name_invalid": "Koristi 2–32 slova, broja ili razmaka.",
+    "restore": "Vrati kupnje",
+    "privacy": "Pravila privatnosti",
+    "terms": "Uvjeti korištenja",
+    "cookies": "Pravila o kolačićima",
+    "child_safety": "Standardi zaštite djece",
+    "about": "O aplikaciji",
+    "version": "Dashink · inačica {}",
+    "restore_success": "Tvoje su kupnje vraćene.",
+    "restore_none": "Nema kupnji za vraćanje.",
+    "notifications_denied": "Dopuštenje za obavijesti je odbijeno.",
+    "language_title": "JEZIK"
+  },
+  "notifications": {
+    "daily_title": "Današnja staza je spremna!",
+    "daily_body": "Uđi danas u top 100 i osvoji 100 kovanica."
+  }
+}

@@ -1,0 +1,359 @@
+{
+  "common": {
+    "unexpected_error": "Noget gik galt. Prøv igen.",
+    "offline": "Ingen internetforbindelse.",
+    "retry": "PRØV IGEN",
+    "coming_soon": "Kommer snart",
+    "cancel": "Annuller",
+    "close": "Luk",
+    "you": "Dig"
+  },
+  "tabs": {
+    "play": "Spil",
+    "shop": "Butik",
+    "tasks": "Opgaver",
+    "settings": "Indstillinger"
+  },
+  "home": {
+    "best": "BEDST {}",
+    "tap_to_play": "TRYK FOR AT SPILLE",
+    "daily": "DAGLIG",
+    "leaderboard": "RANGLISTE",
+    "reward_daily": "Du blev #{rank} i dagens udfordring: +{coins} mønter!"
+  },
+  "tutorial": {
+    "skip": "Spring over",
+    "got_it": "FORSTÅET",
+    "next": "NÆSTE",
+    "step1_title": "TEGN FORAN BOLDEN",
+    "step1_body": "Blækket falmer på 1 sekund",
+    "step2_title": "GRIB MØNTERNE",
+    "step2_body": "Lås nye bolde op i butikken",
+    "step3_title": "UNDGÅ PIGGENE",
+    "step3_body": "Løb tør for blæk? Slip, så fyldes det op",
+    "step_label": "Trin {current} / {total}"
+  },
+  "game": {
+    "pause": "Pause",
+    "paused": "PÅ PAUSE",
+    "resume": "FORTSÆT",
+    "home": "HJEM",
+    "restart": "START FORFRA",
+    "ink_label": "Blæk",
+    "daily_badge": "DAGENS BANE",
+    "draw_hint": "Tegn foran bolden!"
+  },
+  "game_over": {
+    "score": "SCORE",
+    "best": "BEDST {}",
+    "new_record": "NY REKORD!",
+    "play_again": "SPIL IGEN",
+    "share": "Del",
+    "home": "Hjem",
+    "coins_earned": "+{} mønter",
+    "daily_rank": "I dag er du #{}",
+    "offline_note": "Offline: din score sendes, når du er online igen"
+  },
+  "record": {
+    "title": "NY REKORD!",
+    "previous": "Tidligere rekord {previous} · +{diff} point",
+    "continue": "FORTSÆT",
+    "share": "DEL"
+  },
+  "choice": {
+    "question": "HVAD NU?",
+    "play_again": "SPIL IGEN",
+    "play_again_sub": "Start forfra",
+    "share": "DEL",
+    "share_sub": "Send klippet",
+    "home": "HJEM",
+    "home_sub": "Tilbage til menuen"
+  },
+  "clip": {
+    "title": "DEL KLIP",
+    "subtitle": "Seneste {seconds} sekunder · {score} point",
+    "share": "DEL",
+    "save": "GEM I GALLERI",
+    "preparing": "Forbereder klip…",
+    "saved": "Gemt i galleriet",
+    "save_failed": "Kunne ikke gemme",
+    "permission_denied": "Adgang til galleriet blev nægtet. Du kan tillade det i Indstillinger.",
+    "permission_title": "ADGANG TIL GALLERI",
+    "open_settings": "ÅBN INDSTILLINGER",
+    "share_text": "Jeg scorede {score} i Dashink! Kan du slå det?",
+    "share_text_with_link": "Jeg scorede {score} i Dashink! Kan du slå det?\n{url}",
+    "no_clip": "Intet klip, deler et scorekort",
+    "play": "Afspil"
+  },
+  "leaderboard": {
+    "title": "RANGLISTE",
+    "daily": "Daglig",
+    "weekly": "Ugentlig",
+    "all": "Alle",
+    "empty": "Ingen har spillet endnu. Vær den første!",
+    "not_ranked": "Ingen spil i denne periode endnu"
+  },
+  "daily": {
+    "title": "DAGLIG",
+    "date_label": "{} · UDFORDRING",
+    "description": "I dag kører alle den samme bane. Én bane, ubegrænsede forsøg — din bedste score tæller.",
+    "participants": "spillere",
+    "your_best": "din bedste",
+    "time_left": "tid tilbage",
+    "reward_title": "PRÆMIE",
+    "reward_body": "Nå top {} for at vinde mønter",
+    "start": "START",
+    "your_rank": "Din placering: {}"
+  },
+  "shop": {
+    "title": "BUTIK",
+    "balls": "Bolde",
+    "inks": "Blæk",
+    "themes": "Temaer",
+    "equipped": "UDSTYRET",
+    "equip": "Udstyr",
+    "task": "Opgave",
+    "premium": "Premium",
+    "buy_and_equip": "KØB OG UDSTYR",
+    "balance_after": "Du har {balance} mønter · {after} tilbage bagefter",
+    "not_enough_title": "IKKE NOK MØNTER",
+    "not_enough_body": "{item} koster {price} mønter. Fuldfør opgaver for at tjene {missing} mere.",
+    "do_tasks": "LØS OPGAVER",
+    "get_coins": "+{coins} MØNTER · {price}",
+    "locked_title": "LÅSES OP MED EN OPGAVE",
+    "locked_body": "{item} er din, når du fuldfører »{task}«.",
+    "go_tasks": "GÅ TIL OPGAVER",
+    "premium_title": "PREMIUM",
+    "premium_body": "Stjernebold, guldblæk og nat-tema + {} mønter. Ingen reklamer, din for evigt.",
+    "premium_buy": "KØB · {}",
+    "premium_unavailable": "Butikken er ikke tilgængelig lige nu",
+    "premium_owned": "Du ejer Premium",
+    "purchase_success": "Premium låst op! God fornøjelse.",
+    "purchase_pending": "Betaling afventer; den låses op, når den er godkendt.",
+    "purchase_failed": "Købet kunne ikke gennemføres.",
+    "equipped_toast": "{} udstyret",
+    "coins_pack_success": "+{} coins added!",
+    "coins_pack_processing": "Betaling modtaget! Dine mønter kommer om et øjeblik."
+  },
+  "items": {
+    "ball_klasik": {
+      "name": "KLASSISK",
+      "desc": "Den tomatrøde bold, hvor det hele begyndte."
+    },
+    "ball_karpuz": {
+      "name": "VANDMELON",
+      "desc": "Saftig og hurtig. Efterlader et grønt spor i blækket."
+    },
+    "ball_basket": {
+      "name": "BASKETBALL",
+      "desc": "Hopper på blæk, ikke i kurve."
+    },
+    "ball_tenis": {
+      "name": "TENNIS",
+      "desc": "Lodden og adræt i hvert hop."
+    },
+    "ball_plaj": {
+      "name": "BADEBOLD",
+      "desc": "Sommerfarver på banen."
+    },
+    "ball_gezegen": {
+      "name": "PLANET",
+      "desc": "En lille verden, der glider med sine ringe."
+    },
+    "ball_ay": {
+      "name": "MÅNE",
+      "desc": "Ruller stille, kratere og det hele."
+    },
+    "ball_bilardo": {
+      "name": "8-BALL",
+      "desc": "Tager altid det sidste stød."
+    },
+    "ball_goz": {
+      "name": "ØJE",
+      "desc": "Misser ikke et hul."
+    },
+    "ball_buz": {
+      "name": "IS",
+      "desc": "Glat, kølig og glidende."
+    },
+    "ball_lav": {
+      "name": "LAVA",
+      "desc": "Varm helt ind til kernen."
+    },
+    "ball_gokkusagi": {
+      "name": "REGNBUE",
+      "desc": "Syv farver i én bold."
+    },
+    "ball_disko": {
+      "name": "DISCO",
+      "desc": "En spejlkugle, der funkler ved hver omgang."
+    },
+    "ball_yildiz": {
+      "name": "STJERNE",
+      "desc": "Den gyldne stjerne for Premium-spillere."
+    },
+    "ink_lacivert": {
+      "name": "MARINEBLÅ",
+      "desc": "Klassisk fyldepensblæk."
+    },
+    "ink_kirmizi": {
+      "name": "RØD",
+      "desc": "Frisk som en lærers pen."
+    },
+    "ink_nane": {
+      "name": "MYNTE",
+      "desc": "En frisk, iøjnefaldende grøn."
+    },
+    "ink_turuncu": {
+      "name": "ORANGE",
+      "desc": "En energisk orange."
+    },
+    "ink_pembe": {
+      "name": "LYSERØD",
+      "desc": "Sød som slik."
+    },
+    "ink_mavi": {
+      "name": "BLÅ",
+      "desc": "Klassisk kuglepensblå."
+    },
+    "ink_turkuaz": {
+      "name": "TURKIS",
+      "desc": "Klar som havet."
+    },
+    "ink_yesil": {
+      "name": "GRØN",
+      "desc": "Frisk bladgrøn."
+    },
+    "ink_mor": {
+      "name": "LILLA",
+      "desc": "En mystisk dyb lilla."
+    },
+    "ink_kahve": {
+      "name": "BRUN",
+      "desc": "Varm som en kaffeplet."
+    },
+    "ink_bordo": {
+      "name": "BORDEAUX",
+      "desc": "En dyb, elegant rød."
+    },
+    "ink_gumus": {
+      "name": "SØLV",
+      "desc": "Sølv, der fanger lyset."
+    },
+    "ink_altin": {
+      "name": "GULD",
+      "desc": "Glitrende blæk, kun med Premium."
+    },
+    "theme_kagit": {
+      "name": "PAPIR",
+      "desc": "En ternet notesbogsside."
+    },
+    "theme_nane": {
+      "name": "MYNTE",
+      "desc": "En kølig, grønlig side."
+    },
+    "theme_gunbatimi": {
+      "name": "SOLNEDGANG",
+      "desc": "En varm side i ferskentoner."
+    },
+    "theme_lavanta": {
+      "name": "LAVENDEL",
+      "desc": "En rolig lilla side."
+    },
+    "theme_gokyuzu": {
+      "name": "HIMMEL",
+      "desc": "En lyseblå himmelside."
+    },
+    "theme_limon": {
+      "name": "CITRON",
+      "desc": "En solrig citrongul side."
+    },
+    "theme_seker": {
+      "name": "CANDYFLOSS",
+      "desc": "En candyfloss-lyserød side."
+    },
+    "theme_orman": {
+      "name": "SKOV",
+      "desc": "En mørkegrøn skov om natten."
+    },
+    "theme_uzay": {
+      "name": "RUMMET",
+      "desc": "Dybt, mørkt rum."
+    },
+    "theme_gece": {
+      "name": "NAT",
+      "desc": "Streger, der lyser i en marineblå nat."
+    }
+  },
+  "tasks": {
+    "title": "OPGAVER",
+    "daily": "Daglig",
+    "weekly": "Ugentlig",
+    "achievements": "Mål",
+    "resets_in": "Nulstilles om {}",
+    "achievements_note": "Mål kan hentes én gang",
+    "claim": "HENT",
+    "claimed": "HENTET",
+    "unlocks": "Låser op: {}",
+    "claimed_toast": "+{} mønter",
+    "unlocked_toast": "{} låst op!",
+    "empty": "Ingen opgaver lige nu",
+    "names": {
+      "daily_play_3": "Spil 3 spil",
+      "daily_coins_50": "Saml 50 mønter i ét spil",
+      "daily_share_1": "Del et klip",
+      "daily_challenge_1": "Spil dagens bane",
+      "daily_score_100": "Scor over 100",
+      "weekly_play_20": "Spil 20 spil",
+      "weekly_challenge_3": "Spil dagens bane på 3 dage",
+      "weekly_coins_300": "Saml 300 mønter i alt",
+      "weekly_score_300": "Scor over 300",
+      "ach_games_10": "Spil 10 spil",
+      "ach_score_500": "Scor 500 i ét spil",
+      "ach_games_50": "Spil 50 spil",
+      "ach_coins_1000": "Saml 1000 mønter i alt",
+      "ach_run_coins_100": "Saml 100 mønter i ét spil",
+      "ach_share_5": "Del 5 klip",
+      "ach_daily_7": "Spil dagens bane på 7 dage",
+      "ach_score_1000": "Scor 1000 i ét spil",
+      "ach_games_200": "Spil 200 spil",
+      "ach_coins_5000": "Saml 5000 mønter i alt",
+      "ach_share_20": "Del 20 klip",
+      "ach_daily_30": "Spil dagens bane på 30 dage"
+    }
+  },
+  "settings": {
+    "title": "INDSTILLINGER",
+    "sound": "LYD",
+    "sfx": "Lydeffekter",
+    "music": "Musik",
+    "vibration": "Vibration",
+    "game": "SPIL",
+    "language": "Sprog",
+    "language_name": "Dansk",
+    "notifications": "Notifikationer",
+    "replay_tutorial": "Se vejledningen igen",
+    "account": "KONTO",
+    "name": "Vist navn",
+    "name_title": "DIT NAVN",
+    "name_hint": "Indtast et navn",
+    "name_save": "GEM",
+    "name_saved": "Navnet blev opdateret.",
+    "name_invalid": "Brug 2–32 bogstaver, tal eller mellemrum.",
+    "restore": "Gendan køb",
+    "privacy": "Privatlivspolitik",
+    "terms": "Brugsvilkår",
+    "cookies": "Cookiepolitik",
+    "child_safety": "Standarder for børns sikkerhed",
+    "about": "Om",
+    "version": "Dashink · version {}",
+    "restore_success": "Dine køb blev gendannet.",
+    "restore_none": "Ingen køb at gendanne.",
+    "notifications_denied": "Tilladelse til notifikationer blev nægtet.",
+    "language_title": "SPROG"
+  },
+  "notifications": {
+    "daily_title": "Dagens bane er klar!",
+    "daily_body": "Nå top 100 i dag og vind 100 mønter."
+  }
+}
