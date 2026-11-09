@@ -82,8 +82,10 @@ enum DeathCause { fall, spike }
 abstract final class GameRules {
   static const double ballRadius = 21;
   static const double gravity = 1900;
-  static const double startSpeed = 230;
-  static const double maxSpeed = 430;
+  // İlk hız 230'du; yokuş / uzun köprüde yetmiyordu. Üst sınır sunucu
+  // sınırının (saniyede en fazla 15 puan = 600 px/s) rahatça altında.
+  static const double startSpeed = 300;
+  static const double maxSpeed = 500;
   static const double speedGainPerSecond = 3.2;
 
   /// Mürekkep 1 saniyede silinir (Figma: eğitim balonu).
@@ -565,6 +567,11 @@ class GameWorld {
     if (grounded && n != null) {
       final tangent = Vec2(-n.y, n.x);
       final t = tangent.x < 0 ? tangent * -1 : tangent;
+      // Yerçekiminin eğim boyunca olan payı iptal edilir: top yokuş yukarı
+      // yavaşlayıp durmaz, yokuş aşağı da kontrolsüz hızlanmaz (yüzeye
+      // bastıran pay kalır). Böylece her eğimde hedef hızda yuvarlanır.
+      const gravity = Vec2(0, GameRules.gravity);
+      v = v - t * (gravity.dot(t) * h);
       final vt = v.dot(t);
       final accel = ((target - vt) * 6).clamp(-900.0, 900.0);
       v = v + t * (accel * h);

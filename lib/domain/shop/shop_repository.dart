@@ -9,17 +9,15 @@ import 'package:dashink/data/model/shop/shop_catalog.dart';
 /// Mağaza kataloğu: `GET /shop/catalog`. Altınla alma / kuşanma
 /// `PlayerRepository`, premium `PurchaseRepository`.
 ///
-/// Katalog nadiren değişir: son başarılı cevap cihazda saklanır, mağaza
-/// onunla anında açılır; ağdan yalnızca önbellek [cacheTtl]'den eskiyse
-/// tazelenir.
+/// Son başarılı cevap cihazda saklanır: mağaza onunla anında açılır, ama
+/// katalog HER açılışta ağdan tazelenir (yeni öğe / fiyat değişikliği hemen
+/// görünsün; eskiden 24 saat önbellekte kalıyordu). Ağ yoksa önbellek döner.
 class ShopRepository {
   ShopRepository(this._networkManager, [this._cache]);
 
-  static const Duration cacheTtl = Duration(hours: 24);
-
-  /// Katalog değişince sürüm artırılır (v5: 22 yeni top / mürekkep / tema),
-  /// eski önbellek yok sayılır.
-  static const String _cacheName = 'shop_catalog_v5';
+  /// Katalog şekli değişince sürüm artırılır, eski önbellek yok sayılır.
+  /// v6: 24 saatlik önbellek döneminde yazılmış eski kataloglar atılır.
+  static const String _cacheName = 'shop_catalog_v6';
 
   final NetworkManager _networkManager;
   final SharedPrefManager? _cache;
@@ -36,18 +34,12 @@ class ShopRepository {
     }
   }
 
-  bool get isCatalogFresh {
-    final savedAt = _cache?.readCache(_cacheName)?.savedAt;
-    return savedAt != null && DateTime.now().difference(savedAt) < cacheTtl;
-  }
-
-  /// Önbellek tazeyse onu, değilse ağdan çekip önbelleğe yazar.
+  /// Ağdan tazeler; olmazsa önbellek (yoksa hata).
   Future<ShopCatalog> catalog() async {
-    final cached = cachedCatalog;
-    if (cached != null && isCatalogFresh) return cached;
     try {
       return await fetchCatalog();
     } on Exception {
+      final cached = cachedCatalog;
       if (cached != null) return cached;
       rethrow;
     }

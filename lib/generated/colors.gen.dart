@@ -42,8 +42,8 @@ abstract final class ColorName {
   /// Color: #8CF7F0E1
   static const Color scrimPaper = Color(0x8CF7F0E1);
 
-  /// Color: #FFFFFF
-  static const Color splashBackground = Color(0xFFFFFFFF);
+  /// Color: #03624C
+  static const Color splashBackground = Color(0xFF03624C);
 
   /// Color: #F45D35
   static const Color tomato = Color(0xFFF45D35);

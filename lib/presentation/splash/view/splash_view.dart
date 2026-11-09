@@ -11,7 +11,7 @@ import 'package:go_router/go_router.dart';
 part 'mixin/splash_view_mixin.dart';
 part 'widgets/splash_typewriter.dart';
 
-/// Figma `01-01-splash (typewriter)`: beyaz zemin, harf harf "flywork".
+/// Splash: `#03624C` zemin, beyaz harf harf "flywork".
 class SplashView extends StatefulWidget {
   const SplashView({super.key});
 

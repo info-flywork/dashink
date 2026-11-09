@@ -46,7 +46,7 @@ class _SplashTypewriterState extends State<SplashTypewriter>
                     TextSpan(
                       text: chars[i],
                       style: style.copyWith(
-                        color: ColorName.black.withValues(
+                        color: ColorName.white.withValues(
                           alpha: _curve.transform(
                             ((ms - i * _step.inMilliseconds) /
                                     _step.inMilliseconds)

@@ -144,6 +144,32 @@ void main() {
       expect(world.ballPosition.x, greaterThan(next.left));
     });
 
+    test('yokuşta yavaşlamaz: dik rampada da hedef hızda çıkar', () {
+      final world = GameWorld(seed: 1);
+      final y = world.platforms.first.top;
+      // 40°'lik rampa: topun hemen önünden yukarı.
+      const dx = 220.0;
+      const rise = dx * 0.84;
+      world.beginStroke(Vec2(GameRules.startX + 30, y));
+      for (var x = 0.0; x <= dx; x += 8) {
+        world.extendStroke(Vec2(GameRules.startX + 30 + x, y - x * 0.84));
+      }
+      world.endStroke();
+      var minSpeed = double.infinity;
+      final startY = world.ballPosition.y;
+      for (var i = 0; i < 50 && !world.isOver; i++) {
+        world.step(1 / 60);
+        // Rampanın ortasında (yükselmeye başladıktan sonra) hızı ölç.
+        if (startY - world.ballPosition.y > rise * 0.2 &&
+            startY - world.ballPosition.y < rise * 0.8) {
+          final speed = world.ballVelocity.length;
+          if (speed < minSpeed) minSpeed = speed;
+        }
+      }
+      expect(minSpeed, isNot(double.infinity), reason: 'top rampaya çıkmadı');
+      expect(minSpeed, greaterThan(world.targetSpeed * 0.85));
+    });
+
     test('mürekkep çizdikçe azalır, bırakınca dolar', () {
       final world = GameWorld(seed: 3);
       world.beginStroke(const Vec2(200, 300));
