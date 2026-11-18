@@ -80,6 +80,9 @@ class PurchaseRepository {
       if (appUserId != null) await Purchases.logIn(appUserId);
       return;
     }
+    if (kDebugMode) {
+      await Purchases.setLogLevel(LogLevel.debug);
+    }
     final configuration = PurchasesConfiguration(_apiKey)
       ..appUserID = appUserId;
     await Purchases.configure(configuration);

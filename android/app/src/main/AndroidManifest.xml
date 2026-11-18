@@ -1,4 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Google Play Billing / RevenueCat -->
+    <uses-permission android:name="com.android.vending.BILLING" />
     <!-- Galeriye klip kaydetme (gal): Android 10 ve altı için gerekli.
          Android 11+ MediaStore ile izinsiz kaydeder. -->
     <uses-permission
@@ -46,6 +49,10 @@
         <intent>
             <action android:name="android.intent.action.PROCESS_TEXT"/>
             <data android:mimeType="text/plain"/>
+        </intent>
+        <!-- Google Play Billing (Android 11+ package visibility) -->
+        <intent>
+            <action android:name="com.android.vending.billing.InAppBillingService.BIND" />
         </intent>
     </queries>
 </manifest>
